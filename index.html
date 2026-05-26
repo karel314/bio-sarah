@@ -14,53 +14,13 @@
 </head>
 <body>
 
-  <!-- CHAPTER SELECTOR SCREEN -->
-  <div id="screen-chapters" class="screen active">
+  <!-- HOME SCREEN -->
+  <div id="screen-home" class="screen active">
     <div class="header">
       <h1>Bio Sarah</h1>
       <p class="subtitle">Kies een hoofdstuk</p>
     </div>
     <div class="greeting">Hoi Sarah! Welk hoofdstuk wil je oefenen?</div>
-    <div class="chapter-grid">
-      <button class="chapter-card" onclick="selectChapter('H3')">
-        <span class="chapter-icon">&#x1F9EC;</span>
-        <span class="chapter-title">H3 — Erfelijkheid en DNA</span>
-        <span class="chapter-count">120 vragen</span>
-        <div class="chapter-progress-bar"><div class="chapter-progress-fill" id="ch-fill-H3"></div></div>
-      </button>
-      <button class="chapter-card" onclick="selectChapter('H4')">
-        <span class="chapter-icon">&#x1F9E0;</span>
-        <span class="chapter-title">H4 — Zenuwstelsel en spieren</span>
-        <span class="chapter-count">100 vragen</span>
-        <div class="chapter-progress-bar"><div class="chapter-progress-fill" id="ch-fill-H4"></div></div>
-      </button>
-      <button class="chapter-card" onclick="selectChapter('H5')">
-        <span class="chapter-icon">&#x1F441;&#xFE0F;</span>
-        <span class="chapter-title">H5 — Zintuigen</span>
-        <span class="chapter-count">70 vragen</span>
-        <div class="chapter-progress-bar"><div class="chapter-progress-fill" id="ch-fill-H5"></div></div>
-      </button>
-      <button class="chapter-card" onclick="selectChapter('H17')">
-        <span class="chapter-icon">&#x1F30D;</span>
-        <span class="chapter-title">H17 — Biodiversiteit &amp; evolutie</span>
-        <span class="chapter-count">100 vragen</span>
-        <div class="chapter-progress-bar"><div class="chapter-progress-fill" id="ch-fill-H17"></div></div>
-      </button>
-    </div>
-    <div class="version-label">v1.0</div>
-  </div>
-
-  <!-- HOME SCREEN -->
-  <div id="screen-home" class="screen">
-    <div class="screen-top-bar">
-      <button class="btn-back" onclick="showScreen('chapters')">&larr; Hoofdstukken</button>
-    </div>
-    <div class="header">
-      <div class="home-chapter-header">
-        <span id="home-chapter-icon" class="home-chapter-icon-display"></span>
-        <h1 id="home-chapter-title"></h1>
-      </div>
-    </div>
     <div class="home-cards">
       <button class="home-card card-quiz" onclick="showScreen('config')">
         <span class="card-icon">&#x1F4DD;</span>
@@ -88,6 +48,7 @@
       <div id="badge-shelf-list" class="badge-list"></div>
     </div>
     <div class="overall-stats" id="home-stats"></div>
+    <div class="version-label">v1.0</div>
   </div>
 
   <!-- QUIZ CONFIG SCREEN -->

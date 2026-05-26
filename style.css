@@ -1,8 +1,8 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 :root {
-  --purple: #8b5cf6;
+  --purple: #7c3aed;
   --purple-light: #a78bfa;
-  --purple-dark: #7c3aed;
+  --purple-dark: #5b21b6;
   --purple-bg: #f5f3ff;
   --green: #22c55e;
   --green-bg: #dcfce7;
@@ -35,35 +35,6 @@ body {
 .header h1 { font-size: 1.6rem; color: var(--purple-dark); }
 .subtitle { color: var(--text-light); font-size: 0.9rem; margin-top: 4px; }
 .greeting { text-align: center; font-size: 1.1rem; color: var(--purple); font-weight: 600; margin: 12px 0 20px; }
-
-/* Chapter selector */
-.chapter-grid { display: flex; flex-direction: column; gap: 12px; margin-bottom: 24px; }
-.chapter-card {
-  background: #fff;
-  border: 2px solid var(--gray-border);
-  border-radius: var(--radius);
-  padding: 16px;
-  text-align: left;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  font-family: inherit;
-  position: relative;
-  overflow: hidden;
-}
-.chapter-card:active { transform: scale(0.98); }
-.chapter-card:hover { border-color: var(--purple-light); background: #faf8ff; }
-.chapter-icon { font-size: 1.8rem; margin-bottom: 2px; }
-.chapter-title { font-weight: 700; font-size: 1rem; color: var(--text); }
-.chapter-count { font-size: 0.8rem; color: var(--text-light); }
-.chapter-progress-bar { height: 4px; background: var(--gray-border); border-radius: 2px; margin-top: 8px; }
-.chapter-progress-fill { height: 100%; background: var(--purple); border-radius: 2px; transition: width 0.5s; width: 0%; }
-
-/* Home chapter header */
-.home-chapter-header { display: flex; align-items: center; justify-content: center; gap: 10px; }
-.home-chapter-icon-display { font-size: 1.8rem; }
 
 /* Home cards */
 .home-cards { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 24px; }
@@ -100,9 +71,9 @@ body {
   display: flex; align-items: center; gap: 4px;
   background: #fff; border: 1px solid var(--gray-border);
   border-radius: 20px; padding: 4px 10px;
-  font-size: 0.8rem; cursor: default;
+  font-size: 0.8rem;
 }
-.badge-item.earned { border-color: var(--orange); background: var(--orange-bg); cursor: pointer; }
+.badge-item.earned { border-color: var(--orange); background: var(--orange-bg); }
 .badge-item.locked { opacity: 0.4; filter: grayscale(1); }
 .badge-emoji { font-size: 1.1rem; }
 .badge-name { font-weight: 600; }

@@ -1,259 +1,8 @@
-// Bio Sarah - Multi-chapter Quiz App
+// Quiz Platform Engine - Config-driven
 'use strict';
 
-// ── Chapter config ──
-const CHAPTERS = {
-  H3: {
-    file: 'data/vragen_H3.json',
-    title: 'Erfelijkheid en DNA',
-    subtitle: 'H3',
-    icon: '\u{1F9EC}',
-    storageKey: 'bio-sarah-h3-progress',
-    badges: {
-      1: { name: 'Meiosemeester', emoji: '\u{1F52C}' },
-      2: { name: 'Chromosoomkenner', emoji: '\u{1F9EC}' },
-      3: { name: 'Kruisingsexpert', emoji: '\u{1F331}' },
-      4: { name: 'XY-specialist', emoji: '\u{1F9E9}' },
-      5: { name: 'Dihybride pro', emoji: '\u{1F3AF}' },
-      6: { name: 'Erfelijkheidsonderzoeker', emoji: '\u{1F50E}' },
-      7: { name: 'DNA-decodeerder', emoji: '\u{1F4BB}' },
-      8: { name: 'Genetisch ingenieur', emoji: '\u{1F9EA}' }
-    },
-    correctMsgs: [
-      'Je kruist sneller dan Mendel, Sarah!',
-      'DNA? Geen geheimen meer voor jou!',
-      'Die allelen zitten perfect in je geheugen!',
-      'Je bent een echte genetica-genie!',
-      'Sterk! Je kent de meiose als je broekzak!',
-      'Sarah, je dominante allel voor biologie is duidelijk aanwezig!',
-      'Beter dan Watson en Crick samen!',
-      'Je chromosomen stralen van de kennis!',
-      'Die kruisingsschema\'s beheerst je als een pro!',
-      'Je genenpool zit vol biologiekennis!',
-      'Die codons heb je feilloos vertaald!',
-      'Mendel zou je assistent willen zijn!',
-      'Je DNA-kennis is dubbelstrengs sterk!',
-      'Recessief of dominant? Jij weet het direct!',
-      'Je genotype voor biologiekennis is AA!',
-      'Die koppelingsgroepen houd je moeiteloos uit elkaar!',
-      'Sarah, je splitst kruisingen sneller dan een cel!',
-      'Je mutatiekennis is foutloos!',
-      'De eiwitsynthese heeft geen geheimen meer voor jou!',
-      'Je fenotype? Briljante bioleerlinge!'
-    ],
-    wrongMsgs: [
-      'Die mutatie in je kennis herstellen we zo, Sarah!',
-      'Oeps! Dat allel zat even verkeerd... maar je leert snel!',
-      'Foutje! Maar zelfs DNA maakt soms een kopieerfout.',
-      'Even een crossing-over in je geheugen nodig!',
-      'Dat antwoord was recessief, maar het goede komt bovendrijven!',
-      'Net als meiose: soms gaat het fout, maar het resultaat wordt beter!',
-      'Die base was even verkeerd gepaard, Sarah.',
-      'Nog niet helemaal goed, maar je geeft niet op!',
-      'Die kruising liep even anders dan verwacht!',
-      'Oeps! Maar oefening baart een geneticus.',
-      'Een klein foutje in de transcriptie, Sarah.',
-      'Dat codon moet je even opnieuw aflezen!',
-      'Mis! Maar je DNA voor doorzettingsvermogen is top.',
-      'Die fenotype-voorspelling was net niet goed.',
-      'Zelfs Mendel had zijn erwten soms door elkaar!'
-    ],
-    resultsMsgs: {
-      perfect: ['Perfecte score! Je DNA zit vol biologiekennis, Sarah!', '100%! Mendel zou trots op je zijn!'],
-      great: ['Uitstekend, Sarah! Je beheerst genetica als een expert!', 'Geweldig! Nog een klein foutje, maar je zit er bijna!'],
-      good: ['Goed bezig, Sarah! Focus op de rode vragen en je haalt een 10!', 'Prima score! De lastige kruisingen worden nog beter met oefening.'],
-      okay: ['Een goede start! Gebruik de flashcards voor de moeilijke leerdoelen.', 'Je bent op weg, Sarah! Herhaal de zwakke topics.'],
-      low: ['Niet getreurd! Genetica is ook lastig. Probeer de flashcards!', 'Dit is je startpunt, Sarah. Lees de uitleg en probeer opnieuw!']
-    }
-  },
-  H4: {
-    file: 'data/vragen_H4.json',
-    title: 'Zenuwstelsel en spieren',
-    subtitle: 'H4',
-    icon: '\u{1F9E0}',
-    storageKey: 'bio-sarah-h4-progress',
-    badges: {
-      1: { name: 'Prikkelkenner', emoji: '⚡' },
-      2: { name: 'Zenuwcelexpert', emoji: '\u{1F52C}' },
-      3: { name: 'Impulsgeleider', emoji: '\u{1F4AB}' },
-      4: { name: 'Zenuwstelselmeester', emoji: '\u{1F9E0}' },
-      5: { name: 'Hersenspecialist', emoji: '\u{1F3E5}' },
-      6: { name: 'Reflexkampioen', emoji: '\u{1F9B5}' },
-      7: { name: 'Spierkampioen', emoji: '\u{1F4AA}' }
-    },
-    correctMsgs: [
-      'Die impuls kwam razendsnel, Sarah!',
-      'Je reflexen zijn scherper dan een kniepeesreflex!',
-      'Briljant! Je zenuwcellen vuren op volle kracht!',
-      'Die synaps is perfect overgestoken!',
-      'Sarah, je hersenkennis is indrukwekkend!',
-      'De neurotransmitters stromen door je antwoorden!',
-      'Je kent het zenuwstelsel als een neuroloog!',
-      'Sterker dan een motorisch neuron!',
-      'Je thalamus selecteert de juiste antwoorden!',
-      'Die reflexboog beheers je perfect!',
-      'Sarah, je impulsgeleiding is foutloos!',
-      'De hersenstam buigt voor jouw kennis!',
-      'Je weet meer over synapsen dan de meeste artsen!',
-      'Die spiercontractie van kennis is maximaal!',
-      'Autonome of willekeurige spieren? Jij weet het verschil!',
-      'Je kleine hersenen coördineren perfect!',
-      'Sarah, je scoort hoger dan een actiepotentiaal!',
-      'Die antagonisten houd je moeiteloos uit elkaar!',
-      'Je myeline-isolatie voor biologiekennis is dik!',
-      'Sneller dan een impuls door een gemyeliniseerde zenuw!'
-    ],
-    wrongMsgs: [
-      'Die synaps heeft even een verkeerde neurotransmitter afgegeven, Sarah!',
-      'Oeps! Je impuls ging even de verkeerde kant op.',
-      'Dat antwoord had een sterkere prikkel nodig!',
-      'Even een kort circuit in je zenuwbanen, maar we herstellen!',
-      'Die reflexboog maakte even een omweg, Sarah.',
-      'Net onder de prikkeldrempel! Probeer het nog eens.',
-      'De thalamus filterde het goede antwoord even weg!',
-      'Foutje! Maar je doorzettingsvermogen is sterker dan elke spier.',
-      'Die impuls bereikte even niet de juiste plek.',
-      'Oeps! Maar oefening versterkt je synapsverbindingen.',
-      'Even een verkeerde reflex, Sarah!',
-      'Dat sensorische neuron ving even een verkeerd signaal op.',
-      'Mis! Maar je ruggengraatkennis wordt elke keer sterker.',
-      'Die spieraanhechting zat net niet goed.',
-      'Niet erg! Zelfs de hersenschors heeft even rust nodig.'
-    ],
-    resultsMsgs: {
-      perfect: ['Perfecte score! Je zenuwstelsel werkt feilloos, Sarah!', '100%! Je bent de Nobelprijswinnaar van de biologie!'],
-      great: ['Uitstekend, Sarah! Je hersenkennis is bijna compleet!', 'Geweldig! Je impulsgeleiding is bijna perfect.'],
-      good: ['Goed bezig! Nog een paar synapsverbindingen versterken.', 'Prima score, Sarah! De moeilijke reflexbogen worden nog beter.'],
-      okay: ['Een goede start! Herhaal de zwakke leerdoelen met de flashcards.', 'Je bent op weg! Het zenuwstelsel is ook erg complex, Sarah.'],
-      low: ['Niet getreurd! Het zenuwstelsel heeft veel details. Probeer de flashcards!', 'Dit is je startpunt. Gebruik de uitleg en probeer opnieuw!']
-    }
-  },
-  H5: {
-    file: 'data/vragen_H5.json',
-    title: 'Zintuigen',
-    subtitle: 'H5',
-    icon: '\u{1F441}️',
-    storageKey: 'bio-sarah-h5-progress',
-    badges: {
-      1: { name: 'Reukdetective', emoji: '\u{1F443}' },
-      2: { name: 'Smaakexpert', emoji: '\u{1F445}' },
-      3: { name: 'Gehoorspecialist', emoji: '\u{1F442}' },
-      4: { name: 'Tastmeester', emoji: '\u{1F590}️' },
-      5: { name: 'Oogexpert', emoji: '\u{1F441}️' }
-    },
-    correctMsgs: [
-      'Dat zag je scherp, Sarah!',
-      'Je reukzin voor biologie is top!',
-      'Je hoort de juiste antwoorden al van ver!',
-      'Scherper dan een netvlies!',
-      'Sarah, je smaak voor biologie is uitstekend!',
-      'Die receptoren werken perfect bij jou!',
-      'Je evenwichtsorgaan voor kennis is in balans!',
-      'Beter dan 20/20 gezichtsvermogen!',
-      'Je trommelvlies trilt van enthousiasme!',
-      'Die adequate prikkel heb je perfect herkend!',
-      'Je staafjes en kegeltjes werken op volle kracht!',
-      'Sarah, je zintuigkennis is fenomenaal!',
-      'Het slakkenhuis heeft geen geheimen meer voor jou!',
-      'Je lens stelt zich perfect scherp op biologie!',
-      'Die papillen proeven de juiste antwoorden!',
-      'Je halfcirkelvormige kanalen draaien op volle toeren!',
-      'Sarah, je zintuigen voor biologie staan op scherp!',
-      'Netvlies, ooglens, glasvocht — jij kent ze allemaal!',
-      'Die huidreceptoren voelen het goede antwoord feilloos!',
-      'Je gehoorbeentjes trillen van trots!'
-    ],
-    wrongMsgs: [
-      'Even een blinde vlek in je kennis, Sarah!',
-      'Die geluidsgolf bereikte net niet het juiste antwoord.',
-      'Oeps! Je netvlies moet even opnieuw scherpstellen.',
-      'Dat antwoord smaakte net niet goed, Sarah.',
-      'Even een verkeerd signaal van je reukzenuwen!',
-      'Die prikkel bereikte net niet de juiste receptor.',
-      'Je evenwicht was even verstoord, maar je komt terug!',
-      'Foutje! Maar je treedt niet uit balans, Sarah.',
-      'Die trilling bereikte even het verkeerde gehoorbeentje.',
-      'Oeps! Maar je zintuigen voor doorzettingsvermogen werken prima.',
-      'Even een verkeerde breking van het licht op je kennis.',
-      'Die temperatuurreceptor gaf even een verkeerd signaal af.',
-      'Mis! Maar je tastzin voor biologie wordt steeds beter.',
-      'Net niet goed, maar je hoort het juiste antwoord al aankomen!',
-      'Zelfs de beste oogartsen moesten ooit studeren, Sarah!'
-    ],
-    resultsMsgs: {
-      perfect: ['Perfecte score! Je zintuigen zijn scherper dan ooit, Sarah!', '100%! Je ziet, hoort en voelt biologie als geen ander!'],
-      great: ['Uitstekend, Sarah! Je zintuigkennis is bijna perfect!', 'Geweldig! Nog even scherp stellen en je haalt een 10.'],
-      good: ['Goed bezig! Je zintuigen worden steeds scherper.', 'Prima score, Sarah! Focus op de rode vragen.'],
-      okay: ['Een goede start! De zintuigen hebben veel details. Probeer de flashcards!', 'Je bent op weg! Herhaal de zwakke leerdoelen, Sarah.'],
-      low: ['Niet getreurd! De vijf zintuigen zijn ook veel om te leren!', 'Dit is je startpunt, Sarah. Begin met de flashcards!']
-    }
-  },
-  H17: {
-    file: 'data/vragen_H17.json',
-    title: 'Biodiversiteit & evolutie',
-    subtitle: 'H17',
-    icon: '\u{1F30D}',
-    storageKey: 'bio-sarah-h17-progress',
-    badges: {
-      1: { name: 'Biodiversiteitskenner', emoji: '\u{1F30D}' },
-      2: { name: 'Soortexpert', emoji: '\u{1F426}' },
-      3: { name: 'Selectiespecialist', emoji: '\u{1F3C6}' },
-      4: { name: 'Evolutiemeester', emoji: '\u{1F995}' },
-      5: { name: 'Fossielenonderzoeker', emoji: '\u{1F9B4}' },
-      6: { name: 'Ordeningskenner', emoji: '\u{1F4CA}' },
-      7: { name: 'Viroloog', emoji: '\u{1F9A0}' }
-    },
-    correctMsgs: [
-      'Darwin zou trots op je zijn, Sarah!',
-      'Je evolueert naar een 10!',
-      'Die natuurlijke selectie van kennis werkt perfect!',
-      'Sarah, je bent de fittest van alle biologieleerlingen!',
-      'Linnaeus zou je classificeren als Studentus brilliantus!',
-      'Je fossielenkennis is rotsvast!',
-      'Die binaire nomenclatuur beheers je als een taxonom!',
-      'Je adaptatie aan biologievragen is indrukwekkend!',
-      'Sterker dan een berkenspanner in een schone omgeving!',
-      'Sarah, je genenpool van kennis groeit elke vraag!',
-      'Die eilandtheorie heb je perfect begrepen!',
-      'Je selecteert het juiste antwoord als een professional!',
-      'Beter dan een DNA-analyse!',
-      'Je classificeert sneller dan Linnaeus zelf!',
-      'Die homologe organen herken je feilloos!',
-      'Sarah, je viruskennis is sterker dan een vaccin!',
-      'Je reproduceert biologiekennis als een bacteriofaag!',
-      'Die evolutionaire stamboom ken je van buiten!',
-      'Je biodiversiteitskennis is rijker dan het Amazonegebied!',
-      'Recombinant-DNA? Kinderspel voor jou, Sarah!'
-    ],
-    wrongMsgs: [
-      'Die mutatie in je kennis herstellen we met extra studie, Sarah!',
-      'Oeps! Dat fossiel lag even in de verkeerde aardlaag.',
-      'Zelfs Darwin moest lang nadenken over evolutie!',
-      'Die selectiedruk op het goede antwoord was net niet genoeg.',
-      'Even een verkeerde afslag op de evolutionaire stamboom, Sarah!',
-      'Dat organisme heb je net verkeerd geclassificeerd.',
-      'Foutje! Maar je leert sneller dan een bacterie zich deelt.',
-      'Die halfwaardetijd van je fout is heel kort, Sarah!',
-      'Even een extinctie van het goede antwoord, maar het komt terug!',
-      'Oeps! Maar je doorzettingsvermogen is sterker dan reproductieve isolatie.',
-      'Die analoge organen verwarde je even met de homologe.',
-      'Net niet goed, maar je fitness voor biologie groeit!',
-      'Mis! Maar je DNA voor doorzettingsvermogen is top.',
-      'Die virus-levenscyclus was even lastig, Sarah.',
-      'Niet getreurd! Zelfs Linnaeus moest ooit beginnen.'
-    ],
-    resultsMsgs: {
-      perfect: ['Perfecte score! Darwin zou je als assistent willen, Sarah!', '100%! Je bent geëvolueerd naar de ultieme biologiekenner!'],
-      great: ['Uitstekend, Sarah! Je evolutiekennis is bijna compleet!', 'Geweldig! Nog een klein foutje, maar je bent er bijna.'],
-      good: ['Goed bezig! Je biodiversiteitskennis wordt steeds rijker.', 'Prima score, Sarah! Focus op de rode vragen.'],
-      okay: ['Een goede start! Evolutie is ook complex. Probeer de flashcards!', 'Je bent op weg! Herhaal de zwakke leerdoelen, Sarah.'],
-      low: ['Niet getreurd! Biodiversiteit en evolutie zijn ook veel stof!', 'Dit is je startpunt, Sarah. Begin met de flashcards!']
-    }
-  }
-};
-
 // ── State ──
-let currentChapter = null;
+let CONFIG = null;
 let db = null;
 let allQuestions = [];
 let quizQuestions = [];
@@ -271,8 +20,37 @@ let flashFlipped = false;
 const LETTERS = 'ABCDEFGHIJ';
 
 // ── Init ──
-document.addEventListener('DOMContentLoaded', () => {
-  updateChapterProgress();
+document.addEventListener('DOMContentLoaded', async () => {
+  try {
+    const resp = await fetch('config.json');
+    CONFIG = await resp.json();
+    applyTheme(CONFIG.theme);
+    await init();
+  } catch (e) {
+    console.error('Failed to load config:', e);
+  }
+});
+
+function applyTheme(theme) {
+  const r = document.documentElement.style;
+  r.setProperty('--purple', theme.primary);
+  r.setProperty('--purple-light', theme.light);
+  r.setProperty('--purple-dark', theme.dark);
+  r.setProperty('--purple-bg', theme.bg);
+}
+
+async function init() {
+  try {
+    const dataFile = (CONFIG.dataFiles && CONFIG.dataFiles[0]) || 'data/vragen.json';
+    const resp = await fetch(dataFile);
+    db = await resp.json();
+    flattenQuestions();
+    setupConfigScreen();
+    updateBadgeShelf();
+    updateHomeStats();
+  } catch (e) {
+    console.error('Failed to load questions:', e);
+  }
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('sw.js').catch(() => {});
   }
@@ -283,41 +61,6 @@ document.addEventListener('DOMContentLoaded', () => {
       selectedCount = parseInt(btn.dataset.count);
     });
   });
-});
-
-function updateChapterProgress() {
-  for (const [key, ch] of Object.entries(CHAPTERS)) {
-    const fill = document.getElementById('ch-fill-' + key);
-    if (!fill) continue;
-    try {
-      const p = JSON.parse(localStorage.getItem(ch.storageKey));
-      if (p && p.totalAnswered > 0) {
-        const pct = Math.round((p.totalCorrect / p.totalAnswered) * 100);
-        fill.style.width = pct + '%';
-      } else {
-        fill.style.width = '0%';
-      }
-    } catch { fill.style.width = '0%'; }
-  }
-}
-
-async function selectChapter(key) {
-  currentChapter = key;
-  const ch = CHAPTERS[key];
-  try {
-    const resp = await fetch(ch.file);
-    db = await resp.json();
-    flattenQuestions();
-    setupConfigScreen();
-    updateBadgeShelf();
-    updateHomeStats();
-    document.getElementById('home-chapter-title').textContent = ch.subtitle + ' — ' + ch.title;
-    document.getElementById('home-chapter-icon').textContent = ch.icon;
-    showScreen('home');
-  } catch (e) {
-    console.error('Failed to load chapter:', e);
-    alert('Kon het hoofdstuk niet laden. Controleer je internetverbinding.');
-  }
 }
 
 function flattenQuestions() {
@@ -338,13 +81,9 @@ function flattenQuestions() {
 }
 
 // ── Progress helpers ──
-function getStorageKey() {
-  return CHAPTERS[currentChapter].storageKey;
-}
-
 function getProgress() {
   try {
-    return JSON.parse(localStorage.getItem(getStorageKey())) || defaultProgress();
+    return JSON.parse(localStorage.getItem(CONFIG.storageKey)) || defaultProgress();
   } catch { return defaultProgress(); }
 }
 
@@ -353,12 +92,12 @@ function defaultProgress() {
 }
 
 function saveProgress(p) {
-  localStorage.setItem(getStorageKey(), JSON.stringify(p));
+  localStorage.setItem(CONFIG.storageKey, JSON.stringify(p));
 }
 
 function resetProgress() {
-  if (!confirm('Weet je zeker dat je alle voortgang voor dit hoofdstuk wilt wissen?')) return;
-  localStorage.removeItem(getStorageKey());
+  if (!confirm(CONFIG.uiStrings.confirmReset)) return;
+  localStorage.removeItem(CONFIG.storageKey);
   updateBadgeShelf();
   updateHomeStats();
   renderProgressScreen();
@@ -400,7 +139,6 @@ function showScreen(name) {
   window.scrollTo(0, 0);
   if (name === 'home') { updateBadgeShelf(); updateHomeStats(); }
   if (name === 'progress') renderProgressScreen();
-  if (name === 'chapters') updateChapterProgress();
 }
 
 // ── Config screen ──
@@ -444,8 +182,11 @@ function startQuiz() {
   renderQuestion();
 }
 
+// ── Exit quiz ──
 function exitQuiz() {
-  if (answers.length > 0 && !confirm('Wil je de quiz stoppen? Je voortgang wordt opgeslagen.')) return;
+  if (answers.length > 0) {
+    if (!confirm(CONFIG.uiStrings.confirmStop)) return;
+  }
   showScreen('home');
 }
 
@@ -459,6 +200,7 @@ function renderQuestion() {
   document.getElementById('quiz-progress-text').textContent = `${currentIndex + 1} / ${total}`;
   document.getElementById('quiz-progress-fill').style.width = `${((currentIndex) / total) * 100}%`;
   document.getElementById('quiz-leerdoel-badge').textContent = q.leerdoel_titel;
+
   document.getElementById('question-text').textContent = q.vraag;
 
   const imgContainer = document.getElementById('question-image-container');
@@ -471,8 +213,8 @@ function renderQuestion() {
     imgContainer.appendChild(img);
   }
 
-  const typeLabels = { multiple_choice: 'Meerkeuze', choose_all_that_apply: 'Meerdere antwoorden', invullen: 'Invullen', volgorde: 'Volgorde' };
-  document.getElementById('question-type-badge').textContent = typeLabels[q.type] || q.type;
+  const tl = CONFIG.uiStrings.typeLabels;
+  document.getElementById('question-type-badge').textContent = tl[q.type] || q.type;
 
   const container = document.getElementById('options-container');
   container.innerHTML = '';
@@ -516,7 +258,7 @@ function submitMC(index) {
 function renderCATA(q, container) {
   const hint = document.createElement('div');
   hint.className = 'cata-hint';
-  hint.textContent = 'Selecteer alle juiste antwoorden';
+  hint.textContent = CONFIG.uiStrings.selectAll || 'Selecteer alle juiste antwoorden';
   container.appendChild(hint);
 
   q.opties.forEach((opt, i) => {
@@ -529,7 +271,7 @@ function renderCATA(q, container) {
 
   const submit = document.createElement('button');
   submit.className = 'btn-submit-multi';
-  submit.textContent = 'Controleer';
+  submit.textContent = CONFIG.uiStrings.check || 'Controleer';
   submit.addEventListener('click', () => submitCATA());
   container.appendChild(submit);
 }
@@ -543,7 +285,8 @@ function toggleCATA(index, btn) {
     multiSelectChoices.add(index);
     btn.classList.add('selected');
   }
-  document.querySelector('.btn-submit-multi').classList.toggle('active', multiSelectChoices.size > 0);
+  const submit = document.querySelector('.btn-submit-multi');
+  submit.classList.toggle('active', multiSelectChoices.size > 0);
 }
 
 function submitCATA() {
@@ -574,7 +317,7 @@ function renderInvullen(q, container) {
   const input = document.createElement('input');
   input.type = 'text';
   input.className = 'invul-input';
-  input.placeholder = 'Typ je antwoord...';
+  input.placeholder = CONFIG.uiStrings.typAnswer || 'Typ je antwoord...';
   input.autocomplete = 'off';
   input.autocapitalize = 'off';
 
@@ -629,7 +372,7 @@ function submitInvullen(input) {
   if (!isCorrect) {
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = `Juiste antwoord: ${q.juiste_antwoord}`;
+    correctDiv.textContent = `${CONFIG.uiStrings.correctAnswer || 'Juiste antwoord'}: ${q.juiste_antwoord}`;
     document.getElementById('options-container').appendChild(correctDiv);
   }
 
@@ -653,7 +396,7 @@ function renderVolgorde(q, container) {
 
   const submit = document.createElement('button');
   submit.className = 'btn-submit-volgorde';
-  submit.textContent = 'Controleer volgorde';
+  submit.textContent = CONFIG.uiStrings.checkOrder || 'Controleer volgorde';
   submit.addEventListener('click', () => submitVolgorde());
   container.appendChild(submit);
 }
@@ -710,7 +453,7 @@ function submitVolgorde() {
     const correctText = correctLetters.map((letter, i) => `${i + 1}. ${q.opties[letter]}`).join(' → ');
     const correctDiv = document.createElement('div');
     correctDiv.className = 'invul-correct-answer';
-    correctDiv.textContent = 'Juiste volgorde: ' + correctText;
+    correctDiv.textContent = (CONFIG.uiStrings.correctOrder || 'Juiste volgorde') + ': ' + correctText;
     correctDiv.style.marginTop = '8px';
     correctDiv.style.fontSize = '0.85rem';
     correctDiv.style.lineHeight = '1.5';
@@ -738,20 +481,20 @@ function showFeedback(isCorrect, q) {
   panel.style.display = 'block';
 
   const result = document.getElementById('feedback-result');
-  result.textContent = isCorrect ? 'Goed!' : 'Helaas, fout!';
+  result.textContent = isCorrect ? CONFIG.uiStrings.correct : CONFIG.uiStrings.wrong;
   result.className = 'feedback-result ' + (isCorrect ? 'correct' : 'wrong');
 
-  const ch = CHAPTERS[currentChapter];
-  const msgs = isCorrect ? ch.correctMsgs : ch.wrongMsgs;
+  const msgs = isCorrect ? CONFIG.correctMsgs : CONFIG.wrongMsgs;
   document.getElementById('feedback-encouragement').textContent = msgs[Math.floor(Math.random() * msgs.length)];
   document.getElementById('feedback-explanation').textContent = q.uitleg;
 
   const btn = document.getElementById('btn-next');
-  btn.textContent = currentIndex < quizQuestions.length - 1 ? 'Volgende' : 'Bekijk resultaten';
+  btn.textContent = currentIndex < quizQuestions.length - 1 ? CONFIG.uiStrings.next : CONFIG.uiStrings.seeResults;
 
   panel.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
 }
 
+// ── Next question / results ──
 function nextQuestion() {
   currentIndex++;
   if (currentIndex < quizQuestions.length) {
@@ -788,8 +531,7 @@ function showResults() {
   else if (pct >= 80) msgKey = 'great';
   else if (pct >= 60) msgKey = 'good';
   else if (pct >= 40) msgKey = 'okay';
-  const ch = CHAPTERS[currentChapter];
-  const msgs = ch.resultsMsgs[msgKey];
+  const msgs = CONFIG.resultsMsgs[msgKey];
   document.getElementById('results-encouragement').textContent = msgs[Math.floor(Math.random() * msgs.length)];
 
   const breakdown = document.getElementById('results-leerdoel-breakdown');
@@ -801,7 +543,7 @@ function showResults() {
     leerdoelMap[lid].total++;
     if (a.correct) leerdoelMap[lid].correct++;
   }
-  for (const [, data] of Object.entries(leerdoelMap)) {
+  for (const [lid, data] of Object.entries(leerdoelMap)) {
     const p = Math.round((data.correct / data.total) * 100);
     const color = p >= 80 ? 'var(--green)' : p >= 50 ? 'var(--orange)' : 'var(--red)';
     breakdown.innerHTML += `
@@ -832,7 +574,7 @@ function showResults() {
       missed.innerHTML += `
         <div class="missed-item">
           <div class="missed-q">${q.vraag}</div>
-          <div class="missed-a">Antwoord: ${correctText}</div>
+          <div class="missed-a">${CONFIG.uiStrings.answer || 'Antwoord'}: ${correctText}</div>
         </div>
       `;
     }
@@ -843,13 +585,8 @@ function showResults() {
 }
 
 // ── Badges ──
-function getBadges() {
-  return CHAPTERS[currentChapter].badges;
-}
-
 function checkNewBadges() {
   const p = getProgress();
-  const badges = getBadges();
   const newBadges = [];
   for (const ld of db.leerdoelen) {
     const m = getLeerdoelMastery(ld.leerdoel_id);
@@ -868,8 +605,8 @@ function checkNewBadges() {
     container.style.display = 'block';
     list.innerHTML = '';
     for (const bid of newBadges) {
-      const b = badges[bid];
-      if (b) list.innerHTML += `<div class="new-badge-item"><div class="new-badge-emoji">${b.emoji}</div><div class="new-badge-name">${b.name}</div></div>`;
+      const b = CONFIG.badges[bid];
+      list.innerHTML += `<div class="new-badge-item"><div class="new-badge-emoji">${b.emoji}</div><div class="new-badge-name">${b.name}</div></div>`;
     }
   } else {
     document.getElementById('new-badges-container').style.display = 'none';
@@ -878,10 +615,9 @@ function checkNewBadges() {
 
 function updateBadgeShelf() {
   const p = getProgress();
-  const badges = getBadges();
   const shelf = document.getElementById('badge-shelf-list');
   shelf.innerHTML = '';
-  for (const [id, b] of Object.entries(badges)) {
+  for (const [id, b] of Object.entries(CONFIG.badges)) {
     const earned = p.badges[id]?.earned;
     shelf.innerHTML += `
       <div class="badge-item ${earned ? 'earned' : 'locked'}" ${earned ? `onclick="showBadgePopup(${id})"` : ''}>
@@ -893,12 +629,11 @@ function updateBadgeShelf() {
 }
 
 function showBadgePopup(id) {
-  const badges = getBadges();
-  const b = badges[id];
+  const b = CONFIG.badges[id];
   const p = getProgress();
   document.getElementById('badge-popup-icon').textContent = b.emoji;
   document.getElementById('badge-popup-title').textContent = b.name;
-  document.getElementById('badge-popup-desc').textContent = `Verdiend op ${p.badges[id]?.date || 'onbekend'}`;
+  document.getElementById('badge-popup-desc').textContent = `${CONFIG.uiStrings.earnedOn || 'Verdiend op'} ${p.badges[id]?.date || 'onbekend'}`;
   document.getElementById('badge-overlay').style.display = 'flex';
 }
 
@@ -909,22 +644,19 @@ function closeBadgeOverlay() {
 // ── Home stats ──
 function updateHomeStats() {
   const p = getProgress();
-  const badges = getBadges();
-  const totalBadges = Object.keys(badges).length;
   const el = document.getElementById('home-stats');
   if (p.totalAnswered === 0) {
-    el.textContent = 'Begin met een quiz om je voortgang te zien!';
+    el.textContent = CONFIG.uiStrings.noProgress;
   } else {
     const pct = Math.round((p.totalCorrect / p.totalAnswered) * 100);
     const badgeCount = Object.values(p.badges).filter(b => b.earned).length;
-    el.textContent = `${p.totalAnswered} vragen beantwoord • ${pct}% goed • ${badgeCount}/${totalBadges} badges`;
+    el.textContent = `${p.totalAnswered} vragen beantwoord • ${pct}% goed • ${badgeCount}/${Object.keys(CONFIG.badges).length} badges`;
   }
 }
 
 // ── Progress screen ──
 function renderProgressScreen() {
   const p = getProgress();
-  const badges = getBadges();
 
   const overall = document.getElementById('overall-progress');
   if (p.totalAnswered === 0) {
@@ -941,7 +673,7 @@ function renderProgressScreen() {
   list.innerHTML = '';
   for (const ld of db.leerdoelen) {
     const m = getLeerdoelMastery(ld.leerdoel_id);
-    const badge = badges[ld.leerdoel_id];
+    const badge = CONFIG.badges[ld.leerdoel_id];
     const earned = p.badges[ld.leerdoel_id]?.earned;
     const color = m.pct >= 80 ? 'var(--green)' : m.pct >= 50 ? 'var(--orange)' : m.seen > 0 ? 'var(--red)' : 'var(--gray-border)';
 
@@ -949,7 +681,7 @@ function renderProgressScreen() {
       <div class="progress-card">
         <div class="progress-card-header">
           <span class="progress-card-title">${ld.leerdoel_titel}</span>
-          <span class="progress-card-badge">${earned && badge ? badge.emoji : ''}</span>
+          <span class="progress-card-badge">${earned ? badge.emoji : ''}</span>
         </div>
         <div class="progress-bar">
           <div class="progress-bar-fill" style="width:${m.pct}%;background:${color}"></div>
@@ -990,14 +722,30 @@ function startFlashcards() {
   for (const ld of db.leerdoelen) {
     const m = getLeerdoelMastery(ld.leerdoel_id);
     if (m.pct < 80 || m.seen === 0) {
-      flashcards.push({ front: ld.leerdoel_titel, back: ld.uitleg_tekst });
+      flashcards.push({
+        front: ld.leerdoel_titel,
+        back: ld.uitleg_tekst
+      });
       for (const sd of ld.subdoelen) {
         if (sd.uitleg_tekst) {
-          flashcards.push({ front: sd.subdoel_titel, back: sd.uitleg_tekst });
+          flashcards.push({
+            front: sd.subdoel_titel,
+            back: sd.uitleg_tekst
+          });
+        } else {
+          const questions = allQuestions.filter(q => q.subdoel_id === sd.subdoel_id);
+          const weakQs = questions.filter(q => getQuestionPriority(q.id) < 3);
+          if (weakQs.length > 0) {
+            flashcards.push({
+              front: sd.subdoel_titel,
+              back: weakQs[0].uitleg
+            });
+          }
         }
       }
     }
   }
+
   showFlashcardScreen();
 }
 
@@ -1046,7 +794,7 @@ function prevFlashcard() {
 
 // ── Confetti ──
 function spawnConfetti() {
-  const colors = ['#8b5cf6', '#a78bfa', '#f59e0b', '#ec4899', '#3b82f6', '#22c55e'];
+  const colors = CONFIG.confettiColors || ['#2563eb', '#60a5fa', '#f59e0b', '#ef4444', '#22c55e', '#ec4899'];
   for (let i = 0; i < 40; i++) {
     const el = document.createElement('div');
     el.className = 'confetti';
