@@ -1,0 +1,957 @@
+{
+  "vak": "Biologie",
+  "hoofdstuk": "5 - Zintuigen",
+  "scope": "5.1 t/m 5.5",
+  "totaal_vragen": 70,
+  "leerdoelen": [
+    {
+      "leerdoel_id": 1,
+      "leerdoel_titel": "Reuk",
+      "paragraaf": "5.1",
+      "uitleg_tekst": "Het reukzintuig bestaat uit chemische receptoren (reukzintuigcellen) in het reukslijmvlies bovenin de neus. Er zijn ongeveer 100 miljoen reukzintuigcellen en enkele honderden typen receptoren. Geurmoleculen (gasvormig of opgelost in slijm) worden met haartjes opgevangen. De impulsen gaan via de reukzenuw naar het reukcentrum in de grote hersenen. Mensen kunnen vele duizenden geuren onderscheiden, meestal door prikkeling van meerdere receptortypen tegelijk.",
+      "subdoelen": [
+        {
+          "subdoel_id": "1.1",
+          "subdoel_titel": "Bouw van het reukzintuig",
+          "uitleg_tekst": "Reukzintuigcellen zijn chemische receptoren in het reukslijmvlies bovenin de neus. Er liggen ongeveer 100 miljoen reukzintuigcellen tussen slijmvormende cellen. De adequate prikkels zijn geurmoleculen: gasvormige stoffen en in slijm opgeloste stoffen.",
+          "vragen": [
+            {
+              "id": 1,
+              "type": "multiple_choice",
+              "vraag": "In een biologieles wordt besproken waar de reukzintuigcellen zich precies bevinden. Wat is de juiste locatie?",
+              "opties": [
+                "In de gehoorgang, naast het trommelvlies",
+                "Op het slijmvlies van de keelholte",
+                "In het reukslijmvlies bovenin de neusholte",
+                "Op de smaakpapillen van de tong"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Reukzintuigcellen zitten in het reukslijmvlies bovenin de neus, een gebied van slechts een paar vierkante centimeter. Ze zitten niet in de gehoorgang (optie A), keelholte (optie B) of op de tong (optie D) — dat zijn locaties van andere zintuigen."
+            },
+            {
+              "id": 2,
+              "type": "multiple_choice",
+              "vraag": "Reukzintuigcellen worden geprikkeld door geurmoleculen. Welk type receptor zijn dit?",
+              "opties": [
+                "Chemische receptoren (chemoreceptoren)",
+                "Mechanische receptoren (mechanoreceptoren)",
+                "Lichtreceptoren (fotoreceptoren)",
+                "Temperatuurreceptoren (thermoreceptoren)"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Reukzintuigcellen zijn chemische receptoren: ze worden geprikkeld door chemische stoffen (geurmoleculen). Mechanoreceptoren reageren op druk en vervorming (optie B onjuist). Fotoreceptoren reageren op licht (optie C onjuist). Thermoreceptoren reageren op temperatuur (optie D onjuist)."
+            },
+            {
+              "id": 3,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over het reukzintuig zijn juist?",
+              "opties": [
+                "Er liggen ongeveer 100 miljoen reukzintuigcellen in het reukslijmvlies",
+                "Er zijn slechts vijf typen reukreceptoren, net als bij smaak",
+                "Reukzintuigcellen vangen geurmoleculen op met haartjes",
+                "Het reukslijmvlies is ongeveer even groot als het netvlies van het oog",
+                "Er zijn een paar honderd verschillende typen reukreceptoren"
+              ],
+              "juiste_antwoorden": [0, 2, 4],
+              "uitleg": "Optie A is juist: er liggen zo'n 100 miljoen reukzintuigcellen. Optie B is onjuist: er zijn een paar honderd typen (niet vijf). Optie C is juist: de receptoren vangen geurmoleculen op met haartjes. Optie D is onjuist: het reukslijmvlies is slechts een paar vierkante centimeter groot. Optie E is juist: er zijn een paar honderd typen receptoren."
+            },
+            {
+              "id": 4,
+              "type": "invullen",
+              "vraag": "Hoe noem je de stoffen die de adequate prikkel vormen voor de reukzintuigcellen?",
+              "juiste_antwoord": "geurmoleculen",
+              "uitleg": "Geurmoleculen zijn de adequate prikkel voor reukzintuigcellen. Het zijn gasvormige stoffen of stoffen die in het neusvocht (slijm) oplossen en zo de receptoren kunnen prikkelen."
+            },
+            {
+              "id": 5,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van het ruiken van een geur in de juiste volgorde.",
+              "opties": {
+                "A": "Impulsen worden via de reukzenuw naar de hersenen gestuurd",
+                "B": "Geurmoleculen bereiken het reukslijmvlies in de neus",
+                "C": "Je wordt je bewust van de geur in het reukcentrum",
+                "D": "Reukzintuigcellen vangen de geurmoleculen op met hun haartjes"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Eerst bereiken geurmoleculen het reukslijmvlies (B), dan vangen de reukzintuigcellen ze op met haartjes (D), impulsen worden via de reukzenuw naar de hersenen gestuurd (A), en ten slotte word je bewust van de geur in het reukcentrum (C)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "1.2",
+          "subdoel_titel": "Van geurmolecuul naar bewuste waarneming",
+          "uitleg_tekst": "De meeste geuren worden veroorzaakt door prikkeling van meerdere typen receptoren tegelijk. Impulsen gaan via de reukzenuw naar het reukcentrum in de grote hersenen, waar je de geur bewust waarneemt. Mensen kunnen vele duizenden geuren onderscheiden.",
+          "vragen": [
+            {
+              "id": 6,
+              "type": "multiple_choice",
+              "vraag": "Mensen kunnen duizenden verschillende geuren onderscheiden, terwijl er maar een paar honderd typen reukreceptoren zijn. Hoe is dit mogelijk?",
+              "opties": [
+                "Elke receptor kan slechts één specifiek geurmolecuul herkennen",
+                "De meeste geuren worden herkend doordat meerdere typen receptoren tegelijk geprikkeld worden",
+                "De hersenen verzinnen extra geuren die niet echt bestaan",
+                "Elke reukzintuigcel bevat alle typen receptoren"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De geuren die je ruikt zijn meestal het gevolg van de prikkeling van meerdere receptortypen tegelijk. Door combinaties van verschillende receptoren kan het brein duizenden geuren onderscheiden, vergelijkbaar met hoe drie kleuren licht samen vele mengkleuren opleveren. Optie A klopt niet: het gaat juist om combinaties. Optie C is onzin. Optie D klopt niet: elk type receptor is gespecialiseerd."
+            },
+            {
+              "id": 7,
+              "type": "multiple_choice",
+              "vraag": "Via welke zenuw worden reukimpulsen van het reukslijmvlies naar de hersenen gestuurd?",
+              "opties": [
+                "De oogzenuw",
+                "De gehoorzenuw",
+                "De smaakzenuw",
+                "De reukzenuw"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Reukimpulsen worden via de reukzenuw naar het reukcentrum in de grote hersenen gestuurd. De oogzenuw (optie A) vervoert visuele impulsen, de gehoorzenuw (optie B) gehoorimpulsen, en een specifieke smaakzenuw (optie C) bestaat niet als zodanig."
+            },
+            {
+              "id": 8,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over geurwaarneming zijn juist?",
+              "opties": [
+                "De impulsen van de reukzintuigcellen worden verwerkt in het reukcentrum in de grote hersenen",
+                "Je kunt maximaal honderd verschillende geuren onderscheiden",
+                "Geurmoleculen kunnen gasvormig zijn of opgelost in slijm",
+                "Het reukzintuig is het minst gevoelige zintuig van de mens",
+                "De meeste geuren ontstaan door prikkeling van meerdere receptortypen tegelijk"
+              ],
+              "juiste_antwoorden": [0, 2, 4],
+              "uitleg": "Optie A is juist: reukimpulsen gaan naar het reukcentrum in de grote hersenen. Optie B is onjuist: mensen onderscheiden vele duizenden geuren. Optie C is juist: geurmoleculen zijn gasvormig of opgelost in slijm. Optie D is onjuist: de reukzin is juist zeer gevoelig met 100 miljoen cellen. Optie E is juist: meerdere receptortypen worden tegelijk geprikkeld."
+            },
+            {
+              "id": 9,
+              "type": "invullen",
+              "vraag": "In welk deel van de hersenen worden reukimpulsen verwerkt tot een bewuste geurwaarneming?",
+              "juiste_antwoord": "reukcentrum",
+              "uitleg": "Het reukcentrum in de grote hersenen verwerkt de impulsen die via de reukzenuw binnenkomen en maakt je bewust van de geur die je waarneemt."
+            },
+            {
+              "id": 10,
+              "type": "volgorde",
+              "vraag": "Zet de structuren in de juiste volgorde van de route die een reukimpuls aflegt.",
+              "opties": {
+                "A": "Reukcentrum in de grote hersenen",
+                "B": "Haartjes van de reukzintuigcel",
+                "C": "Reukzenuw",
+                "D": "Reukzintuigcel in het reukslijmvlies"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "De haartjes van de reukzintuigcel (B) vangen het geurmolecuul op. De reukzintuigcel (D) zet de prikkel om in een impuls. De impuls wordt via de reukzenuw (C) naar het reukcentrum in de grote hersenen (A) gestuurd."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 2,
+      "leerdoel_titel": "Smaak",
+      "paragraaf": "5.2",
+      "uitleg_tekst": "Het smaakzintuig werkt met chemische receptoren in smaakknoppen op de tong. Er zijn zo'n 10.000 smaakknoppen, gegroepeerd in smaakpapillen. Je kunt vijf smaken proeven: zoet, zout, zuur, bitter en umami. Elke smaakpapil kan alle vijf smaken waarnemen. De reuk draagt sterk bij aan de smaakbeleving — als je verkouden bent smaakt eten anders. Ook mondgevoel, temperatuur en geluid beïnvloeden de smaakervaring.",
+      "subdoelen": [
+        {
+          "subdoel_id": "2.1",
+          "subdoel_titel": "Smaakknoppen en receptoren",
+          "uitleg_tekst": "Smaakknoppen zijn groepjes smaakzintuigcellen omgeven door steuncellen. Er zijn zo'n 10.000 smaakknoppen op de tong, gegroepeerd in smaakpapillen. Smaakzintuigcellen zijn chemische receptoren die worden geprikkeld door in speeksel opgeloste stoffen.",
+          "vragen": [
+            {
+              "id": 11,
+              "type": "multiple_choice",
+              "vraag": "Smaakzintuigcellen worden geprikkeld door stoffen die zijn opgelost in speeksel. Welk type receptor zijn dit?",
+              "opties": [
+                "Chemische receptoren",
+                "Mechanische receptoren",
+                "Temperatuurreceptoren",
+                "Lichtreceptoren"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Smaakzintuigcellen zijn chemische receptoren: ze reageren op chemische stoffen die in het speeksel zijn opgelost. Mechanoreceptoren reageren op druk (optie B onjuist). Temperatuurreceptoren reageren op warmte/koude (optie C onjuist). Lichtreceptoren reageren op licht (optie D onjuist)."
+            },
+            {
+              "id": 12,
+              "type": "multiple_choice",
+              "vraag": "Hoeveel smaakknoppen bevat de menselijke tong bij benadering?",
+              "opties": [
+                "Ongeveer 500",
+                "Ongeveer 1.000",
+                "Ongeveer 5.000",
+                "Ongeveer 10.000"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "De menselijke tong bevat ongeveer 10.000 smaakknoppen. Deze liggen gegroepeerd in smaakpapillen. De andere aantallen (500, 1.000, 5.000) zijn te laag."
+            },
+            {
+              "id": 13,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over smaakknoppen zijn juist?",
+              "opties": [
+                "Een smaakknop bestaat uit smaakzintuigcellen omgeven door steuncellen",
+                "Smaakknoppen liggen gegroepeerd in smaakpapillen",
+                "Elke smaakpapil kan slechts één smaak waarnemen",
+                "De adequate prikkel voor smaakzintuigcellen is in speeksel opgeloste stoffen",
+                "Smaakknoppen zitten alleen aan de rand van de tong"
+              ],
+              "juiste_antwoorden": [0, 1, 3],
+              "uitleg": "Optie A is juist: smaakknoppen bestaan uit smaakzintuigcellen met steuncellen. Optie B is juist: smaakpapillen zijn concentraties van smaakknoppen. Optie C is onjuist: elke smaakpapil kan alle vijf smaken waarnemen. Optie D is juist: de stoffen moeten opgelost zijn in speeksel. Optie E is onjuist: smaakknoppen zitten overal in de mond."
+            },
+            {
+              "id": 14,
+              "type": "invullen",
+              "vraag": "Hoe noem je de concentraties van smaakknoppen op de tong?",
+              "juiste_antwoord": "smaakpapillen",
+              "uitleg": "Smaakpapillen zijn groepjes smaakknoppen die bij elkaar liggen op de tong. Het zijn de bultjes die je op je tong kunt zien en voelen."
+            },
+            {
+              "id": 15,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van het proeven van voedsel in de juiste volgorde.",
+              "opties": {
+                "A": "Smaakzintuigcellen in de smaakknoppen worden geprikkeld",
+                "B": "Voedsel wordt vermengd met speeksel",
+                "C": "Impulsen worden naar het smaakcentrum in de hersenen gestuurd",
+                "D": "Smaakstoffen lossen op in het speeksel"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Eerst wordt voedsel vermengd met speeksel (B), dan lossen de smaakstoffen op in het speeksel (D), vervolgens worden de smaakzintuigcellen geprikkeld (A), en ten slotte gaan de impulsen naar het smaakcentrum (C)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "2.2",
+          "subdoel_titel": "De vijf smaken en smaakbeleving",
+          "uitleg_tekst": "Er zijn vijf basissmaken: zoet, zout, zuur, bitter en umami ('hartig'). Umami-receptoren nemen de smaak waar van o.a. tomaat, bouillon en oude kaas. De smaakbeleving wordt sterk beïnvloed door de reuk — bij verkoudheid smaakt eten minder. Ook mondgevoel (textuur), temperatuur en zelfs geluid dragen bij aan hoe iets 'smaakt'.",
+          "vragen": [
+            {
+              "id": 16,
+              "type": "multiple_choice",
+              "vraag": "Naast zoet, zout, zuur en bitter is er een vijfde smaak die wordt omschreven als 'hartig'. Hoe heet deze smaak?",
+              "opties": [
+                "Pikant",
+                "Astraal",
+                "Umami",
+                "Kokumi"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Umami is de vijfde smaak, een Japans woord dat 'hartig' betekent. Je neemt het waar bij voedsel als tomaat, bouillon, gebakken vlees en oude kaas. Pikant (optie A) is geen basissmaak maar een pijnsensatie. Astraal (optie B) en kokumi (optie D) zijn geen van de vijf basissmaken in de lesstof."
+            },
+            {
+              "id": 17,
+              "type": "multiple_choice",
+              "vraag": "Als je verkouden bent, smaakt je eten vaak nergens naar. Wat is hiervoor de verklaring?",
+              "opties": [
+                "De smaakknoppen raken beschadigd door het virus",
+                "Het reukslijmvlies werkt niet goed, en reuk is een belangrijk deel van de smaakbeleving",
+                "Het speeksel bevat te veel antistoffen",
+                "De temperatuurreceptoren op de tong worden geblokkeerd"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De reuk maakt een belangrijk deel uit van de smaakgewaarwording. Bij verkoudheid werkt het reukslijmvlies niet goed, waardoor je veel minder 'proeft'. De smaakknoppen zelf zijn niet beschadigd (optie A onjuist). Speeksel en antistoffen spelen hier geen rol (optie C onjuist). Temperatuurreceptoren worden niet geblokkeerd (optie D onjuist)."
+            },
+            {
+              "id": 18,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke factoren dragen bij aan de smaakbeleving ('hoe iets smaakt')?",
+              "opties": [
+                "De vijf basissmaken op de tong",
+                "De reuk via het reukslijmvlies",
+                "Het mondgevoel (textuur, krakorigheid)",
+                "De kleur van het voedsel die via fotoreceptoren wordt waargenomen",
+                "Temperatuurzintuigen op de tong (bijv. menthol voelt koel)"
+              ],
+              "juiste_antwoorden": [0, 1, 2, 4],
+              "uitleg": "Optie A is juist: de vijf basissmaken vormen de basis. Optie B is juist: reuk is een belangrijk deel van smaakbeleving. Optie C is juist: mondgevoel (textuur) beïnvloedt de ervaring sterk. Optie D is onjuist: de kleur van voedsel wordt in de lesstof niet genoemd als onderdeel van smaakbeleving. Optie E is juist: hete pepers prikkelen warmtezintuigjes, menthol prikkelt koudezintuigjes."
+            },
+            {
+              "id": 19,
+              "type": "invullen",
+              "vraag": "Noem de vijf basissmaken die de mens kan waarnemen.",
+              "juiste_antwoord": "zoet, zout, zuur, bitter en umami",
+              "uitleg": "De vijf basissmaken zijn zoet, zout, zuur, bitter en umami. Elke smaak wordt waargenomen door een eigen type chemische receptor op de tong."
+            },
+            {
+              "id": 20,
+              "type": "volgorde",
+              "vraag": "Zet de zintuigelijke ervaringen in de volgorde waarin ze bijdragen aan wat je proeft, van de directe smaakwaarneming tot indirecte bijdrage.",
+              "opties": {
+                "A": "Geluid (krakorigheid van chips)",
+                "B": "Smaak (de vijf basissmaken op de tong)",
+                "C": "Reuk (geuren via het reukslijmvlies)",
+                "D": "Mondgevoel (textuur, temperatuur)"
+              },
+              "juiste_antwoord": "1:B, 2:C, 3:D, 4:A",
+              "uitleg": "De directe smaakwaarneming komt van de tong (B). De reuk levert een zeer grote bijdrage — bij verkoudheid smaakt alles anders (C). Mondgevoel (textuur, temperatuur) beïnvloedt de beleving (D). Geluid (zoals de krakorigheid van chips) is de meest indirecte bijdrage (A)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 3,
+      "leerdoel_titel": "Gehoor en evenwicht",
+      "paragraaf": "5.3",
+      "uitleg_tekst": "De gehoorzenuwcellen zijn mechanische receptoren in het slakkenhuis (binnenoor). Geluid (luchttrillingen) bereikt via oorschelp en gehoorgang het trommelvlies, dat gaat trillen. De gehoorbeentjes (hamer, aambeeld, stijgbeugel) versterken de trillingen en dragen ze over op het binnenoor. In het slakkenhuis zetten receptoren trillingen om in impulsen. Hard geluid kan leiden tot tinnitus of onherstelbare lawaaidoofheid. Het evenwichtszintuig (ook in het binnenoor) bevat zakjes met kristalletjes en drie halfcirkelvormige kanalen.",
+      "subdoelen": [
+        {
+          "subdoel_id": "3.1",
+          "subdoel_titel": "Bouw van het oor en geluidswaarneming",
+          "uitleg_tekst": "Het oor bestaat uit buitenoor (oorschelp, gehoorgang), middenoor (trommelvlies, gehoorbeentjes, buis van Eustachius) en binnenoor (slakkenhuis met receptoren). Geluid = luchttrillingen → trommelvlies → gehoorbeentjes versterken → vloeistof in slakkenhuis trilt → mechanische receptoren zetten om in impulsen.",
+          "vragen": [
+            {
+              "id": 21,
+              "type": "multiple_choice",
+              "vraag": "Geluidzintuigcellen in het slakkenhuis worden geprikkeld door trillingen in vloeistof. Welk type receptor zijn dit?",
+              "opties": [
+                "Chemische receptoren",
+                "Temperatuurreceptoren",
+                "Lichtreceptoren",
+                "Mechanische receptoren"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Geluidzintuigcellen zijn mechanische receptoren (mechanoreceptoren): ze worden geprikkeld door trillingen (mechanische vervorming). Chemoreceptoren reageren op chemische stoffen (optie A onjuist). Thermoreceptoren reageren op temperatuur (optie B onjuist). Fotoreceptoren reageren op licht (optie C onjuist)."
+            },
+            {
+              "id": 22,
+              "type": "multiple_choice",
+              "vraag": "De gehoorbeentjes (hamer, aambeeld en stijgbeugel) bevinden zich in het...",
+              "opties": [
+                "Buitenoor, vlak na de oorschelp",
+                "Middenoor, tussen trommelvlies en binnenoor",
+                "Binnenoor, in het slakkenhuis",
+                "Buitenoor, in de gehoorgang"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "De drie gehoorbeentjes liggen in het middenoor, de met lucht gevulde ruimte tussen het trommelvlies en het binnenoor. Ze versterken de trillingen. Ze zitten niet in het buitenoor (opties A en D onjuist) of in het slakkenhuis (optie C onjuist).",
+              "afbeelding": "images/H5/5.3_fig1.jpeg"
+            },
+            {
+              "id": 23,
+              "type": "multiple_choice",
+              "vraag": "Het middenoor staat via een buis in verbinding met de keelholte. Hoe heet deze buis?",
+              "opties": [
+                "De gehoorgang",
+                "Het slakkenhuis",
+                "De buis van Eustachius",
+                "De halfcirkelvormige kanalen"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De buis van Eustachius verbindt het middenoor met de keelholte, waardoor drukgelijkmaking mogelijk is. Daarom kan keelontsteking soms leiden tot middenoorontsteking. De gehoorgang (optie A) loopt van oorschelp naar trommelvlies. Het slakkenhuis (optie B) bevat de gehoorzenuwcellen. De halfcirkelvormige kanalen (optie D) horen bij het evenwichtszintuig."
+            },
+            {
+              "id": 24,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de weg van geluid door het oor zijn juist?",
+              "opties": [
+                "De oorschelp vangt geluidstrillingen op",
+                "Het trommelvlies gaat trillen en geeft de trillingen door aan de gehoorbeentjes",
+                "De gehoorbeentjes verzwakken de trillingen om het binnenoor te beschermen",
+                "Het slakkenhuis is gevuld met vloeistof",
+                "De receptoren in het slakkenhuis zijn chemische receptoren"
+              ],
+              "juiste_antwoorden": [0, 1, 3],
+              "uitleg": "Optie A is juist: de oorschelp vangt geluid op. Optie B is juist: het trommelvlies trilt en geeft door aan de gehoorbeentjes. Optie C is onjuist: de gehoorbeentjes versterken de trillingen juist. Optie D is juist: het slakkenhuis is gevuld met vloeistof. Optie E is onjuist: het zijn mechanische receptoren, geen chemische."
+            },
+            {
+              "id": 25,
+              "type": "invullen",
+              "vraag": "Hoe heet het deel van het binnenoor waar de gehoorzenuwcellen (geluidreceptoren) zich bevinden?",
+              "juiste_antwoord": "slakkenhuis",
+              "uitleg": "Het slakkenhuis is het spiraalvormige, met vloeistof gevulde deel van het binnenoor. Hierin zitten de mechanische receptoren die trillingen omzetten in impulsen."
+            },
+            {
+              "id": 26,
+              "type": "invullen",
+              "vraag": "Noem de drie gehoorbeentjes in het middenoor.",
+              "juiste_antwoord": "hamer, aambeeld en stijgbeugel",
+              "uitleg": "De drie gehoorbeentjes — hamer, aambeeld en stijgbeugel — zijn de kleinste botjes in het lichaam. Ze liggen in het middenoor en versterken de trillingen van het trommelvlies voordat ze het binnenoor bereiken."
+            },
+            {
+              "id": 27,
+              "type": "volgorde",
+              "vraag": "Zet de weg van geluid door het oor in de juiste volgorde.",
+              "opties": {
+                "A": "Gehoorbeentjes versterken de trillingen",
+                "B": "Oorschelp vangt geluidstrillingen op",
+                "C": "Receptoren in het slakkenhuis zetten trillingen om in impulsen",
+                "D": "Trommelvlies gaat trillen"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Geluid wordt eerst door de oorschelp opgevangen (B), dan trilt het trommelvlies (D), de gehoorbeentjes versterken de trillingen (A), en ten slotte zetten de receptoren in het slakkenhuis de trillingen om in impulsen (C)."
+            },
+            {
+              "id": 28,
+              "type": "volgorde",
+              "vraag": "Zet de delen van het oor in de juiste volgorde van buiten naar binnen.",
+              "opties": {
+                "A": "Binnenoor (slakkenhuis)",
+                "B": "Middenoor (gehoorbeentjes)",
+                "C": "Trommelvlies",
+                "D": "Gehoorgang"
+              },
+              "juiste_antwoord": "1:D, 2:C, 3:B, 4:A",
+              "uitleg": "Van buiten naar binnen: de gehoorgang (D) leidt geluid naar het trommelvlies (C), dan het middenoor met de gehoorbeentjes (B), en ten slotte het binnenoor met het slakkenhuis (A)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "3.2",
+          "subdoel_titel": "Gehoorschade en het evenwichtszintuig",
+          "uitleg_tekst": "Hard geluid kan gehoorzenuwcellen beschadigen, wat leidt tot tinnitus (pieptoon) of onherstelbare lawaaidoofheid. Het evenwichtszintuig zit ook in het binnenoor: zakjes met kristalletjes meten de stand van het hoofd, drie halfcirkelvormige kanalen (haaks op elkaar) registreren draaiingen. Evenwichtswaarnemingen zijn onbewust en starten reflexbogen voor lichaamshouding.",
+          "vragen": [
+            {
+              "id": 29,
+              "type": "multiple_choice",
+              "vraag": "Na een luid concert hoort iemand een voortdurende pieptoon in het oor, zonder externe geluidsbron. Dit verschijnsel heet...",
+              "opties": [
+                "Tinnitus",
+                "Lawaaidoofheid",
+                "Middenoorontsteking",
+                "Non-disjunctie"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Tinnitus is een pieptoon die je hoort zonder dat er een externe bron is. Het ontstaat doordat gehoorzenuwcellen overprikkeld raken en niet meer stoppen met impulsen doorgeven. Lawaaidoofheid (optie B) is permanente doofheid. Middenoorontsteking (optie C) is een ontsteking. Non-disjunctie (optie D) is een begrip uit de genetica."
+            },
+            {
+              "id": 30,
+              "type": "multiple_choice",
+              "vraag": "Lawaaidoofheid kan niet worden verholpen met een gehoorapparaat. Waarom niet?",
+              "opties": [
+                "Het trommelvlies is verhard en kan niet meer trillen",
+                "De geluidreceptoren zijn kapot en geven geen impulsen meer door",
+                "De gehoorbeentjes zijn vergroeid",
+                "De buis van Eustachius is verstopt"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Bij lawaaidoofheid zijn de geluidreceptoren in het slakkenhuis kapot gegaan door langdurig hard geluid. Er worden helemaal geen impulsen meer naar de hersenen gestuurd. Een gehoorapparaat versterkt geluid, maar als de receptoren kapot zijn, helpt dat niet. Het trommelvlies (optie A), de gehoorbeentjes (optie C) en de buis van Eustachius (optie D) zijn niet het probleem."
+            },
+            {
+              "id": 31,
+              "type": "multiple_choice",
+              "vraag": "Het evenwichtszintuig registreert de stand van het hoofd met behulp van kristalletjes. Hoe werkt dit?",
+              "opties": [
+                "De kristalletjes produceren een chemische stof bij beweging",
+                "De kristalletjes veranderen van kleur als het hoofd kantelt",
+                "De kristalletjes worden opgepikt door chemische receptoren",
+                "De kristalletjes drukken op haartjes van receptorcellen, afhankelijk van de stand van het hoofd"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "In de zakjes van het evenwichtszintuig liggen kristalletjes op haartjes van receptorcellen. Bij elke verandering van de hoofdstand drukken de kristalletjes anders op de haren, wat wordt omgezet in impulsen. Ze produceren geen chemische stof (optie A onjuist), veranderen niet van kleur (optie B onjuist) en worden niet door chemoreceptoren opgepikt (optie C onjuist)."
+            },
+            {
+              "id": 32,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over het evenwichtszintuig zijn juist?",
+              "opties": [
+                "Het evenwichtszintuig zit in het binnenoor, naast het slakkenhuis",
+                "De drie halfcirkelvormige kanalen staan alle drie haaks op elkaar",
+                "Evenwichtswaarnemingen dringen door tot ons bewustzijn",
+                "De evenwichtsreceptoren zijn mechanische receptoren",
+                "Het evenwichtszintuig bevat alleen kristalletjes, geen vloeistof"
+              ],
+              "juiste_antwoorden": [0, 1, 3],
+              "uitleg": "Optie A is juist: het evenwichtszintuig zit in het binnenoor. Optie B is juist: de drie kanalen staan haaks op elkaar om alle richtingen te registreren. Optie C is onjuist: evenwichtswaarnemingen dringen juist niet tot het bewustzijn door. Optie D is juist: ook evenwichtsreceptoren zijn mechanoreceptoren. Optie E is onjuist: de halfcirkelvormige kanalen bevatten vloeistof."
+            },
+            {
+              "id": 33,
+              "type": "invullen",
+              "vraag": "Hoe heten de drie structuren in het binnenoor die draaiende bewegingen van het hoofd registreren?",
+              "juiste_antwoord": "halfcirkelvormige kanalen",
+              "uitleg": "De drie halfcirkelvormige kanalen staan haaks op elkaar. Bewegingen van vloeistof in de kanalen ten opzichte van de wand worden waargenomen, zodat draaiingen in alle richtingen geregistreerd worden."
+            },
+            {
+              "id": 34,
+              "type": "invullen",
+              "vraag": "Hoe heet de onherstelbare vorm van doofheid die ontstaat door langdurig blootstelling aan hard geluid?",
+              "juiste_antwoord": "lawaaidoofheid",
+              "uitleg": "Lawaaidoofheid ontstaat wanneer geluidreceptoren in het slakkenhuis onherstelbaar beschadigen door langdurig hard geluid. De cellen gaan kapot en kunnen geen impulsen meer doorgeven. Een gehoorapparaat helpt niet."
+            },
+            {
+              "id": 35,
+              "type": "volgorde",
+              "vraag": "Zet de gevolgen van te hard geluid in de juiste volgorde van licht naar ernstig.",
+              "opties": {
+                "A": "Onherstelbare lawaaidoofheid",
+                "B": "Tijdelijk verminderd gehoor na een luid concert",
+                "C": "Tinnitus (voortdurende pieptoon) als waarschuwingssignaal",
+                "D": "Overprikkeling van de geluidreceptoren"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Van licht naar ernstig: eerst tijdelijk verminderd gehoor (B), dan overprikkeling van receptoren (D), gevolgd door tinnitus als ernstige waarschuwing (C), en ten slotte onherstelbare lawaaidoofheid als de schade permanent is (A)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 4,
+      "leerdoel_titel": "Huidgevoel",
+      "paragraaf": "5.4",
+      "uitleg_tekst": "De huid bevat verschillende typen receptoren: tast- en drukzintuigen (mechanoreceptoren, geprikkeld door vervorming), temperatuurreceptoren (registreren temperatuurverschillen) en pijnreceptoren (vrije zenuwuiteinden). De meeste tastreceptoren zitten in vingertoppen, handpalmen en rond de mond. Temperatuurreceptoren zitten ook in de hersenstam voor de regeling van de lichaamstemperatuur via negatieve terugkoppeling.",
+      "subdoelen": [
+        {
+          "subdoel_id": "4.1",
+          "subdoel_titel": "Tast-, druk- en temperatuurreceptoren",
+          "uitleg_tekst": "Tast- en drukzintuigen zijn mechanische receptoren: hun adequate prikkel is vormverandering. Ze zitten vooral in vingertoppen, handpalmen en rond de mond (onbehaarde huid). Temperatuurreceptoren registreren niet de absolute temperatuur, maar temperatuurverschillen ten opzichte van de huid.",
+          "vragen": [
+            {
+              "id": 36,
+              "type": "multiple_choice",
+              "vraag": "Tast- en drukzintuigen in de huid worden geprikkeld doordat hun cel vervormd wordt. Dit maakt ze tot...",
+              "opties": [
+                "Mechanische receptoren",
+                "Chemische receptoren",
+                "Temperatuurreceptoren",
+                "Pijnreceptoren"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Tast- en drukzintuigen zijn mechanische receptoren (mechanoreceptoren) omdat hun adequate prikkel vormverandering is. Chemoreceptoren reageren op chemische stoffen (optie B onjuist). Temperatuurreceptoren registreren warmte/koude (optie C onjuist). Pijnreceptoren zijn vrije zenuwuiteinden (optie D onjuist).",
+              "afbeelding": "images/H5/5.4_fig1.jpeg"
+            },
+            {
+              "id": 37,
+              "type": "multiple_choice",
+              "vraag": "In welke delen van de huid bevinden zich de meeste tastreceptoren?",
+              "opties": [
+                "Op de rug en de bovenbenen",
+                "Op de ellebogen en knieën",
+                "In de vingertoppen, handpalmen en rond de mond",
+                "Op de schouders en in de nek"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De meeste tastreceptoren bevinden zich in de onbehaarde huid: vingertoppen, handpalmen en rond de mond. Deze gebieden zijn extra gevoelig voor tast, wat nodig is voor fijne bewegingen en eten. De andere genoemde lichaamsdelen bevatten minder tastreceptoren."
+            },
+            {
+              "id": 38,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over temperatuurreceptoren zijn juist?",
+              "opties": [
+                "Temperatuurreceptoren registreren temperatuurverschillen, niet de absolute temperatuur",
+                "Ze zitten alleen in de huid, nergens anders in het lichaam",
+                "In de hersenstam zitten temperatuurreceptoren die de lichaamstemperatuur helpen regelen",
+                "De hete smaak van pepers wordt waargenomen door temperatuurreceptoren",
+                "Temperatuurreceptoren zijn een soort chemische receptoren"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Optie A is juist: ze meten of iets warmer of kouder is dan de huid. Optie B is onjuist: temperatuurreceptoren zitten ook in de hersenstam. Optie C is juist: deze helpen de lichaamstemperatuur constant te houden. Optie D is juist: hete pepers prikkelen warmtezintuigjes op de tong. Optie E is onjuist: het zijn thermoreceptoren, geen chemoreceptoren."
+            },
+            {
+              "id": 39,
+              "type": "invullen",
+              "vraag": "Wat is de adequate prikkel voor tast- en drukzintuigen in de huid?",
+              "juiste_antwoord": "vormverandering",
+              "uitleg": "De adequate prikkel voor tastreceptoren is vormverandering: wanneer de cel vervormd wordt door druk of aanraking, ontstaat er een impuls."
+            },
+            {
+              "id": 40,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van het voelen van een aanraking in de juiste volgorde.",
+              "opties": {
+                "A": "Je wordt je bewust van de aanraking in de hersenschors",
+                "B": "Een voorwerp raakt je vingertoppen aan",
+                "C": "Een impuls wordt via de sensorische zenuw naar de hersenen gestuurd",
+                "D": "Tastreceptoren in de huid worden vervormd"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Eerst raakt een voorwerp de huid aan (B), dan worden tastreceptoren vervormd (D), een impuls wordt via sensorische zenuwen naar de hersenen gestuurd (C), en ten slotte word je bewust van de aanraking in de hersenschors (A)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "4.2",
+          "subdoel_titel": "Pijnwaarneming en temperatuurregeling",
+          "uitleg_tekst": "Pijnreceptoren zijn vrije zenuwuiteinden die pijn veroorzaken bij (dreigende) beschadiging. Pijn is vervelend maar nuttig: het waarschuwt je voor gevaar. De lichaamstemperatuur wordt constant gehouden via negatieve terugkoppeling: bij afkoeling ga je bibberen, bij oververhitting ga je zweten.",
+          "vragen": [
+            {
+              "id": 41,
+              "type": "multiple_choice",
+              "vraag": "Pijnreceptoren in de huid en in organen bestaan uit...",
+              "opties": [
+                "Gespecialiseerde smaakzintuigcellen",
+                "Ingekapselde mechanoreceptoren",
+                "Cellen van het evenwichtszintuig",
+                "Vrije zenuwuiteinden"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Pijnreceptoren (nociceptoren) zijn vrije zenuwuiteinden, zowel in de huid als op veel plaatsen binnenin het lichaam. Ze geven een pijngewaarwording bij lichte of dreigende beschadiging. Ze zijn geen smaakzintuigcellen (optie A), ingekapselde receptoren (optie B) of evenwichtscellen (optie C)."
+            },
+            {
+              "id": 42,
+              "type": "multiple_choice",
+              "vraag": "Temperatuurreceptoren in de huid registreren of iets warm of koud aanvoelt. Wat meten ze precies?",
+              "opties": [
+                "Het verschil in temperatuur tussen het voorwerp en de huid",
+                "De absolute temperatuur van het voorwerp in graden Celsius",
+                "De temperatuur binnenin het lichaam",
+                "Het verschil in temperatuur tussen de linker- en rechterhand"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "Temperatuurreceptoren registreren of iets warmer of kouder is dan de huid op dat moment — ze meten dus temperatuurverschillen. Ze meten niet de absolute temperatuur (optie B onjuist). De kerntemperatuur wordt gemeten door receptoren in de hersenstam (optie C onjuist). Het verschil tussen handen meten ze niet (optie D onjuist)."
+            },
+            {
+              "id": 43,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over pijn zijn juist?",
+              "opties": [
+                "Pijn is nuttig omdat het waarschuwt voor gevaar",
+                "Pijnreceptoren zitten alleen in de huid, niet in organen",
+                "Bij echte beschadiging van zenuwen ontstaat hevige pijn",
+                "Pijnreceptoren zijn vrije zenuwuiteinden",
+                "Pijn wordt alleen waargenomen als je er bewust op let"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Optie A is juist: pijn waarschuwt je tegen gevaar. Optie B is onjuist: pijnreceptoren zitten ook in organen. Optie C is juist: beschadiging van zenuwen veroorzaakt hevige pijn. Optie D is juist: het zijn vrije zenuwuiteinden. Optie E is onjuist: pijn dringt juist automatisch tot het bewustzijn door, ongeacht aandacht."
+            },
+            {
+              "id": 44,
+              "type": "invullen",
+              "vraag": "Via welk regelmechanisme wordt de lichaamstemperatuur constant gehouden? (Bij afkoeling ga je bibberen, bij oververhitting ga je zweten.)",
+              "juiste_antwoord": "negatieve terugkoppeling",
+              "uitleg": "Negatieve terugkoppeling houdt de lichaamstemperatuur constant: als de temperatuur dreigt te dalen, ga je bibberen om warmte te produceren. Bij dreigende stijging ga je zweten om warmte kwijt te raken. Het effect van het proces (temperatuurverandering) remt het proces zelf."
+            },
+            {
+              "id": 45,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van de reactie op dreigende afkoeling in de juiste volgorde.",
+              "opties": {
+                "A": "Spieren beginnen te bibberen om warmte te produceren",
+                "B": "De lichaamstemperatuur stijgt weer naar normaal",
+                "C": "Temperatuurreceptoren in de huid registreren afkoeling",
+                "D": "De hersenstam activeert een reactie om warmte te produceren"
+              },
+              "juiste_antwoord": "1:C, 2:D, 3:A, 4:B",
+              "uitleg": "Eerst registreren temperatuurreceptoren de afkoeling (C), dan activeert de hersenstam een reactie (D), spieren gaan bibberen om warmte te produceren (A), en de lichaamstemperatuur stijgt weer (B). Dit is een voorbeeld van negatieve terugkoppeling."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "leerdoel_id": 5,
+      "leerdoel_titel": "Zien",
+      "paragraaf": "5.5",
+      "uitleg_tekst": "Het oog bevat drie lagen: harde oogrok, vaatvlies en netvlies (met lichtreceptoren). De pupilreflex regelt de hoeveelheid licht. De ooglens accommodeert (boller/platter) voor scherp zien op verschillende afstanden. Er zijn twee typen lichtreceptoren: staafjes (zeer lichtgevoelig, schemerzien, geen kleur, aan de rand) en kegeltjes (kleuren, scherp beeld, in de gele vlek, drie typen). Via het optisch chiasma en de oogzenuwen maken twee ogen samen stereoscopisch (3D) zien mogelijk.",
+      "subdoelen": [
+        {
+          "subdoel_id": "5.1",
+          "subdoel_titel": "Bouw van het oog",
+          "uitleg_tekst": "De oogbol bestaat uit drie lagen: harde oogrok (stevig, gaat over in hoornvlies), vaatvlies (veel bloedvaatjes) en netvlies (met miljoenen lichtreceptoren). De gele vlek is het scherpste deel. De blinde vlek is de plek waar de oogzenuw uittreedt (geen receptoren). Het glasachtig lichaam vult de oogbol; de ooglens zit achter de iris.",
+          "vragen": [
+            {
+              "id": 46,
+              "type": "multiple_choice",
+              "vraag": "De oogbol is opgebouwd uit drie lagen. Welke laag bevat de lichtreceptoren?",
+              "opties": [
+                "De harde oogrok",
+                "Het netvlies",
+                "Het vaatvlies",
+                "Het hoornvlies"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Het netvlies (retina) is de binnenste laag en bevat miljoenen lichtreceptoren die licht omzetten in impulsen. De harde oogrok (optie A) is de stevige buitenlaag. Het vaatvlies (optie C) bevat bloedvaatjes. Het hoornvlies (optie D) is het doorzichtige voorste deel van de oogrok.",
+              "afbeelding": "images/H5/5.5_fig3.jpeg"
+            },
+            {
+              "id": 47,
+              "type": "multiple_choice",
+              "vraag": "Op één plek in het netvlies zitten geen lichtreceptoren. Je kunt daar dus niet zien. Hoe heet deze plek?",
+              "opties": [
+                "De gele vlek",
+                "Het glasachtig lichaam",
+                "De blinde vlek",
+                "Het optisch chiasma"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "De blinde vlek is de plek waar de oogzenuw door het netvlies heen treedt. Hier zitten geen kegeltjes of staafjes. Als je met twee ogen kijkt, merk je niets doordat de hersenen het beeld aanvullen. De gele vlek (optie A) is juist het scherpste deel. Het glasachtig lichaam (optie B) is de gelei binnenin het oog. Het optisch chiasma (optie D) is de kruising van de oogzenuwen."
+            },
+            {
+              "id": 48,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over de bouw van het oog zijn juist?",
+              "opties": [
+                "De harde oogrok gaat aan de voorkant over in het doorzichtige hoornvlies",
+                "Het vaatvlies bevat veel bloedvaatjes en ligt tussen oogrok en netvlies",
+                "De gele vlek is het deel van het netvlies waarmee je het scherpst ziet",
+                "Het glasachtig lichaam bevindt zich aan de buitenkant van de oogbol",
+                "De oogzenuw verbindt het netvlies met de hersenen"
+              ],
+              "juiste_antwoorden": [0, 1, 2, 4],
+              "uitleg": "Optie A is juist: de oogrok gaat over in het doorzichtige hoornvlies. Optie B is juist: het vaatvlies is de middelste laag met veel bloedvaten. Optie C is juist: de gele vlek is het scherpste deel. Optie D is onjuist: het glasachtig lichaam vult de holte binnenin het oog. Optie E is juist: de oogzenuw transporteert impulsen naar de hersenen."
+            },
+            {
+              "id": 49,
+              "type": "invullen",
+              "vraag": "Hoe heet de buitenste, stevige laag van de oogbol die aan de voorkant overgaat in het doorzichtige hoornvlies?",
+              "juiste_antwoord": "harde oogrok",
+              "uitleg": "De harde oogrok is de stevige, witte buitenlaag van de oogbol. Hieraan zitten de oogspieren vast. Aan de voorkant wordt de oogrok doorzichtig en heet dan het hoornvlies."
+            },
+            {
+              "id": 50,
+              "type": "invullen",
+              "vraag": "Hoe heet het deel van het netvlies, recht tegenover de pupil, waarmee je het scherpst ziet?",
+              "juiste_antwoord": "gele vlek",
+              "uitleg": "De gele vlek is een klein deukje in het netvlies recht tegenover de pupil. Hier zitten alleen kegeltjes, waardoor je op dit punt het allerscherpst ziet."
+            },
+            {
+              "id": 51,
+              "type": "volgorde",
+              "vraag": "Zet de drie lagen van de oogbol in de juiste volgorde van buiten naar binnen.",
+              "opties": {
+                "A": "Netvlies (met lichtreceptoren)",
+                "B": "Vaatvlies (met bloedvaatjes)",
+                "C": "Harde oogrok (stevige buitenlaag)",
+                "D": "Glasachtig lichaam (gelei binnenin)"
+              },
+              "juiste_antwoord": "1:C, 2:B, 3:A, 4:D",
+              "uitleg": "Van buiten naar binnen: de harde oogrok (C), dan het vaatvlies (B), dan het netvlies (A), en helemaal binnenin het glasachtig lichaam (D)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "5.2",
+          "subdoel_titel": "Pupilreflex en accommodatie",
+          "uitleg_tekst": "De pupil wordt vernauwd of verwijd door kring- en radiaalspiertjes in de iris (antagonisten). Bij sterk licht: kringspiertjes trekken samen → pupil vernauwt (pupilreflex). Het accommoderen is het boller/platter worden van de ooglens via het straalvormig lichaam. Veraf kijken: lens plat. Dichtbij: lens bol. Bijzienden hebben een te bolle lens of te lang oog (min-bril). Verzienden een te platte lens of te kort oog (plus-bril).",
+          "vragen": [
+            {
+              "id": 52,
+              "type": "multiple_choice",
+              "vraag": "Als je van een donkere kamer naar buiten in het felle zonlicht stapt, worden je pupillen kleiner. Dit is een voorbeeld van...",
+              "opties": [
+                "De pupilreflex",
+                "Accommodatie",
+                "Stereoscopie",
+                "Een aangeleerde reflex"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "De pupilreflex is de automatische vernauwing of verwijding van de pupil bij verandering van lichtsterkte. Bij fel licht trekken de kringspiertjes samen en vernauwt de pupil om het netvlies te beschermen. Accommodatie (optie B) is het boller/platter worden van de lens. Stereoscopie (optie C) is diepte zien. Een aangeleerde reflex (optie D) is dit niet — het is aangeboren."
+            },
+            {
+              "id": 53,
+              "type": "multiple_choice",
+              "vraag": "Je kijkt van een bord aan de muur naar een boek op je schoot. Wat doet het straalvormig lichaam?",
+              "opties": [
+                "Het ontspant, waardoor de lensbandjes strak trekken en de lens platter wordt",
+                "Het trilt sneller om meer licht op de lens te laten vallen",
+                "Het maakt de pupil kleiner om scherp te stellen",
+                "Het trekt samen, waardoor de lensbandjes ontspannen en de lens boller wordt"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Bij dichtbij kijken trekt het straalvormig lichaam (een kringspier) samen, waardoor de spanning op de lensbandjes vermindert. De elastische ooglens neemt dan vanzelf een bollere vorm aan. Bij veraf kijken is het straalvormig lichaam ontspannen (optie A beschrijft veraf kijken). Optie B en C beschrijven geen accommodatie."
+            },
+            {
+              "id": 54,
+              "type": "multiple_choice",
+              "vraag": "Een leerling kan het schoolbord niet goed lezen maar ziet haar boek prima. Ze is...",
+              "opties": [
+                "Verziend en heeft een bolle lens nodig",
+                "Bijziend en heeft een holle lens (min-bril) nodig",
+                "Kleurenblind en heeft een filterbril nodig",
+                "Verziend en heeft een holle lens nodig"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Wie dingen veraf niet goed kan zien maar dichtbij wel, is bijziend. De ooglens is te bol of het oog te lang, waardoor het beeld vóór het netvlies valt. Dit wordt verholpen met een holle lens (min-bril). Verziendheid (opties A en D) is het omgekeerde: dichtbij niet scherp, veraf wel. Kleurenblindheid (optie C) heeft niets met scherpte te maken.",
+              "afbeelding": "images/H5/5.5_fig6.jpeg"
+            },
+            {
+              "id": 55,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over accommodatie zijn juist?",
+              "opties": [
+                "Accommodatie is het boller of platter worden van de ooglens",
+                "Bij veraf kijken is de ooglens zo bol mogelijk",
+                "Het straalvormig lichaam is een kringspiertje",
+                "Bij de meeste mensen wordt accommodatie na het 45ste levensjaar lastiger",
+                "De lensbandjes zijn elastisch en de ooglens niet"
+              ],
+              "juiste_antwoorden": [0, 2, 3],
+              "uitleg": "Optie A is juist: accommodatie is het aanpassen van de lensvorm. Optie B is onjuist: bij veraf kijken is de lens zo plat mogelijk, bij dichtbij zo bol mogelijk. Optie C is juist: het straalvormig lichaam is een kringspier. Optie D is juist: na het 45ste levensjaar lukt accommoderen steeds minder goed. Optie E is onjuist: het is precies andersom — de ooglens is elastisch, de lensbandjes zijn niet-elastisch."
+            },
+            {
+              "id": 56,
+              "type": "invullen",
+              "vraag": "Hoe noem je het boller of platter worden van de ooglens om scherp te kunnen zien op verschillende afstanden?",
+              "juiste_antwoord": "accommoderen",
+              "uitleg": "Accommoderen is het aanpassen van de vorm van de ooglens. Bij dichtbij kijken wordt de lens boller, bij veraf kijken platter. Dit wordt geregeld door het straalvormig lichaam."
+            },
+            {
+              "id": 57,
+              "type": "invullen",
+              "vraag": "Iemand die verziend is, ziet dichtbij niet scherp. Welk type lens heeft deze persoon nodig?",
+              "juiste_antwoord": "bolle lens",
+              "uitleg": "Bij verziendheid is de ooglens te plat of het oog te kort, waardoor het beeld achter het netvlies valt. Een bolle lens (plus-bril) helpt het licht sterker te breken zodat het beeld op het netvlies valt."
+            },
+            {
+              "id": 58,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van lichtinval tot scherp beeld in de juiste volgorde.",
+              "opties": {
+                "A": "De ooglens breekt het licht verder en stelt scherp (accommodatie)",
+                "B": "Licht valt door de pupil het oog binnen",
+                "C": "Een scherp, omgekeerd beeld verschijnt op het netvlies",
+                "D": "Het hoornvlies breekt het licht als eerste"
+              },
+              "juiste_antwoord": "1:D, 2:B, 3:A, 4:C",
+              "uitleg": "Eerst breekt het hoornvlies het licht (D), dan valt het licht door de pupil (B), de ooglens breekt het licht verder en stelt scherp via accommodatie (A), en ten slotte verschijnt een scherp, omgekeerd beeld op het netvlies (C)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "5.3",
+          "subdoel_titel": "Staafjes en kegeltjes",
+          "uitleg_tekst": "Het oog heeft twee typen lichtreceptoren. Staafjes: lage drempelwaarde, zeer lichtgevoelig, schemerzien, grijstinten (geen kleur), gevoelig voor beweging, aan de buitenrand van het netvlies, 100+ miljoen. Kegeltjes: hogere drempelwaarde, kleurenzien (drie typen: blauw, geelgroen, rood), scherp beeld, vooral in de gele vlek, elk apart verbonden met een zenuwcel.",
+          "vragen": [
+            {
+              "id": 59,
+              "type": "multiple_choice",
+              "vraag": "In de schemering kun je nog vormen en bewegingen zien, maar geen kleuren. Dit komt doordat je dan ziet met...",
+              "opties": [
+                "De kegeltjes, die bij weinig licht geen kleuren doorgeven",
+                "De oogzenuw, die bij weinig licht vertragend werkt",
+                "De staafjes, die zeer lichtgevoelig zijn maar geen kleuren waarnemen",
+                "Het glasachtig lichaam, dat het resterende licht versterkt"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Staafjes zijn de lichtreceptoren met een zeer lage drempelwaarde: ze kunnen al bij heel weinig licht (schemering) werken. Ze nemen echter alleen grijstinten waar, geen kleuren. Kegeltjes (optie A) werken juist bij daglicht en doen kleuren. De oogzenuw (optie B) vertraagt niet. Het glasachtig lichaam (optie D) versterkt geen licht."
+            },
+            {
+              "id": 60,
+              "type": "multiple_choice",
+              "vraag": "In de gele vlek, het scherpste deel van het netvlies, bevinden zich uitsluitend...",
+              "opties": [
+                "Kegeltjes",
+                "Staafjes",
+                "Kegeltjes en staafjes in gelijke hoeveelheden",
+                "Pijnreceptoren"
+              ],
+              "juiste_antwoord": 0,
+              "uitleg": "In de gele vlek zitten alleen kegeltjes — geen staafjes. Elk kegeltje is apart verbonden met een zenuwcel, waardoor je hier het allerscherpst ziet. Staafjes (optie B) bevinden zich aan de buitenrand van het netvlies. Een mengsel (optie C) komt alleen voor rond de gele vlek. Pijnreceptoren (optie D) zitten niet in het netvlies."
+            },
+            {
+              "id": 61,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over staafjes en kegeltjes zijn juist?",
+              "opties": [
+                "Staafjes zijn erg gevoelig voor beweging",
+                "Het menselijk oog heeft drie typen kegeltjes: voor blauw, geelgroen en rood",
+                "Staafjes zitten vooral in het midden van het netvlies, bij de gele vlek",
+                "Kegeltjes hebben een hogere drempelwaarde dan staafjes",
+                "Het oog heeft meer kegeltjes dan staafjes"
+              ],
+              "juiste_antwoorden": [0, 1, 3],
+              "uitleg": "Optie A is juist: staafjes zijn zeer gevoelig voor beweging. Optie B is juist: drie typen kegeltjes voor drie kleuren. Optie C is onjuist: staafjes zitten juist aan de buitenrand, niet in het midden. Optie D is juist: kegeltjes hebben meer licht nodig (hogere drempelwaarde). Optie E is onjuist: er zijn meer dan 100 miljoen staafjes, veel meer dan kegeltjes."
+            },
+            {
+              "id": 62,
+              "type": "invullen",
+              "vraag": "Hoeveel typen kegeltjes heeft het menselijk oog, elk gevoelig voor een andere kleur?",
+              "juiste_antwoord": "drie",
+              "uitleg": "Het menselijk oog heeft drie typen kegeltjes: voor blauw, geelgroen en rood. Door deze drie typen in verschillende mate te prikkelen, ontstaan de vele kleuren die je kunt waarnemen (mengkleuren)."
+            },
+            {
+              "id": 63,
+              "type": "invullen",
+              "vraag": "Welk type lichtreceptor heeft een zeer lage drempelwaarde en werkt bij schemering?",
+              "juiste_antwoord": "staafjes",
+              "uitleg": "Staafjes hebben een erg lage drempelwaarde en zijn heel lichtgevoelig. Bij daglicht worden ze te sterk geprikkeld en beschermd door een pigmentlaag. Bij weinig licht (schemering) kun je met staafjes nog zien, maar alleen in grijstinten."
+            },
+            {
+              "id": 64,
+              "type": "volgorde",
+              "vraag": "Je gaat vanuit het felle zonlicht een donkere bioscoop in. Zet de stappen van de aanpassing van je ogen in de juiste volgorde.",
+              "opties": {
+                "A": "Je ogen zijn volledig aangepast aan het donker (na drie kwartier)",
+                "B": "Je ziet eerst helemaal niets omdat de kegeltjes niet meer geprikkeld worden",
+                "C": "De pupil verwijdt zich om meer licht op te vangen",
+                "D": "De staafjes worden geleidelijk actief en je begint weer vormen te zien"
+              },
+              "juiste_antwoord": "1:B, 2:C, 3:D, 4:A",
+              "uitleg": "Eerst zie je niets omdat de kegeltjes niet meer werken en de staafjes nog overbelicht zijn (B). Dan verwijdt de pupil zich (C). Geleidelijk worden de staafjes actief en begin je vormen te zien (D). Pas na drie kwartier ben je volledig aangepast (A)."
+            }
+          ]
+        },
+        {
+          "subdoel_id": "5.4",
+          "subdoel_titel": "Zien met twee ogen en stereoscopie",
+          "uitleg_tekst": "De oogzenuwen kruisen bij het optisch chiasma, waardoor beelden van beide ogen in beide hersenhelften verwerkt worden. Doordat de ogen vanuit een iets verschillende hoek kijken, ontstaat diepte-zien (stereoscopie). Roofdieren hebben ogen voorin het hoofd (diepte zien), prooidieren opzij (groot gezichtsveld). Gezichtsbedrog toont dat de hersenen de beelden actief interpreteren.",
+          "vragen": [
+            {
+              "id": 65,
+              "type": "multiple_choice",
+              "vraag": "De binnenste delen van beide oogzenuwen kruisen elkaar op weg naar de hersenen. Hoe heet deze kruising?",
+              "opties": [
+                "De blinde vlek",
+                "Het optisch chiasma",
+                "De gele vlek",
+                "Het straalvormig lichaam"
+              ],
+              "juiste_antwoord": 1,
+              "uitleg": "Het optisch chiasma is de kruising van de oogzenuwen. Hier kruisen de zenuwvezels van het netvliesdeel aan de neuskant. Hierdoor worden beelden van één kant in beide hersenhelften verwerkt. De blinde vlek (optie A) is waar de oogzenuw uittreedt. De gele vlek (optie C) is het scherpste deel van het netvlies. Het straalvormig lichaam (optie D) regelt de accommodatie.",
+              "afbeelding": "images/H5/5.5_fig11.jpeg"
+            },
+            {
+              "id": 66,
+              "type": "multiple_choice",
+              "vraag": "Mensen kunnen diepte (3D) zien. Hoe komt dit tot stand?",
+              "opties": [
+                "Doordat het hoornvlies het licht driedimensionaal breekt",
+                "Doordat de gele vlek in elk oog een ander kleurspectrum waarneemt",
+                "Doordat de staafjes en kegeltjes samen een holografisch beeld vormen",
+                "Doordat beide ogen vanuit een iets andere hoek kijken en de hersenen de twee beelden combineren"
+              ],
+              "juiste_antwoord": 3,
+              "uitleg": "Omdat je ogen een paar centimeter uit elkaar staan, kijken ze vanuit een iets verschillende hoek naar een voorwerp. De twee iets verschillende beelden worden in het gezichtscentrum gecombineerd tot één 3D-beeld (stereoscopie). Het hoornvlies breekt geen 3D-licht (optie A onjuist). De gele vlek neemt geen ander spectrum waar (optie B onjuist). Een holografisch beeld wordt niet gevormd (optie C onjuist)."
+            },
+            {
+              "id": 67,
+              "type": "multiple_choice",
+              "vraag": "Roofdieren zoals katten hebben hun ogen voorin het hoofd. Prooidieren zoals konijnen hebben hun ogen opzij. Wat is het voordeel van ogen aan de voorkant?",
+              "opties": [
+                "Een groter gezichtsveld om gevaar eerder te zien",
+                "Betere schemerzicht door meer staafjes",
+                "Beter diepte zien om afstanden te schatten bij het vangen van prooi",
+                "Betere kleurwaarneming door meer kegeltjes"
+              ],
+              "juiste_antwoord": 2,
+              "uitleg": "Ogen voorin het hoofd zorgen voor overlappende gezichtsvelden, waardoor stereoscopisch zien (diepte zien) mogelijk is. Dit is essentieel voor het schatten van afstanden bij het vangen van prooi. Een groot gezichtsveld (optie A) hoort bij ogen opzij — dat is voordelig voor prooidieren. Schemerzicht (optie B) en kleurwaarneming (optie D) hangen niet af van de oogpositie."
+            },
+            {
+              "id": 68,
+              "type": "choose_all_that_apply",
+              "vraag": "Welke uitspraken over het zien met twee ogen zijn juist?",
+              "opties": [
+                "Het optisch chiasma zorgt ervoor dat beelden van beide ogen in beide hersenhelften verwerkt worden",
+                "Dankzij het optisch chiasma kun je met één oog bijna net zo veel zien als met twee",
+                "Prooidieren hebben hun ogen voorin het hoofd voor diepte zien",
+                "Gezichtsbedrog toont dat de hersenen beelden actief interpreteren",
+                "Met twee ogen heb je een kleiner gezichtsveld dan met één oog"
+              ],
+              "juiste_antwoorden": [0, 1, 3],
+              "uitleg": "Optie A is juist: door het chiasma worden beelden in beide hersenhelften verwerkt. Optie B is juist: het chiasma maakt het mogelijk dat je met één oog bijna net zo veel ziet. Optie C is onjuist: prooidieren (konijnen, herten) hebben hun ogen juist opzij voor een groot gezichtsveld. Optie D is juist: gezichtsbedrog bewijst dat we niet altijd waarheidsgetrouw waarnemen. Optie E is onjuist: met twee ogen heb je juist een groter overlappend gezichtsveld."
+            },
+            {
+              "id": 69,
+              "type": "invullen",
+              "vraag": "Hoe noem je het verschijnsel dat je met twee ogen diepte (3D) kunt zien?",
+              "juiste_antwoord": "stereoscopie",
+              "uitleg": "Stereoscopie is het driedimensionaal zien dat ontstaat doordat de twee ogen vanuit een iets verschillende hoek kijken. De hersenen combineren de twee iets verschillende beelden tot één beeld met diepte-informatie."
+            },
+            {
+              "id": 70,
+              "type": "volgorde",
+              "vraag": "Zet de stappen van het vormen van een 3D-beeld in de juiste volgorde.",
+              "opties": {
+                "A": "De hersenen combineren de twee beelden tot één 3D-beeld",
+                "B": "Beide ogen kijken vanuit een iets verschillende hoek naar een voorwerp",
+                "C": "De oogzenuwen kruisen bij het optisch chiasma",
+                "D": "Op elk netvlies verschijnt een iets ander beeld"
+              },
+              "juiste_antwoord": "1:B, 2:D, 3:C, 4:A",
+              "uitleg": "Beide ogen kijken vanuit een iets andere hoek (B), waardoor op elk netvlies een iets ander beeld verschijnt (D). De oogzenuwen kruisen bij het optisch chiasma (C), en ten slotte combineren de hersenen de twee beelden tot één 3D-beeld met diepte (A)."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
