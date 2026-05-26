@@ -5,18 +5,18 @@
   "totaal_vragen": 100,
   "leerdoelen": [
     {
-      "leerdoel_id": 1,
+      "leerdoel_id": 9,
       "leerdoel_titel": "Prikkels en impulsen",
       "paragraaf": "4.1",
       "uitleg_tekst": "Prikkels zijn veranderingen in je omgeving of lichaam die je kunt waarnemen. Receptoren vangen prikkels op en zetten ze om in elektrische signalen (impulsen). Elke receptor is gespecialiseerd in één type prikkel: de adequate prikkel. Een prikkel moet sterk genoeg zijn om de prikkeldrempel te bereiken. Impulsen zijn altijd even sterk (alles-of-niets-wet), maar bij sterkere prikkels neemt de impulsfrequentie toe. De thalamus filtert welke prikkels het bewustzijn bereiken (selectieve aandacht). Effectoren (spieren en klieren) voeren de reactie uit.",
       "subdoelen": [
         {
-          "subdoel_id": "1.1",
+          "subdoel_id": "9.1",
           "subdoel_titel": "Prikkels en receptoren",
           "uitleg_tekst": "Een prikkel is een waarneembare verandering. Receptoren zijn gespecialiseerd in het opvangen van één type prikkel (de adequate prikkel). Zintuigen bevatten receptoren: het oog heeft fotoreceptoren, het oor auditieve receptoren, neus en tong chemoreceptoren, de huid mechano-, thermo- en nociceptoren.",
           "vragen": [
             {
-              "id": 1,
+              "id": 121,
               "type": "multiple_choice",
               "vraag": "Een arts test het gehoor van een patiënt door op verschillende afstanden met de vingers te knippen. De patiënt reageert pas als de arts dichtbij genoeg is. Welk begrip verklaart dit verschijnsel het best?",
               "opties": [
@@ -29,7 +29,7 @@
               "uitleg": "De patiënt hoort het knippen pas als het geluid sterk genoeg is om de prikkeldrempel te bereiken. De adequate prikkel (geluid) is wel aanwezig, maar te zwak (optie B onjuist). De alles-of-niets-wet beschrijft dat een impuls altijd even sterk is, niet of een prikkel wordt waargenomen (optie A onjuist). De thalamus filtert onbewust, maar hier gaat het om prikkelsterkte, niet aandacht (optie D onjuist)."
             },
             {
-              "id": 2,
+              "id": 122,
               "type": "multiple_choice",
               "vraag": "In de neus worden geuren waargenomen. Welk type receptor is hiervoor verantwoordelijk?",
               "opties": [
@@ -42,7 +42,7 @@
               "uitleg": "Geurstoffen zijn chemische stoffen die worden opgepikt door chemoreceptoren in de neus. Nociceptoren detecteren pijn (optie A onjuist). Fotoreceptoren detecteren licht in het oog (optie C onjuist). Mechanoreceptoren detecteren druk en tast in de huid (optie D onjuist)."
             },
             {
-              "id": 3,
+              "id": 123,
               "type": "multiple_choice",
               "vraag": "Sarah zit geconcentreerd te studeren en hoort haar zusje niet praten. Maar als haar naam wordt geroepen, schrikt ze op. Welk onderdeel van de hersenen is verantwoordelijk voor dit verschijnsel?",
               "opties": [
@@ -55,7 +55,7 @@
               "uitleg": "De thalamus werkt als schakelstation en beslist welke prikkels worden doorgestuurd naar de hersenschors. Dit heet selectieve aandacht. De hersenstam regelt autonome functies zoals hartslag (optie A onjuist). De kleine hersenen coördineren spierbewegingen (optie B onjuist). De hersenschors verwerkt bewuste waarnemingen, maar de thalamus bepaalt wat er doorkomt (optie C onjuist)."
             },
             {
-              "id": 4,
+              "id": 124,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over prikkels en receptoren zijn juist?",
               "opties": [
@@ -65,25 +65,29 @@
                 "De adequate prikkel voor het oor is licht",
                 "Effectoren zijn organen die een reactie uitvoeren, zoals spieren of klieren"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Optie A is juist: receptoren zijn gespecialiseerd in één type prikkel. Optie B is onjuist: prikkels zoals honger, pijn en moeheid komen van binnen het lichaam. Optie C is juist: proprioceptoren registreren de stand van spieren en gewrichten. Optie D is onjuist: de adequate prikkel voor het oor is geluid, niet licht. Optie E is juist: effectoren (spieren en klieren) voeren de reactie uit."
             },
             {
-              "id": 5,
+              "id": 125,
               "type": "invullen",
               "vraag": "Hoe noem je de prikkel waarvoor een zintuig gespecialiseerd is?",
               "juiste_antwoord": "adequate prikkel",
               "uitleg": "De adequate prikkel is het type prikkel waarvoor een zintuig specifiek is toegerust. Licht is bijvoorbeeld de adequate prikkel voor het oog en geluid voor het oor."
             },
             {
-              "id": 6,
+              "id": 126,
               "type": "invullen",
               "vraag": "Hoe noem je de organen die de reactie op een prikkel uitvoeren, zoals spieren of klieren?",
               "juiste_antwoord": "effectoren",
               "uitleg": "Effectoren zijn de organen die de reactie uitvoeren. Spieren zorgen voor beweging en klieren voor afscheiding van stoffen (hormonen, zweet, speeksel, tranen)."
             },
             {
-              "id": 7,
+              "id": 127,
               "type": "volgorde",
               "vraag": "Zet de stappen van het waarnemen van een prikkel tot een reactie in de juiste volgorde.",
               "opties": {
@@ -98,12 +102,12 @@
           ]
         },
         {
-          "subdoel_id": "1.2",
+          "subdoel_id": "9.2",
           "subdoel_titel": "Van prikkel naar impuls en reactie",
           "uitleg_tekst": "Een receptor zet een prikkel om in een elektrische impuls. De prikkel moet boven de prikkeldrempel liggen. Impulsen zijn altijd even sterk (alles-of-niets-wet), maar de impulsfrequentie neemt toe bij sterkere prikkels (max. 250/s). De thalamus bepaalt via selectieve aandacht welke impulsen het bewustzijn bereiken.",
           "vragen": [
             {
-              "id": 8,
+              "id": 128,
               "type": "multiple_choice",
               "vraag": "Een geluid wordt steeds harder. Wat verandert er in de impulsgeleiding van de gehoorzenuw?",
               "opties": [
@@ -116,7 +120,7 @@
               "uitleg": "Volgens de alles-of-niets-wet is elke impuls even sterk (optie B onjuist). Bij een sterkere prikkel worden er meer impulsen per seconde gegenereerd: de impulsfrequentie neemt toe. De prikkeldrempel verandert niet door prikkelsterkte (optie C onjuist). De snelheid van impulsen wordt bepaald door de zenuwcel zelf, niet door de prikkel (optie D onjuist)."
             },
             {
-              "id": 9,
+              "id": 129,
               "type": "multiple_choice",
               "vraag": "Een prikkel is net iets sterker dan de prikkeldrempel. Welke uitspraak is juist?",
               "opties": [
@@ -129,7 +133,7 @@
               "uitleg": "Door de alles-of-niets-wet ontstaat er zodra de prikkeldrempel wordt overschreden altijd een volledige impuls. Er bestaat geen 'halve' impuls (optie B onjuist). Er ontstaan wel degelijk impulsen want de drempel is bereikt (optie C onjuist). Elke individuele impuls is even sterk, ongeacht de prikkelsterkte (optie D onjuist)."
             },
             {
-              "id": 10,
+              "id": 130,
               "type": "multiple_choice",
               "vraag": "Tijdens het studeren merkt Sarah niet dat haar telefoon al drie keer overgaat, maar zodra haar moeder haar naam roept, hoort ze dat meteen. Dit is een voorbeeld van...",
               "opties": [
@@ -142,7 +146,7 @@
               "uitleg": "Selectieve aandacht wordt gestuurd door de thalamus, die bepaalt welke prikkels het bewustzijn bereiken. Het horen van je eigen naam doorbreekt de filter. De alles-of-niets-wet gaat over de sterkte van impulsen (optie A onjuist). De prikkeldrempel gaat over de minimale sterkte van een prikkel, niet over filteren (optie B onjuist). Een reflex is een automatische, onbewuste reactie op een prikkel (optie D onjuist)."
             },
             {
-              "id": 11,
+              "id": 131,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de alles-of-niets-wet zijn juist?",
               "opties": [
@@ -152,25 +156,29 @@
                 "De impulsfrequentie kan maximaal 250 impulsen per seconde zijn",
                 "Als een prikkel onder de prikkeldrempel blijft, ontstaat er toch een zwakke impuls"
               ],
-              "juiste_antwoorden": [0, 1, 3],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ],
               "uitleg": "Optie A is juist: impulsen zijn altijd even sterk. Optie B is juist: meer impulsen per seconde bij een sterkere prikkel. Optie C is onjuist: er bestaan geen gedeeltelijke impulsen, het is alles of niets. Optie D is juist: de maximale frequentie is 250 per seconde. Optie E is onjuist: onder de prikkeldrempel ontstaan helemaal geen impulsen."
             },
             {
-              "id": 12,
+              "id": 132,
               "type": "invullen",
               "vraag": "Hoe heet de minimale sterkte die een prikkel moet hebben om een impuls op te wekken?",
               "juiste_antwoord": "prikkeldrempel",
               "uitleg": "De prikkeldrempel is de minimale prikkelsterkte die nodig is om een impuls op te wekken. Prikkels die onder de prikkeldrempel blijven, worden niet doorgegeven aan het zenuwstelsel."
             },
             {
-              "id": 13,
+              "id": 133,
               "type": "invullen",
               "vraag": "Hoe heet het schakelstation in de hersenen dat bepaalt welke prikkels worden doorgestuurd naar de hersenschors?",
               "juiste_antwoord": "thalamus",
               "uitleg": "De thalamus fungeert als schakelstation voor alle zintuigelijke informatie. Het beslist onbewust welke impulsen worden doorgelaten naar de hersenschors, wat zorgt voor selectieve aandacht."
             },
             {
-              "id": 14,
+              "id": 134,
               "type": "volgorde",
               "vraag": "Zet in de juiste volgorde wat er gebeurt als je een steeds harder wordend geluid hoort.",
               "opties": {
@@ -187,18 +195,18 @@
       ]
     },
     {
-      "leerdoel_id": 2,
+      "leerdoel_id": 10,
       "leerdoel_titel": "Zenuwcellen",
       "paragraaf": "4.2",
       "uitleg_tekst": "Zenuwcellen (neuronen) zijn gespecialiseerd in het opvangen en vervoeren van impulsen. Ze bestaan uit een cellichaam met korte dendrieten (impulsen naar het cellichaam toe) en een lang axon (impulsen van het cellichaam af). Het axon is geïsoleerd door een myelineschede (cellen van Schwann). Er zijn drie typen: sensorische, motorische en schakelcellen. Gliacellen (astrocyten, oligodendrocyten, microgliacellen) ondersteunen de zenuwcellen.",
       "subdoelen": [
         {
-          "subdoel_id": "2.1",
+          "subdoel_id": "10.1",
           "subdoel_titel": "Bouw van zenuwcellen",
           "uitleg_tekst": "Een zenuwcel heeft een cellichaam, korte vertakte dendrieten (impulsen naar het cellichaam toe) en één lang axon (impulsen van het cellichaam af). Het axon is omgeven door een myelineschede (cellen van Schwann), met insnoeringen van Ranvier waar het axon vrij ligt. Een bundel axonen vormt een zenuw.",
           "vragen": [
             {
-              "id": 15,
+              "id": 135,
               "type": "multiple_choice",
               "vraag": "Onder de microscoop zie je witte, vetachtige lagen rondom de axonen van zenuwcellen. Welke functie hebben deze lagen?",
               "opties": [
@@ -211,7 +219,7 @@
               "uitleg": "De witte vetachtige laag is de myelineschede, gevormd door cellen van Schwann. Deze isoleert axonen elektrisch, waardoor impulsen van insnoering naar insnoering 'springen' en veel sneller worden geleid. Voedingsstoffen worden door astrocyten aangeleverd (optie B onjuist). Neurotransmitters worden in het axonuiteinde geproduceerd (optie C onjuist). Dendrieten zijn via het cellichaam verbonden, niet via de myelineschede (optie D onjuist)."
             },
             {
-              "id": 16,
+              "id": 136,
               "type": "multiple_choice",
               "vraag": "Wat is het verschil tussen een dendriet en een axon?",
               "opties": [
@@ -225,7 +233,7 @@
               "afbeelding": "images/H4/4.2_fig1.jpeg"
             },
             {
-              "id": 17,
+              "id": 137,
               "type": "multiple_choice",
               "vraag": "Een zenuw bevat soms wel honderdduizenden axonen. Welke vergelijking past het best bij de bouw van een zenuw?",
               "opties": [
@@ -238,7 +246,7 @@
               "uitleg": "Een zenuw wordt vergeleken met een stroomkabel die uit heel veel draden (axonen) bestaat, elk geïsoleerd door hun eigen myelineschede. De andere vergelijkingen kloppen niet met de bouw: een zenuw is geen touw (optie A), geen holle buis (optie C) en geen ketting (optie D)."
             },
             {
-              "id": 18,
+              "id": 138,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de bouw van een zenuwcel zijn juist?",
               "opties": [
@@ -248,25 +256,29 @@
                 "Insnoeringen van Ranvier zijn plekken waar extra myeline zit",
                 "Een zenuw is één enkel axon met zijn myelineschede"
               ],
-              "juiste_antwoorden": [0, 1, 2],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
               "uitleg": "Optie A is juist: dendrieten zijn kort, vertakt en geleiden naar het cellichaam. Optie B is juist: het axon is de lange, onvertakte uitloper. Optie C is juist: cellen van Schwann vormen de myelineschede. Optie D is onjuist: bij de insnoeringen van Ranvier ligt het axon juist vrij, zonder myeline — daar 'springt' de impuls. Optie E is onjuist: een zenuw is een bundel van vele duizenden axonen."
             },
             {
-              "id": 19,
+              "id": 139,
               "type": "invullen",
               "vraag": "Hoe heten de cellen die de isolerende myelineschede rondom het axon vormen in het perifere zenuwstelsel?",
               "juiste_antwoord": "cellen van Schwann",
               "uitleg": "Cellen van Schwann wikkelen zich als een 'lapje' om het axon en vormen de myelineschede. Ze zijn gevuld met myeline, een vetachtige stof die zorgt voor elektrische isolatie."
             },
             {
-              "id": 20,
+              "id": 140,
               "type": "invullen",
               "vraag": "Hoe noem je een bundel axonen die samen door bindweefsel omgeven worden?",
               "juiste_antwoord": "zenuw",
               "uitleg": "Een zenuw is een bundel van vele (soms honderdduizenden) axonen, elk geïsoleerd door een myelineschede, samen omgeven door een beschermende bindweefsellaag."
             },
             {
-              "id": 21,
+              "id": 141,
               "type": "volgorde",
               "vraag": "Zet de onderdelen in de juiste volgorde van de richting waarin een impuls door een zenuwcel wordt geleid.",
               "opties": {
@@ -281,12 +293,12 @@
           ]
         },
         {
-          "subdoel_id": "2.2",
+          "subdoel_id": "10.2",
           "subdoel_titel": "Typen zenuwcellen en gliacellen",
           "uitleg_tekst": "Er zijn drie typen zenuwcellen: sensorische (afferent, van receptor naar CZS), motorische (efferent, van CZS naar effector) en schakelcellen (interneuronen, in het CZS). Gliacellen ondersteunen zenuwcellen: astrocyten leveren voedingsstoffen, oligodendrocyten vormen myeline in het CZS, en microgliacellen ruimen beschadigde cellen op via fagocytose.",
           "vragen": [
             {
-              "id": 22,
+              "id": 142,
               "type": "multiple_choice",
               "vraag": "Bij een patiënt met MS (multiple sclerose) wordt de myelineschede in de hersenen afgebroken. Welk type gliacel is normaal verantwoordelijk voor het vormen van deze myelineschede?",
               "opties": [
@@ -299,7 +311,7 @@
               "uitleg": "Oligodendrocyten vormen de myelineschede in het centrale zenuwstelsel (hersenen en ruggenmerg). Cellen van Schwann vormen myeline buiten het CZS, in het perifere zenuwstelsel (optie C onjuist voor deze vraag). Astrocyten leveren voedingsstoffen (optie A onjuist). Microgliacellen zijn de immuuncellen van de hersenen (optie B onjuist)."
             },
             {
-              "id": 23,
+              "id": 143,
               "type": "multiple_choice",
               "vraag": "Een sensorische zenuwcel vervoert impulsen...",
               "opties": [
@@ -312,7 +324,7 @@
               "uitleg": "Sensorische (afferente) zenuwcellen vervoeren impulsen vanuit de receptoren naar het CZS. Motorische (efferente) zenuwcellen gaan juist van het CZS naar effectoren zoals spieren (optie A onjuist). Schakelcellen verbinden zenuwcellen binnen het CZS (optie B onjuist). De hersenbalk verbindt de twee hersenhelften (optie C onjuist)."
             },
             {
-              "id": 24,
+              "id": 144,
               "type": "multiple_choice",
               "vraag": "Welk type gliacel kun je vergelijken met witte bloedcellen (macrofagen)?",
               "opties": [
@@ -326,7 +338,7 @@
               "afbeelding": "images/H4/4.2_fig4.jpeg"
             },
             {
-              "id": 25,
+              "id": 145,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de drie typen zenuwcellen zijn juist?",
               "opties": [
@@ -336,26 +348,30 @@
                 "Motorische zenuwcellen worden ook efferente zenuwcellen genoemd",
                 "Sensorische zenuwcellen geleiden impulsen in twee richtingen"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: sensorisch = afferent (naar het CZS toe). Optie B is onjuist: motorische cellen gaan juist van het CZS naar effectoren; sensorische cellen gaan van receptoren naar het CZS. Optie C is juist: schakelcellen (interneuronen) liggen in het CZS. Optie D is juist: motorisch = efferent (van het CZS af). Optie E is onjuist: sensorische cellen geleiden alleen in de richting van het CZS.",
               "afbeelding": "images/H4/4.2_fig2.jpeg"
             },
             {
-              "id": 26,
+              "id": 146,
               "type": "invullen",
               "vraag": "Hoe noem je zenuwcellen die in het centrale zenuwstelsel impulsen doorgeven van de ene zenuwcel naar de andere?",
               "juiste_antwoord": "schakelcellen",
               "uitleg": "Schakelcellen (ook interneuronen of schakelneuronen genoemd) liggen in het CZS en verbinden sensorische met motorische zenuwcellen. Ze maken het mogelijk om veel zenuwcellen bij een actie te betrekken."
             },
             {
-              "id": 27,
+              "id": 147,
               "type": "invullen",
               "vraag": "Welk type gliacel voorziet zenuwcellen van voedingsstoffen en voert afvalstoffen af?",
               "juiste_antwoord": "astrocyten",
               "uitleg": "Astrocyten zijn ongeveer even groot als zenuwcellen en zorgen voor het levensonderhoud van de hersencellen: ze leveren voedingsstoffen aan en voeren afvalstoffen af."
             },
             {
-              "id": 28,
+              "id": 148,
               "type": "volgorde",
               "vraag": "Zet de onderdelen in de juiste volgorde van de weg die een impuls aflegt bij een bewuste reactie op een prikkel.",
               "opties": {
@@ -372,22 +388,22 @@
       ]
     },
     {
-      "leerdoel_id": 3,
+      "leerdoel_id": 11,
       "leerdoel_titel": "Impulsgeleiding en impulsoverdracht",
       "paragraaf": "4.3",
       "uitleg_tekst": "Bij een actiepotentiaal stromen Na+-ionen naar binnen door Na+-kanaaltjes, waardoor het ladingsverschil over het celmembraan kort omdraait. Dit plant zich voort als een kettingreactie (impulsgeleiding). Bij de synaps wordt de impuls chemisch overgedragen via neurotransmitters die door de synaptische spleet diffunderen. Neurotransmitters kunnen stimulerend of remmend werken. Alcohol en drugs beïnvloeden de impulsoverdracht bij synapsen.",
       "subdoelen": [
         {
-          "subdoel_id": "3.1",
+          "subdoel_id": "11.1",
           "subdoel_titel": "Impulsgeleiding en actiepotentiaal",
           "uitleg_tekst": "In rust is de buitenkant van het celmembraan positief. Bij een actiepotentiaal stromen Na+-ionen naar binnen, waardoor de binnenkant kort positief wordt (0,001 s). Dit plant zich voort als een kettingreactie langs het axon. Bij gemyeliniseerde axonen springt de impuls van insnoering naar insnoering, wat de geleiding versnelt.",
           "vragen": [
             {
-              "id": 29,
+              "id": 149,
               "type": "multiple_choice",
               "vraag": "In rusttoestand is de buitenkant van het celmembraan van een zenuwcel positief geladen. Wat gebeurt er tijdens een actiepotentiaal?",
               "opties": [
-                "De buitenkant wordt nog positiever geladen",
+                "De buitenkant wordt nog positiever geladen, wat niet het geval is",
                 "Het ladingsverschil verdwijnt permanent",
                 "De binnenkant wordt tijdelijk positief en de buitenkant negatief",
                 "Kaliumionen stromen massaal naar binnen"
@@ -397,7 +413,7 @@
               "afbeelding": "images/H4/4.3_fig1.jpeg"
             },
             {
-              "id": 30,
+              "id": 150,
               "type": "multiple_choice",
               "vraag": "Impulsen worden sneller geleid door zenuwvezels met een myelineschede. Hoe wordt dit verklaard?",
               "opties": [
@@ -410,7 +426,7 @@
               "uitleg": "Door de myelineschede kan de impuls alleen bij de insnoeringen van Ranvier het membraan passeren. De impuls 'springt' van insnoering naar insnoering, wat veel sneller is dan continue geleiding. Myeline produceert geen neurotransmitters (optie B onjuist). De diameter verandert niet wezenlijk (optie C onjuist). Natrium stroomt bij een actiepotentiaal naar binnen, niet naar buiten (optie D onjuist)."
             },
             {
-              "id": 31,
+              "id": 151,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over het actiepotentiaal zijn juist?",
               "opties": [
@@ -420,25 +436,29 @@
                 "Het actiepotentiaal is een kettingreactie die langs het axon voortbeweegt",
                 "Een sterkere prikkel geeft een sterker actiepotentiaal"
               ],
-              "juiste_antwoorden": [0, 1, 3],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ],
               "uitleg": "Optie A is juist: bij een actiepotentiaal stromen Na+-ionen naar binnen. Optie B is juist: het duurt ongeveer 0,001 seconde. Optie C is onjuist: het membraan herstelt zich daarna naar de rusttoestand. Optie D is juist: elk actiepotentiaal veroorzaakt het volgende, als een kettingreactie. Optie E is onjuist: volgens de alles-of-niets-wet is elk actiepotentiaal even sterk."
             },
             {
-              "id": 32,
+              "id": 152,
               "type": "invullen",
               "vraag": "Hoe noem je het kortstondige omdraaien van de elektrische lading over het celmembraan van een zenuwcel?",
               "juiste_antwoord": "actiepotentiaal",
               "uitleg": "Een actiepotentiaal is de kortstondige ompoling van het celmembraan: de binnenkant wordt kort positief doordat Na+-ionen naar binnen stromen. Het woord 'impuls' wordt ook gebruikt als synoniem."
             },
             {
-              "id": 33,
+              "id": 153,
               "type": "invullen",
               "vraag": "Welk type ionen stroomt bij een actiepotentiaal massaal naar de binnenkant van het celmembraan?",
               "juiste_antwoord": "natriumionen",
               "uitleg": "Bij een actiepotentiaal stromen positief geladen natriumionen (Na+) naar binnen via speciale Na+-kanaaltjes in het celmembraan, waardoor de binnenkant kort positief wordt."
             },
             {
-              "id": 34,
+              "id": 154,
               "type": "volgorde",
               "vraag": "Zet de stappen van een actiepotentiaal in de juiste volgorde.",
               "opties": {
@@ -453,26 +473,26 @@
           ]
         },
         {
-          "subdoel_id": "3.2",
+          "subdoel_id": "11.2",
           "subdoel_titel": "Synaps, neurotransmitters en drugs",
           "uitleg_tekst": "Bij de synaps wordt de impuls chemisch overgedragen: blaasjes in het axonuiteinde laten neurotransmitters vrij in de synaptische spleet. Deze boodschapperstoffen wekken een impuls op in de volgende cel. Sommige neurotransmitters remmen, andere stimuleren. Alcohol, drugs en medicijnen werken op synapsen door specifieke neurotransmitters te beïnvloeden.",
           "vragen": [
             {
-              "id": 35,
+              "id": 155,
               "type": "multiple_choice",
               "vraag": "Waarom kan een impuls bij een synaps maar in één richting worden doorgegeven?",
               "opties": [
-                "De synaptische spleet is alleen aan de axonkant open",
-                "De synaptische blaasjes met neurotransmitters zitten alleen in het axonuiteinde",
+                "Dendrieten kunnen geen enkele impuls ontvangen",
                 "Het axon is altijd langer dan de dendriet",
-                "Dendrieten kunnen geen enkele impuls ontvangen"
+                "De synaptische spleet is alleen aan de axonkant open onder normale omstandigheden",
+                "De synaptische blaasjes met neurotransmitters zitten alleen in het axonuiteinde"
               ],
-              "juiste_antwoord": 1,
-              "uitleg": "De synaptische blaasjes bevinden zich uitsluitend in het verbrede uiteinde van het axon. Daardoor kunnen neurotransmitters alleen vanuit het axon worden afgegeven. De synaptische spleet is aan beide kanten open (optie A onjuist). De lengte van axon of dendriet bepaalt niet de richting (optie C onjuist). Dendrieten ontvangen juist wel impulsen via neurotransmitters (optie D onjuist).",
+              "juiste_antwoord": 3,
+              "uitleg": "De synaptische blaasjes bevinden zich uitsluitend in het verbrede uiteinde van het axon. Daardoor kunnen neurotransmitters alleen vanuit het axon worden afgegeven. De synaptische spleet is aan beide kanten open (optie C onjuist). De lengte van axon of dendriet bepaalt niet de richting (optie B onjuist). Dendrieten ontvangen juist wel impulsen via neurotransmitters (optie A onjuist).",
               "afbeelding": "images/H4/4.3_fig2.jpeg"
             },
             {
-              "id": 36,
+              "id": 156,
               "type": "multiple_choice",
               "vraag": "Een kalmeringsmiddel vertraagt de impulsoverdracht in het zenuwstelsel. Op welk niveau werkt dit middel?",
               "opties": [
@@ -485,7 +505,7 @@
               "uitleg": "Kalmeringsmiddelen en andere stoffen beïnvloeden de impulsoverdracht bij synapsen door in te werken op specifieke neurotransmitters. De prikkeldrempel wordt niet vergroot (optie A onjuist). De myelineschede wordt niet beïnvloed door kalmeringsmiddelen (optie B onjuist). Het cellichaam verandert niet (optie C onjuist)."
             },
             {
-              "id": 37,
+              "id": 157,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de synaps en neurotransmitters zijn juist?",
               "opties": [
@@ -495,25 +515,29 @@
                 "Elke zenuwcel produceert alle soorten neurotransmitters",
                 "De impulsoverdracht bij een synaps gaat sneller dan de impulsgeleiding in een axon"
               ],
-              "juiste_antwoorden": [0, 1, 2],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
               "uitleg": "Optie A is juist: neurotransmitters worden uit blaasjes vrijgelaten in de synaptische spleet. Optie B is juist: sommige neurotransmitters remmen, andere stimuleren. Optie C is juist: dit zijn de drie onderdelen van de synaps. Optie D is onjuist: elk type zenuwcel produceert zijn 'eigen' neurotransmitter. Optie E is onjuist: de impulsoverdracht bij synapsen gaat juist iets langzamer dan de impulsgeleiding in het axon."
             },
             {
-              "id": 38,
+              "id": 158,
               "type": "invullen",
               "vraag": "Hoe noem je de chemische boodschapperstoffen die bij een synaps de impuls doorgeven aan de volgende cel?",
               "juiste_antwoord": "neurotransmitters",
               "uitleg": "Neurotransmitters zijn chemische signaalstof fen die vanuit blaasjes in het axonuiteinde worden vrijgelaten in de synaptische spleet. Ze diffunderen naar de overkant en wekken daar een impuls op (of remmen die juist)."
             },
             {
-              "id": 39,
+              "id": 159,
               "type": "invullen",
               "vraag": "Hoe noem je de ruimte tussen het axonuiteinde en de volgende cel?",
               "juiste_antwoord": "synaptische spleet",
               "uitleg": "De synaptische spleet is de smalle ruimte tussen het axonuiteinde en het membraan van de volgende cel. Neurotransmitters diffunderen door deze spleet om de impuls chemisch over te dragen."
             },
             {
-              "id": 40,
+              "id": 160,
               "type": "volgorde",
               "vraag": "Zet de stappen van impulsoverdracht bij een synaps in de juiste volgorde.",
               "opties": {
@@ -530,37 +554,37 @@
       ]
     },
     {
-      "leerdoel_id": 4,
+      "leerdoel_id": 12,
       "leerdoel_titel": "Het zenuwstelsel",
       "paragraaf": "4.4",
       "uitleg_tekst": "Het zenuwstelsel wordt ingedeeld naar bouw (centraal vs. perifeer) en naar werking (animaal vs. autonoom). Het centrale zenuwstelsel (CZS) bestaat uit hersenen en ruggenmerg. Het perifere zenuwstelsel verbindt het CZS met alle organen via zenuwen. Het animale zenuwstelsel stuurt bewuste handelingen aan. Het autonome (vegetatieve) zenuwstelsel regelt onbewuste processen, met het orthosympathische (actie) en parasympathische (rust) systeem als tegenpolen.",
       "subdoelen": [
         {
-          "subdoel_id": "4.1",
+          "subdoel_id": "12.1",
           "subdoel_titel": "Centraal en perifeer zenuwstelsel",
           "uitleg_tekst": "Het CZS (grote hersenen, kleine hersenen, hersenstam, ruggenmerg) ligt beschermd in schedel en wervelkolom. Het perifere zenuwstelsel bestaat uit de zenuwen daarbuiten. Er zijn drie soorten zenuwen: bewegingszenuwen (alleen axonen), gevoelszenuwen (alleen dendrieten) en gemengde zenuwen (beide).",
           "vragen": [
             {
-              "id": 41,
+              "id": 161,
               "type": "multiple_choice",
               "vraag": "Een arts stelt vast dat een patiënt schade heeft aan een zenuw in zijn arm. Tot welk deel van het zenuwstelsel behoort deze zenuw?",
               "opties": [
+                "De hersenstam",
                 "Het autonome zenuwstelsel",
-                "Het perifere zenuwstelsel",
                 "Het centrale zenuwstelsel",
-                "De hersenstam"
+                "Het perifere zenuwstelsel"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "Zenuwen in de armen en benen behoren tot het perifere zenuwstelsel, dat het CZS verbindt met alle organen. Het CZS bestaat alleen uit hersenen en ruggenmerg (optie C onjuist). Het autonome zenuwstelsel en de hersenstam zijn geen locatie-aanduidingen voor zenuwen in de arm (opties A en D onjuist)."
             },
             {
-              "id": 42,
+              "id": 162,
               "type": "multiple_choice",
               "vraag": "Welke onderdelen behoren tot het centrale zenuwstelsel?",
               "opties": [
                 "Grote hersenen, kleine hersenen, hersenstam en ruggenmerg",
                 "De zenuwen naar armen en benen",
-                "Alleen de grote hersenen en de kleine hersenen",
+                "Alleen de grote hersenen en de kleine hersenen, maar dat klopt niet",
                 "Alle zenuwcellen in het lichaam"
               ],
               "juiste_antwoord": 0,
@@ -568,7 +592,7 @@
               "afbeelding": "images/H4/4.4_fig1.jpeg"
             },
             {
-              "id": 43,
+              "id": 163,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over zenuwen zijn juist?",
               "opties": [
@@ -578,25 +602,29 @@
                 "Alle zenuwen in het lichaam zijn gemengde zenuwen",
                 "Zenuwen behoren tot het centrale zenuwstelsel"
               ],
-              "juiste_antwoorden": [0, 1, 2],
+              "juiste_antwoorden": [
+                0,
+                1,
+                2
+              ],
               "uitleg": "Optie A is juist: motorische zenuwen bevatten alleen axonen (van CZS naar spieren). Optie B is juist: sensorische zenuwen bevatten alleen dendrieten (van zintuigen naar CZS). Optie C is juist: gemengde zenuwen bevatten beide. Optie D is onjuist: er zijn ook zuiver sensorische of motorische zenuwen. Optie E is onjuist: zenuwen behoren tot het perifere zenuwstelsel."
             },
             {
-              "id": 44,
+              "id": 164,
               "type": "invullen",
               "vraag": "Hoe noem je het deel van het zenuwstelsel dat bewuste handelingen aanstuurt en de skeletspieren bestuurt?",
               "juiste_antwoord": "animale zenuwstelsel",
               "uitleg": "Het animale (willekeurige) zenuwstelsel zorgt voor de wisselwerking met de omgeving en bestuurt bewuste reacties. Het stuurt de activiteiten van de skeletspieren aan."
             },
             {
-              "id": 45,
+              "id": 165,
               "type": "invullen",
               "vraag": "Hoe wordt het autonome zenuwstelsel ook wel genoemd?",
               "juiste_antwoord": "vegetatieve zenuwstelsel",
               "uitleg": "Het autonome zenuwstelsel wordt ook het vegetatieve zenuwstelsel genoemd. Het regelt processen die nodig zijn om je organen goed te laten functioneren, zoals hartslag en spijsvertering, zonder dat je daar bewust invloed op hebt."
             },
             {
-              "id": 46,
+              "id": 166,
               "type": "volgorde",
               "vraag": "Zet de onderdelen van het zenuwstelsel in de juiste hiërarchische volgorde van groot naar klein.",
               "opties": {
@@ -611,12 +639,12 @@
           ]
         },
         {
-          "subdoel_id": "4.2",
+          "subdoel_id": "12.2",
           "subdoel_titel": "Autonoom zenuwstelsel: ortho- en parasympathisch",
           "uitleg_tekst": "Het autonome zenuwstelsel bestaat uit twee systemen met tegengestelde werking. Het orthosympathische zenuwstelsel is actief bij inspanning (verhoogt hartslag, bloedsuikerspiegel en spierspanning, remt spijsvertering). Het parasympathische zenuwstelsel is actief bij rust (stimuleert spijsvertering, verlaagt hartslag). Adrenaline speelt een grote rol bij het orthosympathische systeem.",
           "vragen": [
             {
-              "id": 47,
+              "id": 167,
               "type": "multiple_choice",
               "vraag": "Tijdens een examen is het orthosympathische zenuwstelsel actief. Welk effect heeft dit op het lichaam?",
               "opties": [
@@ -629,7 +657,7 @@
               "uitleg": "Het orthosympathische zenuwstelsel bereidt het lichaam voor op actie: het verhoogt de bloedsuikerspiegel, versnelt de hartslag en remt de spijsvertering. Optie A is onjuist: spijsvertering wordt juist geremd. Optie B is onjuist: de hartslag neemt juist toe. Optie C is onjuist: de ademhaling wordt juist versneld."
             },
             {
-              "id": 48,
+              "id": 168,
               "type": "multiple_choice",
               "vraag": "Na het avondeten ga je rustig op de bank liggen. Welk deel van het zenuwstelsel is nu het meest actief?",
               "opties": [
@@ -642,13 +670,13 @@
               "uitleg": "Het parasympathische zenuwstelsel is actief tijdens rust en ontspanning: het stimuleert de spijsvertering, verlaagt de hartslag en de bloedsuikerspiegel. Het orthosympathische systeem (optie B) doet juist het tegenovergestelde en is actief bij inspanning. Het animale (optie A) en perifere (optie D) zenuwstelsel zijn andere indelingen."
             },
             {
-              "id": 49,
+              "id": 169,
               "type": "multiple_choice",
               "vraag": "Het orthosympathische en het parasympathische zenuwstelsel werken op dezelfde doelwitorganen. Waarom is dit voordelig?",
               "opties": [
                 "Zo reageert het lichaam sneller op gevaar",
                 "Hierdoor kan de activiteit van organen heel nauwkeurig worden geregeld",
-                "Dit voorkomt dat organen door overbelasting beschadigd raken",
+                "Dit voorkomt dat organen door overbelasting beschadigd raken, maar dat klopt niet",
                 "Zo worden de zenuwen gelijkmatig belast"
               ],
               "juiste_antwoord": 1,
@@ -656,7 +684,7 @@
               "afbeelding": "images/H4/4.4_fig3.jpeg"
             },
             {
-              "id": 50,
+              "id": 170,
               "type": "choose_all_that_apply",
               "vraag": "Welke effecten horen bij het parasympathische zenuwstelsel?",
               "opties": [
@@ -666,18 +694,22 @@
                 "Verhoging van de spierspanning",
                 "Remming van de hartslag"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Het parasympathische zenuwstelsel is het 'rust'-systeem. Optie A is juist: spijsvertering wordt gestimuleerd. Optie B is onjuist: hartslag wordt verlaagd, niet verhoogd (dat doet het orthosympathische). Optie C is juist: bloedsuikerspiegel daalt. Optie D is onjuist: spierspanning neemt af bij rust. Optie E is juist: de hartslag wordt geremd."
             },
             {
-              "id": 51,
+              "id": 171,
               "type": "invullen",
               "vraag": "Welk hormoon speelt een grote rol bij de activering van het orthosympathische zenuwstelsel en wordt geproduceerd door het bijniermerg?",
               "juiste_antwoord": "adrenaline",
               "uitleg": "Adrenaline is het 'actie'-hormoon dat wordt geproduceerd door het bijniermerg van de nieren. Het speelt een grote rol bij de fight-or-flight-reactie van het orthosympathische zenuwstelsel."
             },
             {
-              "id": 52,
+              "id": 172,
               "type": "volgorde",
               "vraag": "Zet de effecten van het orthosympathische zenuwstelsel in een logische volgorde bij het begin van een sprintrace.",
               "opties": {
@@ -694,18 +726,18 @@
       ]
     },
     {
-      "leerdoel_id": 5,
+      "leerdoel_id": 13,
       "leerdoel_titel": "Het centrale zenuwstelsel",
       "paragraaf": "4.5",
       "uitleg_tekst": "Het CZS bestaat uit grote hersenen, kleine hersenen, hersenstam en ruggenmerg. Grijze stof (zenuwcellichamen) vormt schakelcentra; witte stof (gemyeliniseerde axonen) vormt impulsbanen. De grote hersenen hebben een hersenschors met schorscentra (primair en secundair) voor motoriek en zintuigverwerking. De kleine hersenen coördineren spierbewegingen. De hersenstam regelt autonome functies en emoties. Het ruggenmerg verbindt lichaam met hersenen.",
       "subdoelen": [
         {
-          "subdoel_id": "5.1",
+          "subdoel_id": "13.1",
           "subdoel_titel": "Grijze en witte stof en de grote hersenen",
           "uitleg_tekst": "Grijze stof bevat zenuwcellichamen en dendrieten (schakelcentrum). Witte stof bevat gemyeliniseerde axonen (impulsbanen). In de grote hersenen ligt grijze stof aan de buitenkant (hersenschors) en witte stof binnenin. De twee hersenhelften zijn verbonden door de hersenbalk en sturen de tegenovergestelde lichaamshelft aan.",
           "vragen": [
             {
-              "id": 53,
+              "id": 173,
               "type": "multiple_choice",
               "vraag": "In het ruggenmerg ligt de grijze stof middenin en de witte stof aan de buitenkant. In de grote hersenen is dit andersom. Wat verklaart het verschil in kleur tussen grijze en witte stof?",
               "opties": [
@@ -718,20 +750,20 @@
               "uitleg": "Het kleurverschil wordt bepaald door de samenstelling: grijze stof bevat voornamelijk zenuwcellichamen en dendrieten, terwijl witte stof bestaat uit axonen bedekt met myeline (dat wit is). Het heeft niets te maken met bloedtoevoer (optie B onjuist), activiteit (optie C onjuist) of afgestorven cellen (optie D onjuist)."
             },
             {
-              "id": 54,
+              "id": 174,
               "type": "multiple_choice",
               "vraag": "Iemand heeft een beschadiging in de linkerhelft van de grote hersenen bij het motorische centrum. Welk gevolg heeft dit?",
               "opties": [
-                "Verlamming aan de linkerkant van het lichaam",
-                "Verlamming aan de rechterkant van het lichaam",
+                "Uitval van het evenwicht",
                 "Verlies van het langetermijngeheugen",
-                "Uitval van het evenwicht"
+                "Verlamming aan de rechterkant van het lichaam",
+                "Verlamming aan de linkerkant van het lichaam, maar dat klopt niet"
               ],
-              "juiste_antwoord": 1,
-              "uitleg": "In de grote hersenen liggen de centra voor de tegenovergestelde lichaamshelft: links stuurt rechts aan en andersom. Een beschadiging links leidt tot verlamming rechts. Optie A is onjuist: dat zou bij een beschadiging rechts het geval zijn. Het geheugen ligt verspreid over netwerken (optie C onjuist). Evenwicht wordt geregeld door de kleine hersenen (optie D onjuist)."
+              "juiste_antwoord": 2,
+              "uitleg": "In de grote hersenen liggen de centra voor de tegenovergestelde lichaamshelft: links stuurt rechts aan en andersom. Een beschadiging links leidt tot verlamming rechts. Optie D is onjuist: dat zou bij een beschadiging rechts het geval zijn. Het geheugen ligt verspreid over netwerken (optie B onjuist). Evenwicht wordt geregeld door de kleine hersenen (optie A onjuist)."
             },
             {
-              "id": 55,
+              "id": 175,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de grote hersenen zijn juist?",
               "opties": [
@@ -741,18 +773,22 @@
                 "Bij dieren zijn de grote hersenen meestal het grootste hersendeel",
                 "Het taalvermogen zit meestal in de linkerhersenhelft"
               ],
-              "juiste_antwoorden": [0, 1, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                4
+              ],
               "uitleg": "Optie A is juist: de hersenschors is grijze stof, slechts een paar mm dik maar sterk geplooid. Optie B is juist: de hersenbalk verbindt de twee hersenhelften. Optie C is onjuist: het hersenmerg (witte stof) ligt juist aan de binnenkant. Optie D is onjuist: bij dieren zijn de grote hersenen meestal niet groter dan andere hersendelen — dat is specifiek bij de mens. Optie E is juist: het taalvermogen zit meestal in de linkerhersenhelft."
             },
             {
-              "id": 56,
+              "id": 176,
               "type": "invullen",
               "vraag": "Hoe heet de verbinding tussen de twee hersenhelften van de grote hersenen?",
               "juiste_antwoord": "hersenbalk",
               "uitleg": "De hersenbalk is de structuur die de linker- en rechterhersenhelft met elkaar verbindt. Hierdoor kunnen de twee hersenhelften informatie uitwisselen."
             },
             {
-              "id": 57,
+              "id": 177,
               "type": "volgorde",
               "vraag": "Zet de beschermingslagen rond het centrale zenuwstelsel in de juiste volgorde van buiten naar binnen.",
               "opties": {
@@ -767,12 +803,12 @@
           ]
         },
         {
-          "subdoel_id": "5.2",
+          "subdoel_id": "13.2",
           "subdoel_titel": "Schorscentra en geheugen",
           "uitleg_tekst": "De hersenschors bevat schorscentra met specifieke functies. Primaire centra ontvangen prikkels of geven bewegingsopdrachten. Secundaire centra verwerken informatie en geven er betekenis aan. Het kortetermijngeheugen slaat tijdelijk op (centrum diep in het brein). Het langetermijngeheugen ligt verspreid over grote netwerken en kan levenslang bewaard blijven.",
           "vragen": [
             {
-              "id": 58,
+              "id": 178,
               "type": "multiple_choice",
               "vraag": "Een patiënt kan geluid horen, maar begrijpt niet wat er gezegd wordt. Welk schorscentrum is waarschijnlijk beschadigd?",
               "opties": [
@@ -786,7 +822,7 @@
               "afbeelding": "images/H4/4.5_fig2.jpeg"
             },
             {
-              "id": 59,
+              "id": 179,
               "type": "multiple_choice",
               "vraag": "Waarom kan iemand met ernstige hersenbeschadiging zich nog veel herinneren?",
               "opties": [
@@ -799,7 +835,7 @@
               "uitleg": "Het langetermijngeheugen heeft geen specifieke plaats maar ligt verspreid over grote netwerken, waardoor zelfs bij flinke hersenschade veel herinneringen bewaard blijven. Het kortetermijngeheugen kan dit niet overnemen (optie B onjuist). Kleine hersenen coördineren spierbewegingen, niet geheugen (optie C onjuist). Het ruggenmerg slaat geen herinneringen op (optie D onjuist)."
             },
             {
-              "id": 60,
+              "id": 180,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over het geheugen zijn juist?",
               "opties": [
@@ -809,18 +845,22 @@
                 "Patiënten met ernstig geheugenverlies kunnen geen vaardigheden meer aanleren",
                 "Het centrum voor korte-termijn opslag zit diep in het brein"
               ],
-              "juiste_antwoorden": [0, 1, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                4
+              ],
               "uitleg": "Optie A is juist: het KTG slaat tijdelijk op, de meeste informatie verdwijnt weer. Optie B is juist: grote indrukken gaan vaak vanzelf naar het LTG. Optie C is onjuist: het LTG ligt verspreid over grote netwerken. Optie D is onjuist: patiënten met ernstig geheugenverlies kunnen vaardigheden (fietsen, muziek) nog wél leren — daarvoor bestaan aparte geheugens. Optie E is juist: het centrum voor kortetermijnopslag zit diep in het brein."
             },
             {
-              "id": 61,
+              "id": 181,
               "type": "invullen",
               "vraag": "Hoe noem je de gebieden in de hersenschors die elk een eigen functie hebben, zoals het gehoorcentrum of het motorische centrum?",
               "juiste_antwoord": "schorscentra",
               "uitleg": "Schorscentra zijn gebieden in de hersenschors met een specifieke functie. Ze worden onderverdeeld in primaire centra (ontvangen prikkels of geven opdrachten) en secundaire centra (verwerken informatie en geven er betekenis aan)."
             },
             {
-              "id": 62,
+              "id": 182,
               "type": "volgorde",
               "vraag": "Zet de verwerking van een visuele prikkel in de juiste volgorde.",
               "opties": {
@@ -835,12 +875,12 @@
           ]
         },
         {
-          "subdoel_id": "5.3",
+          "subdoel_id": "13.3",
           "subdoel_titel": "Kleine hersenen, hersenstam en ruggenmerg",
           "uitleg_tekst": "De kleine hersenen coördineren spierbewegingen en evenwicht (gevoelig voor alcohol). De hersenstam bevat centra voor autonome functies (hartslag, ademhaling, temperatuur), emoties en instincten. Het ruggenmerg heeft grijze stof (vlindervorm) binnenin en witte stof buiten. Gevoelszenuwcellen liggen aan de achterkant, bewegingszenuwcellen aan de voorkant. Bij een dwarslaesie zijn alle verbindingen op één punt verbroken.",
           "vragen": [
             {
-              "id": 63,
+              "id": 183,
               "type": "multiple_choice",
               "vraag": "Iemand die te veel alcohol heeft gedronken, loopt slingerend en maakt onhandige bewegingen. Welk hersendeel is het meest aangetast door de alcohol?",
               "opties": [
@@ -853,7 +893,7 @@
               "uitleg": "De kleine hersenen zijn verantwoordelijk voor de coördinatie van spierbewegingen en evenwicht, en zijn erg gevoelig voor vergiftiging door alcohol. Hierdoor gaat iemand slingeren en onhandig bewegen. De grote hersenen (optie A) regelen bewust denken. De hersenstam (optie B) regelt autonome functies. Het ruggenmerg (optie C) is een doorgang voor impulsen."
             },
             {
-              "id": 64,
+              "id": 184,
               "type": "multiple_choice",
               "vraag": "In een dwarsdoorsnede van het ruggenmerg heeft de grijze stof de vorm van een vlinder. Waar liggen de gevoelszenuwcellen?",
               "opties": [
@@ -867,7 +907,7 @@
               "afbeelding": "images/H4/4.5_fig4.jpeg"
             },
             {
-              "id": 65,
+              "id": 185,
               "type": "choose_all_that_apply",
               "vraag": "Welke functies worden geregeld door de hersenstam?",
               "opties": [
@@ -877,25 +917,29 @@
                 "Emoties en instincten",
                 "Coördinatie van spierbewegingen en evenwicht"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "De hersenstam bevat centra voor autonome functies zoals hartslag en ademhaling (optie A juist), lichaamstemperatuur (optie C juist), en emoties/instincten (optie D juist). Bewust denken hoort bij de grote hersenen (optie B onjuist). Coördinatie van spierbewegingen is een taak van de kleine hersenen (optie E onjuist)."
             },
             {
-              "id": 66,
+              "id": 186,
               "type": "invullen",
               "vraag": "Hoe heet het hersendeel dat de coördinatie van spierbewegingen en het evenwicht regelt?",
               "juiste_antwoord": "kleine hersenen",
               "uitleg": "De kleine hersenen coördineren spierbewegingen: ze zorgen dat de juiste spieren op het juiste moment samentrekken of ontspannen. Ze regelen ook het evenwicht en de oog-hand-coördinatie."
             },
             {
-              "id": 67,
+              "id": 187,
               "type": "invullen",
               "vraag": "Hoe noem je een beschadiging van het ruggenmerg waarbij alle zenuwverbindingen op één plaats zijn verbroken?",
               "juiste_antwoord": "dwarslaesie",
               "uitleg": "Bij een dwarslaesie zijn op één plaats in het ruggenmerg alle verbindingen verbroken. Alle lichaamsdelen onder de breuk verliezen hun contact met de hersenen en zijn gevoelloos en verlamd. Hoe hoger de laesie, hoe ernstiger de gevolgen."
             },
             {
-              "id": 68,
+              "id": 188,
               "type": "volgorde",
               "vraag": "Zet de onderdelen van het centrale zenuwstelsel in de juiste volgorde van boven naar beneden in het lichaam.",
               "opties": {
@@ -912,18 +956,18 @@
       ]
     },
     {
-      "leerdoel_id": 6,
+      "leerdoel_id": 14,
       "leerdoel_titel": "Reflexen",
       "paragraaf": "4.6",
       "uitleg_tekst": "Een reflex is een automatische, onwillekeurige reactie op een prikkel waarbij de grote hersenen niet worden betrokken. De reflexboog (receptor → sensorische zenuwcel → schakelcel → motorische zenuwcel → effector) is kort, waardoor de reactietijd heel snel is. Er zijn regelende reflexen (homeostase), houdingsreflexen (evenwicht), beschermende reflexen (terugtrekken) en aangeleerde/geconditioneerde reflexen (Pavlov).",
       "subdoelen": [
         {
-          "subdoel_id": "6.1",
+          "subdoel_id": "14.1",
           "subdoel_titel": "Reflexen en de reflexboog",
           "uitleg_tekst": "Een reflex is een snelle, onwillekeurige reactie waarbij schakelcellen grotendeels worden overgeslagen. De reflexboog loopt: receptor → sensorische zenuwcel → (schakelcel in ruggenmerg) → motorische zenuwcel → effector. Door het kleine aantal synapsen is de reactietijd zeer kort. Lichaamsreflexen gaan via het ruggenmerg, hoofdreflexen via de hersenstam.",
           "vragen": [
             {
-              "id": 69,
+              "id": 189,
               "type": "multiple_choice",
               "vraag": "Waarom reageer je bij een reflex sneller dan bij een bewuste reactie?",
               "opties": [
@@ -936,7 +980,7 @@
               "uitleg": "Bij reflexen gaat de impuls via een korte reflexboog zonder via de grote hersenen te gaan. Omdat er minder synapsen worden gepasseerd, is de reactietijd korter. De reactietijd wordt namelijk sterk bepaald door het aantal synapsen. Reflexen gebruiken niet dikkere zenuwcellen (optie A onjuist) of alleen motorische cellen (optie C onjuist). Extra dikke axonen spelen hier geen rol (optie D onjuist)."
             },
             {
-              "id": 70,
+              "id": 190,
               "type": "multiple_choice",
               "vraag": "Een reflexboog bestaat uit een vaste volgorde van onderdelen. Welke volgorde is juist?",
               "opties": [
@@ -950,7 +994,7 @@
               "afbeelding": "images/H4/4.6_fig1.jpeg"
             },
             {
-              "id": 71,
+              "id": 191,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over reflexen zijn juist?",
               "opties": [
@@ -960,18 +1004,22 @@
                 "Reflexen van hoofd en hals gaan via de hersenstam",
                 "Een reflexboog bevat altijd minstens tien schakelcellen"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: reflexen zijn onwillekeurig. Optie B is onjuist: bij reflexen worden de grote hersenen juist niet betrokken. Optie C is juist: lichaamsreflexen lopen via het ruggenmerg. Optie D is juist: hoofd- en halreflexen gaan via de hersenstam. Optie E is onjuist: een reflexboog bevat slechts één of enkele schakelcellen."
             },
             {
-              "id": 72,
+              "id": 192,
               "type": "invullen",
               "vraag": "Hoe noem je de weg die impulsen afleggen tijdens een reflex?",
               "juiste_antwoord": "reflexboog",
               "uitleg": "De reflexboog is de weg die de impulsen afleggen bij een reflex: van receptor via sensorische zenuwcel en schakelcel naar motorische zenuwcel en effector. De boog is zo kort mogelijk voor een snelle reactie."
             },
             {
-              "id": 73,
+              "id": 193,
               "type": "volgorde",
               "vraag": "Zet de onderdelen van de reflexboog bij de kniepeesreflex in de juiste volgorde.",
               "opties": {
@@ -986,12 +1034,12 @@
           ]
         },
         {
-          "subdoel_id": "6.2",
+          "subdoel_id": "14.2",
           "subdoel_titel": "Regelende en houdingsreflexen",
           "uitleg_tekst": "Regelende reflexen zorgen voor de homeostase (spijsvertering, speekselproductie) via het autonome zenuwstelsel. Houdingsreflexen bewaren het evenwicht door negatieve terugkoppeling: als een spier wordt uitgerekt, trekt hij reflexmatig samen. Receptoren in skeletspieren meten de spierspanning. Bij vermoeidheid zijn houdingsreflexen vertraagd.",
           "vragen": [
             {
-              "id": 74,
+              "id": 194,
               "type": "multiple_choice",
               "vraag": "Als je met je ogen dicht rechtop staat, wiebel je licht heen en weer maar val je niet om. Welk type reflex zorgt hiervoor?",
               "opties": [
@@ -1004,7 +1052,7 @@
               "uitleg": "Houdingsreflexen zorgen ervoor dat je je evenwicht bewaart. Als je iets naar voren leunt, worden spieren aan de achterkant uitgerekt en trekken reflexmatig samen. Beschermende reflexen (optie A) en terugtrekreflexen (optie C) beschermen tegen verwondingen. Geconditioneerde reflexen (optie B) zijn aangeleerde koppelingen aan een andere prikkel."
             },
             {
-              "id": 75,
+              "id": 195,
               "type": "multiple_choice",
               "vraag": "De reflexen die de spijsvertering regelen, worden aangestuurd door het autonome zenuwstelsel. Tot welk type reflexen behoren deze?",
               "opties": [
@@ -1017,7 +1065,7 @@
               "uitleg": "Regelende reflexen zorgen voor de homeostase en het goed functioneren van organen, zoals de spijsvertering. Ze gaan onbewust via het autonome zenuwstelsel. Houdingsreflexen (optie A) bewaren het evenwicht. Beschermende reflexen (optie B) beschermen tegen schade. Aangeleerde reflexen (optie D) zijn reflexen die je in je leven ontwikkelt."
             },
             {
-              "id": 76,
+              "id": 196,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over houdingsreflexen zijn juist?",
               "opties": [
@@ -1027,18 +1075,22 @@
                 "Receptoren in skeletspieren meten de mate van spierspanning",
                 "Als je moe bent, werken houdingsreflexen juist beter dan normaal"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: als je naar voren leunt, trekken spieren aan de achterkant samen — negatieve terugkoppeling. Optie B is onjuist: de grote hersenen worden niet betrokken bij reflexen. Optie C is juist: in het ruggenmerg springt de impuls direct over, met hooguit een schakelcel. Optie D is juist: receptoren in spieren meten de spierspanning. Optie E is onjuist: bij vermoeidheid zijn houdingsreflexen juist vertraagd."
             },
             {
-              "id": 77,
+              "id": 197,
               "type": "invullen",
               "vraag": "Hoe noem je reflexen die ervoor zorgen dat alle organen goed samen functioneren, zoals de reflexen van de spijsvertering?",
               "juiste_antwoord": "regelende reflexen",
               "uitleg": "Regelende reflexen hebben betrekking op de homeostase van het lichaam. Ze zorgen onbewust via het autonome zenuwstelsel dat alle organen goed samenwerken, zoals de reflexen die de spijsvertering laten verlopen."
             },
             {
-              "id": 78,
+              "id": 198,
               "type": "volgorde",
               "vraag": "Zet de stappen van een houdingsreflex bij het rechtop staan in de juiste volgorde.",
               "opties": {
@@ -1053,12 +1105,12 @@
           ]
         },
         {
-          "subdoel_id": "6.3",
+          "subdoel_id": "14.3",
           "subdoel_titel": "Beschermende en aangeleerde reflexen",
           "uitleg_tekst": "Terugtrekreflexen zijn beschermende reflexen: je trekt een lichaamsdeel terug bij een schadelijke prikkel. Ze kunnen bewust worden onderdrukt. Aangeleerde reflexen (fietsen, schrijven) ontwikkel je in de loop van je leven. Geconditioneerde reflexen (Pavlov) zijn reflexen die gekoppeld raken aan een oorspronkelijk niet-gerelateerde prikkel.",
           "vragen": [
             {
-              "id": 79,
+              "id": 199,
               "type": "multiple_choice",
               "vraag": "Je brandt je hand aan een hete pan en trekt je hand terug nog voordat je de pijn bewust voelt. Welk type reflex is dit?",
               "opties": [
@@ -1071,20 +1123,20 @@
               "uitleg": "Een terugtrekreflex is een beschermende reflex waarbij je een lichaamsdeel terugtrekt bij een schadelijke prikkel, voordat de pijnsignalen de grote hersenen bereiken. Regelende reflexen (optie A) regelen orgaanfuncties. Geconditioneerde reflexen (optie B) zijn aangeleerde koppelingen. Houdingsreflexen (optie C) bewaren het evenwicht."
             },
             {
-              "id": 80,
+              "id": 200,
               "type": "multiple_choice",
               "vraag": "Bij het experiment van Pavlov ging de speekselvloed van de hond op gang als er een belletje rinkelde, ook zonder voedsel. Dit is een voorbeeld van...",
               "opties": [
                 "Een geconditioneerde reflex",
                 "Een aangeboren reflex",
-                "Een beschermende reflex",
+                "Een beschermende reflex, maar dat klopt niet",
                 "Een houdingsreflex"
               ],
               "juiste_antwoord": 0,
               "uitleg": "Dit is een geconditioneerde reflex: de oorspronkelijke reflex (speekselvloed bij voedsel) is gekoppeld geraakt aan een niet-gerelateerde prikkel (het belletje). Het is geen aangeboren reflex (optie B), want die heb je vanaf de geboorte. Het is geen beschermende reflex (optie C) en geen houdingsreflex (optie D)."
             },
             {
-              "id": 81,
+              "id": 201,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over beschermende en aangeleerde reflexen zijn juist?",
               "opties": [
@@ -1094,25 +1146,29 @@
                 "Bij een terugtrekreflex worden ook impulsen naar de hersenen gestuurd",
                 "Geconditioneerde reflexen werden ontdekt door Darwin"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: je kunt bewust je hand in het vuur steken of je laten prikken zonder terug te trekken. Optie B is onjuist: aangeleerde reflexen ontwikkel je juist in de loop van je leven. Optie C is juist: fietsen wordt na oefening een automatische vaardigheid. Optie D is juist: bij een terugtrekreflex gaan er ook impulsen naar de hersenen, waardoor je de pijn achteraf voelt. Optie E is onjuist: geconditioneerde reflexen werden ontdekt door Pavlov rond 1900, niet door Darwin."
             },
             {
-              "id": 82,
+              "id": 202,
               "type": "invullen",
               "vraag": "Hoe noem je reflexen die je in de loop van je leven aanleert, zoals schrijven of fietsen?",
               "juiste_antwoord": "aangeleerde reflexen",
               "uitleg": "Aangeleerde reflexen zijn reflexen die je door oefening ontwikkelt. Na verloop van tijd worden ze even automatisch als aangeboren reflexen, zonder dat je er bewust over hoeft na te denken."
             },
             {
-              "id": 83,
+              "id": 203,
               "type": "invullen",
               "vraag": "Welke wetenschapper ontdekte de geconditioneerde reflexen door experimenten met een hond en een belletje?",
               "juiste_antwoord": "Pavlov",
               "uitleg": "Pavlov ontdekte rond 1900 de geconditioneerde reflexen. Zijn hond produceerde speeksel niet alleen bij voedsel, maar ook bij het horen van een belletje dat steeds bij het voeren werd geluid."
             },
             {
-              "id": 84,
+              "id": 204,
               "type": "volgorde",
               "vraag": "Zet de stappen van het conditioneren van een reflex (experiment van Pavlov) in de juiste volgorde.",
               "opties": {
@@ -1129,18 +1185,18 @@
       ]
     },
     {
-      "leerdoel_id": 7,
+      "leerdoel_id": 15,
       "leerdoel_titel": "Skelet en spieren",
       "paragraaf": "4.7",
       "uitleg_tekst": "Het skelet (200+ botten) biedt steun en maakt beweging mogelijk via gewrichten. Dwarsgestreepte (skelet)spieren worden bewust aangestuurd en zitten via pezen aan botten. Gladde spieren werken onbewust in organen. Spiervezels bevatten actine en myosine die in elkaar schuiven. Een motorische eenheid is een zenuwcel met zijn spiervezels. Antagonisten zijn spieren die tegengesteld werken. Er zijn snelle (anaeroob, sprint) en trage (aeroob, duur) spiervezels.",
       "subdoelen": [
         {
-          "subdoel_id": "7.1",
+          "subdoel_id": "15.1",
           "subdoel_titel": "Skelet, gewrichten en spierbouw",
           "uitleg_tekst": "Het skelet bestaat uit 200+ botten verbonden door gewrichten (gewrichtskogel en -kom). Gewrichtsbanden houden botten op hun plaats. Dwarsgestreepte spieren (skeletspieren) worden aangestuurd door het animale zenuwstelsel. Gladde spieren (in orgaanwanden) werken via het autonome zenuwstelsel en zijn niet snel vermoeid. Spiervezels bevatten actine en myosine die bij samentrekking in elkaar schuiven.",
           "vragen": [
             {
-              "id": 85,
+              "id": 205,
               "type": "multiple_choice",
               "vraag": "Een arts onderzoekt een patiënt met een gewrichtsblessure. De gewrichtskogel past niet meer goed in de gewrichtskom. Welk onderdeel houdt normaal gesproken de botstukken op hun plaats?",
               "opties": [
@@ -1153,7 +1209,7 @@
               "uitleg": "Gewrichtsbanden houden de botstukken van een gewricht op hun plaats — zonder gewrichtsbanden zou het skelet in elkaar zakken. Pezen (optie A) verbinden spieren met botten, maar houden geen gewricht bijeen. Spierbundels (optie B) zijn onderdelen van spieren. De myelineschede (optie C) hoort bij zenuwcellen, niet bij het skelet."
             },
             {
-              "id": 86,
+              "id": 206,
               "type": "multiple_choice",
               "vraag": "Onder de microscoop bekijk je een spiervezel en je ziet een dwarse streping. Waardoor wordt deze veroorzaakt?",
               "opties": [
@@ -1167,7 +1223,7 @@
               "afbeelding": "images/H4/4.7_fig2.jpeg"
             },
             {
-              "id": 87,
+              "id": 207,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over gladde en dwarsgestreepte spieren zijn juist?",
               "opties": [
@@ -1177,18 +1233,22 @@
                 "De hartspier is een gewone gladde spier",
                 "Dwarsgestreepte spieren worden aangestuurd door het animale zenuwstelsel"
               ],
-              "juiste_antwoorden": [0, 1, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                4
+              ],
               "uitleg": "Optie A is juist: skeletspieren zitten met pezen aan botten vast. Optie B is juist: gladde spieren in darmen en bloedvaten worden onbewust aangestuurd. Optie C is onjuist: gladde spieren zijn juist niet snel vermoeid, ze werken trager maar volhoudend. Optie D is onjuist: de hartspier is een speciaal type, niet glad en niet dwarsgestreept. Optie E is juist: bewuste bewegingen worden aangestuurd door het animale zenuwstelsel."
             },
             {
-              "id": 88,
+              "id": 208,
               "type": "invullen",
               "vraag": "Hoe heten de twee draadvormige eiwitten in spiervezels die bij samentrekking in elkaar schuiven?",
               "juiste_antwoord": "actine en myosine",
               "uitleg": "Actine en myosine zijn de contractiele elementen in spiervezels. Wanneer ze in elkaar schuiven, wordt de spiervezel korter. Als alle spiervezels in een spierbundel dit doen, trekt de hele spier samen."
             },
             {
-              "id": 89,
+              "id": 209,
               "type": "volgorde",
               "vraag": "Zet de onderdelen van een dwarsgestreepte spier in de juiste volgorde van groot naar klein.",
               "opties": {
@@ -1203,12 +1263,12 @@
           ]
         },
         {
-          "subdoel_id": "7.2",
+          "subdoel_id": "15.2",
           "subdoel_titel": "Motorische eenheid en spierantagonisme",
           "uitleg_tekst": "Een motorische eenheid bestaat uit een motorische zenuwcel, het axon en alle spiervezels die het aanstuurt. Voor de motorische eenheid geldt de alles-of-niets-wet. Precieze spieren (vingers) hebben weinig spiervezels per eenheid; grove spieren (benen) veel. Antagonisten zijn spieren die tegengesteld werken (biceps-triceps). Een spier kan alleen samentrekken, niet actief verlengen.",
           "vragen": [
             {
-              "id": 90,
+              "id": 210,
               "type": "multiple_choice",
               "vraag": "De spieren in je vingers bevatten motorische eenheden met maar weinig spiervezels per eenheid. Wat is het voordeel hiervan?",
               "opties": [
@@ -1222,7 +1282,7 @@
               "afbeelding": "images/H4/4.7_fig3.jpeg"
             },
             {
-              "id": 91,
+              "id": 211,
               "type": "multiple_choice",
               "vraag": "Waarom heb je voor elke beweging twee tegengesteld werkende spieren (antagonisten) nodig?",
               "opties": [
@@ -1236,7 +1296,7 @@
               "afbeelding": "images/H4/4.7_fig4.jpeg"
             },
             {
-              "id": 92,
+              "id": 212,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de motorische eenheid en spierspanning zijn juist?",
               "opties": [
@@ -1246,18 +1306,22 @@
                 "Bij maximale krachtsinspanning zijn alle motorische eenheden in de spier actief",
                 "Beenspieren bevatten motorische eenheden met maar weinig spiervezels"
               ],
-              "juiste_antwoorden": [0, 1, 3],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ],
               "uitleg": "Optie A is juist: dit is de definitie van een motorische eenheid. Optie B is juist: de spiervezels trekken helemaal samen of helemaal niet. Optie C is onjuist: zelfs in rust zijn altijd enkele motorische eenheden actief (spierspanning). Optie D is juist: bij maximale kracht worden alle eenheden geactiveerd. Optie E is onjuist: beenspieren hebben juist veel spiervezels per eenheid voor grove bewegingen."
             },
             {
-              "id": 93,
+              "id": 213,
               "type": "invullen",
               "vraag": "Hoe noem je twee spieren die tegengesteld aan elkaar werken, zoals de biceps en de triceps?",
               "juiste_antwoord": "antagonisten",
               "uitleg": "Antagonisten zijn spieren die tegengesteld werken. De biceps (buigspier) en de triceps (strekspier) zijn antagonisten: als de een samentrekt, wordt de ander langer. Bij elke beweging zijn beide actief voor een soepele, gecontroleerde beweging."
             },
             {
-              "id": 94,
+              "id": 214,
               "type": "volgorde",
               "vraag": "Zet de stappen bij de aansturing van een spiersamentrekking in de juiste volgorde.",
               "opties": {
@@ -1272,12 +1336,12 @@
           ]
         },
         {
-          "subdoel_id": "7.3",
+          "subdoel_id": "15.3",
           "subdoel_titel": "Snelle en trage spieren, training en blessures",
           "uitleg_tekst": "Snelle spiervezels (lichtgekleurd) werken anaeroob en zijn geschikt voor korte krachtexplosies. Trage spiervezels (rood, veel bloedvaatjes) werken aeroob en zijn geschikt voor duursporten. De verdeling is genetisch bepaald. Training verhoogt de efficiëntie maar niet het aantal spiervezels. Warming-up en cooling-down voorkomen blessures. Spierpijn komt door melkzuur of minuscule scheurtjes.",
           "vragen": [
             {
-              "id": 95,
+              "id": 215,
               "type": "multiple_choice",
               "vraag": "Een atlete traint voor de marathon. Welk type spiervezels ontwikkelt ze voornamelijk?",
               "opties": [
@@ -1290,7 +1354,7 @@
               "uitleg": "Marathonlopers trainen vooral trage spiervezels. Deze zijn rood door veel bloedvaatjes, werken aeroob (met zuurstof) en hebben een groot uithoudingsvermogen. Snelle spiervezels (optie A) zijn juist voor korte krachtexplosies zoals sprinten. Gladde spiervezels (optie B) zitten in organen, niet in skeletspieren. Alle spiervezels bevatten actine (optie D onjuist)."
             },
             {
-              "id": 96,
+              "id": 216,
               "type": "multiple_choice",
               "vraag": "Na intensief sporten heeft een sporter spierpijn. Welke twee oorzaken kan spierpijn hebben?",
               "opties": [
@@ -1303,7 +1367,7 @@
               "uitleg": "Spierpijn kan twee oorzaken hebben: ophoping van melkzuur na anaerobe dissimilatie, en minuscule scheurtjes in de spiervezels bij ongewone inspanning. Myeline (optie B) en neurotransmitters (optie D) horen bij het zenuwstelsel. Bloedplaatjes (optie C) zijn betrokken bij bloedstolling, niet bij spierpijn."
             },
             {
-              "id": 97,
+              "id": 217,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over training en blessures zijn juist?",
               "opties": [
@@ -1313,25 +1377,29 @@
                 "Cooling-down helpt bij het afvoeren van afvalstoffen uit vermoeide spieren",
                 "Anabole steroïden zijn gezonde voedingssupplementen voor sporters"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: training kan meer bloedvaatjes vormen, waardoor spieren meer zuurstof opnemen. Optie B is onjuist: het aantal spiervezels blijft gelijk, ze worden wel dikker en efficiënter. Optie C is juist: warming-up brengt spieren op temperatuur en verhoogt de doorbloeding. Optie D is juist: cooling-down stimuleert de doorbloeding en helpt afvalstoffen afvoeren. Optie E is onjuist: anabole steroïden zijn ongezonde dopingmiddelen."
             },
             {
-              "id": 98,
+              "id": 218,
               "type": "invullen",
               "vraag": "Hoe noem je het vermogen van het lichaam om langdurig te presteren dankzij efficiënt zuurstofgebruik?",
               "juiste_antwoord": "uithoudingsvermogen",
               "uitleg": "Uithoudingsvermogen is het vermogen om langdurig te presteren. Het wordt vergroot door duurtraining, waarbij de trage spiervezels meer bloedvaatjes krijgen en efficiënter met zuurstof omgaan."
             },
             {
-              "id": 99,
+              "id": 219,
               "type": "invullen",
               "vraag": "Hoe noem je het gebruik van verboden spierversterkende middelen in de sport, zoals anabole steroïden?",
               "juiste_antwoord": "doping",
               "uitleg": "Doping is het gebruik van chemische spierversterkende middelen, zoals anabole steroïden. Het is absoluut ongezond voor de spieren en het lichaam, en is in de sport verboden."
             },
             {
-              "id": 100,
+              "id": 220,
               "type": "volgorde",
               "vraag": "Zet de onderdelen van een goede sporttraining in de juiste volgorde.",
               "opties": {

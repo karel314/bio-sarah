@@ -5,18 +5,18 @@
   "totaal_vragen": 100,
   "leerdoelen": [
     {
-      "leerdoel_id": 1,
+      "leerdoel_id": 21,
       "leerdoel_titel": "Biodiversiteit",
       "paragraaf": "17.1",
       "uitleg_tekst": "De biodiversiteit is de verscheidenheid aan soorten organismen in een gebied. Aan de vorm van organen kun je de functie afleiden (vorm-functie-relatie), bijvoorbeeld bij vogelsnavels en veertypen. Homologe organen hebben hetzelfde bouwplan maar verschillende functies, zoals de voorpoten van gewervelde dieren. Analoge organen hebben dezelfde functie maar een verschillend bouwplan, zoals de vleugels van insecten en vogels. Rudimentaire organen zijn restanten van organen die hun functie in de evolutie verloren hebben, zoals het stuitbeentje bij de mens.",
       "subdoelen": [
         {
-          "subdoel_id": "1.1",
+          "subdoel_id": "21.1",
           "subdoel_titel": "Vorm en functie",
           "uitleg_tekst": "Aan de vorm van een orgaan kun je vaak de functie afleiden. De snavelvorm van vogels vertelt je hoe en waarvoor de vogel zijn snavel gebruikt. Veren hebben meerdere functies: donsveren isoleren, dekveren beschermen tegen wind en water, slagpennen en staartpennen zijn nodig voor het vliegen.",
           "vragen": [
             {
-              "id": 1,
+              "id": 291,
               "type": "multiple_choice",
               "vraag": "Een bioloog onderzoekt de snavel van een onbekende vogelsoort. De snavel is lang, dun en licht gebogen. Welke levenswijze past het best bij deze vogel?",
               "opties": [
@@ -30,20 +30,20 @@
               "afbeelding": "images/H17/17.1_fig1.jpeg"
             },
             {
-              "id": 2,
+              "id": 292,
               "type": "multiple_choice",
               "vraag": "Warmbloedige dieren hebben een isolatielaag nodig om hun lichaamstemperatuur constant te houden. Wat is een belangrijk verschil tussen de isolatie van vogels en die van zoogdieren?",
               "opties": [
+                "Vogels gebruiken uitsluitend donsveren voor hun warmte-isolatie",
                 "Veren en haren hebben precies dezelfde bouw en functie",
-                "Veren hebben meerdere functies waaronder vliegen en isolatie, terwijl haren voornamelijk isoleren",
                 "Zoogdieren hebben altijd een dikkere isolatielaag dan vogels",
-                "Vogels gebruiken uitsluitend donsveren voor hun warmte-isolatie"
+                "Veren hebben meerdere functies waaronder vliegen en isolatie, terwijl haren voornamelijk isoleren"
               ],
-              "juiste_antwoord": 1,
-              "uitleg": "Veren zijn complexer gebouwd dan haren en hebben naast isolatie ook functies bij het vliegen (slagpennen) en stroomlijn. Optie A is onjuist: veren zijn veel ingewikkelder gebouwd dan haren. Optie C is onjuist: de dikte van de isolatielaag hangt af van de soort, niet van de diergroep. Optie D is onjuist: vogels hebben meerdere typen veren (donsveren, dekveren, slagpennen, staartpennen) die samen bijdragen."
+              "juiste_antwoord": 3,
+              "uitleg": "Veren zijn complexer gebouwd dan haren en hebben naast isolatie ook functies bij het vliegen (slagpennen) en stroomlijn. Optie B is onjuist: veren zijn veel ingewikkelder gebouwd dan haren. Optie C is onjuist: de dikte van de isolatielaag hangt af van de soort, niet van de diergroep. Optie A is onjuist: vogels hebben meerdere typen veren (donsveren, dekveren, slagpennen, staartpennen) die samen bijdragen."
             },
             {
-              "id": 3,
+              "id": 293,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de relatie tussen vorm en functie bij vogels zijn juist?",
               "opties": [
@@ -53,18 +53,21 @@
                 "Slagpennen zijn korte, zachte veren die direct op de huid liggen",
                 "De vleugels van vogels dienen alleen om mee te vliegen"
               ],
-              "juiste_antwoorden": [0, 2],
+              "juiste_antwoorden": [
+                0,
+                2
+              ],
               "uitleg": "Optie A is juist: de snavelvorm geeft informatie over de levenswijze en het type voedsel. Optie B is onjuist: er zijn heel veel variaties in snavelvorm. Optie C is juist: donsveren zitten vlak op de huid en zorgen voor warmte. Optie D is onjuist: slagpennen zijn lange, stevige veren in de vleugels. Optie E is onjuist: veren op de vleugels zorgen ook voor stroomlijn en bescherming."
             },
             {
-              "id": 4,
+              "id": 294,
               "type": "invullen",
               "vraag": "De verscheidenheid aan soorten organismen in een bepaald gebied noem je de ___.",
               "juiste_antwoord": "biodiversiteit",
               "uitleg": "Biodiversiteit, ook wel soortenrijkdom genoemd, omvat alle soorten planten, dieren en micro-organismen in een bepaald gebied. De biodiversiteit van de hele aarde is enorm groot."
             },
             {
-              "id": 5,
+              "id": 295,
               "type": "volgorde",
               "vraag": "Een bioloog wil de levenswijze van een onbekende vogel bepalen. Zet de stappen in de juiste volgorde.",
               "opties": {
@@ -79,26 +82,26 @@
           ]
         },
         {
-          "subdoel_id": "1.2",
+          "subdoel_id": "21.2",
           "subdoel_titel": "Homologe en rudimentaire organen",
           "uitleg_tekst": "Homologe organen hebben hetzelfde bouwplan maar uiteenlopende vormen en functies, zoals de arm van de mens en de vleugel van een vleermuis. Het bouwplan van de voorpoten van gewervelde dieren bestaat uit bovenarm, onderarm en hand met vingers. Rudimentaire organen zijn restanten van organen die bij voorouders nog een functie hadden, zoals het stuitbeentje en het wormvormige aanhangsel bij de mens.",
           "vragen": [
             {
-              "id": 6,
+              "id": 296,
               "type": "multiple_choice",
               "vraag": "De voorpoot van een paard, de vleugel van een vleermuis en de arm van een mens lijken uiterlijk heel verschillend, maar ze hebben dezelfde basisstructuur. Hoe noem je dit soort organen?",
               "opties": [
                 "Analoge organen",
-                "Vestigiale organen",
+                "Convergente organen",
                 "Homologe organen",
                 "Rudimentaire organen"
               ],
               "juiste_antwoord": 2,
-              "uitleg": "Homologe organen hebben hetzelfde bouwplan maar zijn door aanpassing aan verschillende functies anders van vorm geworden. Analoge organen hebben juist dezelfde functie maar een verschillend bouwplan (optie A onjuist). Vestigiaal is een synoniem voor rudimentair, maar deze term komt niet in de lesstof voor (optie B onjuist). Rudimentaire organen zijn organen die hun functie verloren hebben (optie D onjuist).",
+              "uitleg": "Homologe organen hebben hetzelfde bouwplan maar zijn door aanpassing aan verschillende functies anders van vorm geworden, zoals de voorpoot van een paard en de arm van een mens. Analoge organen hebben dezelfde functie maar een verschillend bouwplan (optie A onjuist). Convergente organen is geen gangbare biologische term voor dit verschijnsel (optie B onjuist). Rudimentaire organen zijn organen die hun oorspronkelijke functie verloren hebben (optie D onjuist).",
               "afbeelding": "images/H17/17.1_fig5.jpeg"
             },
             {
-              "id": 7,
+              "id": 297,
               "type": "multiple_choice",
               "vraag": "Bij walvissen zijn kleine restjes van het bekken en achterpoten teruggevonden. Deze organen hebben geen functie meer. Welke conclusie kun je hieruit trekken?",
               "opties": [
@@ -111,7 +114,7 @@
               "uitleg": "Rudimentaire organen zijn restanten van organen die bij voorouders nog een functie hadden. De bekken- en pootrestjes bewijzen dat walvissen afstammen van viervoetige landdieren. Walvissen zijn zoogdieren, geen reptielen (optie A onjuist). De aanpassing aan het water is al tientallen miljoenen jaren geleden begonnen (optie B onjuist). Rudimentaire organen wijzen op homologie met voorouders, niet op analogie (optie C onjuist)."
             },
             {
-              "id": 8,
+              "id": 298,
               "type": "choose_all_that_apply",
               "vraag": "Welke van de volgende zijn voorbeelden van rudimentaire organen?",
               "opties": [
@@ -121,18 +124,22 @@
                 "De voorvin van een zeehond",
                 "Restjes van pootjes bij sommige slangen"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Het stuitbeentje is een rudiment van een staart (optie A juist). De vleugels van een arend hebben duidelijk nog een functie bij het vliegen (optie B onjuist). Het wormvormige aanhangsel is een overblijfsel van een ooit langere blinde darm (optie C juist). De voorvin van een zeehond is een functioneel orgaan voor het zwemmen (optie D onjuist). Sommige slangen hebben rudimentaire pootjes van hun voorouders met poten (optie E juist)."
             },
             {
-              "id": 9,
+              "id": 299,
               "type": "invullen",
               "vraag": "Organen die bij verre voorouders nog een functie hadden maar die in de evolutie hun functie verloren hebben, noem je ___.",
               "juiste_antwoord": "rudimentaire organen",
               "uitleg": "Rudimentaire organen zijn restanten van organen die hun oorspronkelijke functie verloren hebben. Voorbeelden bij de mens zijn het stuitbeentje (rudiment van een staart) en het wormvormige aanhangsel (overblijfsel van een langere blinde darm)."
             },
             {
-              "id": 10,
+              "id": 300,
               "type": "volgorde",
               "vraag": "Zet de onderdelen van het bouwplan van de voorpoot van gewervelde dieren in de juiste volgorde, van de romp naar het uiteinde.",
               "opties": {
@@ -147,12 +154,12 @@
           ]
         },
         {
-          "subdoel_id": "1.3",
+          "subdoel_id": "21.3",
           "subdoel_titel": "Analoge organen",
           "uitleg_tekst": "Analoge organen hebben dezelfde functie maar een verschillend bouwplan. Insectenvleugels zijn uitgegroeide huidplooien met luchtaders, vogelvleugels bevatten een botskelet met veren. De vinnen van haaien en dolfijnen zijn analoog: dezelfde functie (voortbewegen in water) maar een totaal ander skelet. Analogie ontstaat doordat soorten zich onafhankelijk van elkaar op dezelfde manier aanpassen.",
           "vragen": [
             {
-              "id": 11,
+              "id": 301,
               "type": "multiple_choice",
               "vraag": "De vleugels van een libel en de vleugels van een meeuw worden beide gebruikt om te vliegen. Toch worden ze niet als homoloog maar als analoog beschouwd. Waarom?",
               "opties": [
@@ -165,7 +172,7 @@
               "uitleg": "Analoge organen hebben dezelfde functie maar een verschillend bouwplan. Insectenvleugels zijn uitgegroeide huidplooien met luchtaders, terwijl vogelvleugels een botskelet met veren hebben. Optie B beschrijft juist homologe organen. Optie C is onjuist: alleen insectenvleugels zijn uit huidplooien ontstaan. Optie D is onjuist: insecten en vogels delen geen recente voorouder met vleugels."
             },
             {
-              "id": 12,
+              "id": 302,
               "type": "multiple_choice",
               "vraag": "Een onderzoeker vergelijkt de vinnen van een haai met die van een dolfijn. Beide dieren hebben een gestroomlijnd lichaam en vinnen. Wat is de juiste conclusie?",
               "opties": [
@@ -179,7 +186,7 @@
               "afbeelding": "images/H17/17.1_fig6.jpeg"
             },
             {
-              "id": 13,
+              "id": 303,
               "type": "choose_all_that_apply",
               "vraag": "Welke van de volgende paren zijn voorbeelden van analoge organen?",
               "opties": [
@@ -189,18 +196,22 @@
                 "De vin van een haai en de vin van een dolfijn",
                 "De vleugel van een kip en de vleugel van een struisvogel"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: insectenvleugels en vogelvleugels hebben een verschillend bouwplan maar dezelfde functie. Optie B is onjuist: dit zijn homologe organen met hetzelfde bouwplan. Optie C is juist: de veenmol (insect) en de mol (zoogdier) hebben onafhankelijk van elkaar graafpoten ontwikkeld. Optie D is juist: haaienvinnen en dolfijnenvinnen zijn op elkaar gaan lijken door aanpassing aan water. Optie E is onjuist: dit zijn homologe organen (beide zijn vogels met hetzelfde bouwplan)."
             },
             {
-              "id": 14,
+              "id": 304,
               "type": "invullen",
               "vraag": "Organen van verschillende evolutionaire herkomst maar met dezelfde functie noem je ___.",
               "juiste_antwoord": "analoge organen",
               "uitleg": "Analoge organen hebben dezelfde functie maar een verschillend bouwplan. Een voorbeeld is de vleugel van een libel en de vleugel van een vogel: beide dienen om te vliegen, maar hun bouw is totaal anders."
             },
             {
-              "id": 15,
+              "id": 305,
               "type": "invullen",
               "vraag": "Het gemeenschappelijke skeletontwerp dat je terugvindt bij de voorpoten van alle gewervelde dieren noem je het ___.",
               "juiste_antwoord": "bouwplan",
@@ -211,18 +222,18 @@
       ]
     },
     {
-      "leerdoel_id": 2,
+      "leerdoel_id": 22,
       "leerdoel_titel": "Soort en populatie",
       "paragraaf": "17.2",
       "uitleg_tekst": "In de biologie horen organismen tot één soort als ze met elkaar kunnen voortplanten en vruchtbare nakomelingen krijgen. Een populatie is een groep organismen van één soort die in hetzelfde habitat leeft en zich onderling voortplant. Een soort kan uit meerdere populaties bestaan. Via DNA-analyse kan worden vastgesteld of populaties tot dezelfde soort behoren. Met de binaire nomenclatuur krijgt elke soort een wetenschappelijke naam bestaande uit een geslachtsnaam en een soortaanduiding.",
       "subdoelen": [
         {
-          "subdoel_id": "2.1",
+          "subdoel_id": "22.1",
           "subdoel_titel": "Soort en populatie",
           "uitleg_tekst": "Organismen horen tot één soort als ze met elkaar kunnen voortplanten en vruchtbare nakomelingen krijgen. Een populatie is een groep van dezelfde soort in hetzelfde habitat die zich onderling voortplant. Via DNA-analyse kan de verwantschap worden vastgesteld als kruisingsproeven niet mogelijk zijn.",
           "vragen": [
             {
-              "id": 16,
+              "id": 306,
               "type": "multiple_choice",
               "vraag": "Twee populaties eenden leven aan weerszijden van een bergketen en hebben al eeuwen geen contact. Ze zijn uiterlijk gaan verschillen. Welk onderzoek kan het best vaststellen of ze nog tot dezelfde soort behoren?",
               "opties": [
@@ -235,7 +246,7 @@
               "uitleg": "DNA-analyse is de moderne, betrouwbare methode om vast te stellen of populaties tot dezelfde soort behoren. Als de genomen veel overeenkomen, zijn het dezelfde soort. Uiterlijke kenmerken kunnen misleidend zijn bij gescheiden populaties (optie A onjuist). Voedselkeuze zegt niets over soortgrenzen (optie B onjuist). Het aantal individuen heeft niets te maken met soortbepaling (optie D onjuist)."
             },
             {
-              "id": 17,
+              "id": 307,
               "type": "multiple_choice",
               "vraag": "Een bioloog bestudeert koolmezen in het Amsterdamse Bos. Hoe wordt deze groep koolmezen biologisch het best omschreven?",
               "opties": [
@@ -248,7 +259,7 @@
               "uitleg": "Een populatie is een groep organismen van één soort die samen in dezelfde habitat leeft en zich onderling voortplant. De koolmezensoort omvat alle koolmezen wereldwijd, niet alleen die in het Amsterdamse Bos (optie A te breed). Een ecosysteem omvat alle organismen én de abiotische factoren (optie B onjuist). De genenpool beschrijft het totaal aan allelen, niet de groep zelf (optie C onjuist)."
             },
             {
-              "id": 18,
+              "id": 308,
               "type": "multiple_choice",
               "vraag": "Organismen horen volgens de biologische definitie tot één soort als ze aan een bepaalde voorwaarde voldoen. Welke?",
               "opties": [
@@ -261,7 +272,7 @@
               "uitleg": "De biologische soortdefinitie is gebaseerd op voortplanting: organismen horen tot één soort als ze met elkaar kunnen voortplanten en vruchtbare nakomelingen krijgen. Soortgenoten zijn niet genetisch identiek, er is altijd variatie (optie B onjuist). Hetzelfde leefgebied delen maakt je een populatie, niet een soort (optie C onjuist). Uiterlijke gelijkenis is geen betrouwbaar criterium (optie D onjuist)."
             },
             {
-              "id": 19,
+              "id": 309,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over het begrip 'populatie' zijn juist?",
               "opties": [
@@ -271,18 +282,22 @@
                 "Een soort bestaat altijd uit precies één populatie",
                 "Populaties van dezelfde soort die ver van elkaar leven, kunnen uiterlijk gaan verschillen"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Optie A is juist: een populatie bestaat uit organismen van dezelfde soort. Optie B is onjuist: populaties van een soort kunnen ver van elkaar leven, zoals koolmezen op de Veluwe en in het Amsterdamse Bos. Optie C is juist: een populatie plant zich onderling voort in hetzelfde habitat. Optie D is onjuist: een soort bestaat meestal uit meerdere populaties. Optie E is juist: gescheiden populaties kunnen na verloop van tijd uiterlijk gaan verschillen."
             },
             {
-              "id": 20,
+              "id": 310,
               "type": "invullen",
               "vraag": "Het leefgebied waarin een populatie organismen voorkomt, noem je het ___.",
               "juiste_antwoord": "habitat",
               "uitleg": "Het habitat is het leefgebied van een populatie. Organismen van dezelfde soort die in hetzelfde habitat leven en zich onderling voortplanten vormen samen een populatie."
             },
             {
-              "id": 21,
+              "id": 311,
               "type": "volgorde",
               "vraag": "Zet de volgende biologische begrippen in volgorde van klein naar groot.",
               "opties": {
@@ -297,25 +312,25 @@
           ]
         },
         {
-          "subdoel_id": "2.2",
+          "subdoel_id": "22.2",
           "subdoel_titel": "Binaire nomenclatuur en wetenschappelijke naamgeving",
           "uitleg_tekst": "Linnaeus bedacht de binaire nomenclatuur: elke soort krijgt een wetenschappelijke naam van twee Latijnse woorden. De eerste is de geslachtsnaam (hoofdletter), de tweede de soortaanduiding (kleine letter). Organismen met dezelfde geslachtsnaam zijn verwant. Achter de naam staat vaak een letter die verwijst naar de beschrijver van de soort.",
           "vragen": [
             {
-              "id": 22,
+              "id": 312,
               "type": "multiple_choice",
               "vraag": "De wetenschappelijke naam van de koolmees is Parus major L. Wat betekent de letter L. achter de naam?",
               "opties": [
                 "L. staat voor de lengte van het dier",
                 "L. verwijst naar Linnaeus, die de soort als eerste beschreef",
                 "L. geeft aan dat de naam in het Latijn is",
-                "L. staat voor het land waar de soort ontdekt is"
+                "L. staat voor het land waar de soort ontdekt is, maar dat klopt niet"
               ],
               "juiste_antwoord": 1,
               "uitleg": "De L. achter een soortnaam verwijst naar Linnaeus, de Zweedse wetenschapper die het systeem van binaire nomenclatuur bedacht en veel soorten als eerste beschreef. Het heeft niets te maken met lengte (optie A onjuist), het Latijn van de naam (optie C onjuist) of het land van ontdekking (optie D onjuist)."
             },
             {
-              "id": 23,
+              "id": 313,
               "type": "multiple_choice",
               "vraag": "Een wetenschapper ontdekt twee diersoorten met de namen Canis lupus en Canis familiaris. Wat kun je uit deze namen afleiden?",
               "opties": [
@@ -328,7 +343,7 @@
               "uitleg": "Dieren met dezelfde geslachtsnaam (Canis) behoren tot hetzelfde geslacht en zijn aan elkaar verwant. De verschillende soortaanduidingen (lupus en familiaris) geven aan dat het wel aparte soorten zijn. Dezelfde geslachtsnaam zegt niets over het habitat (optie A onjuist). Ze zijn verwant maar niet identiek (optie B onjuist). Ze zijn juist wél verwant dankzij dezelfde geslachtsnaam (optie D onjuist)."
             },
             {
-              "id": 24,
+              "id": 314,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over de binaire nomenclatuur zijn juist?",
               "opties": [
@@ -338,25 +353,29 @@
                 "De soortaanduiding wordt met een hoofdletter geschreven",
                 "Wetenschappelijke namen zijn in het Latijn of Grieks"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Optie A is juist: de binaire nomenclatuur gebruikt een geslachtsnaam en een soortaanduiding. Optie B is onjuist: de geslachtsnaam begint juist met een hoofdletter. Optie C is juist: Linnaeus (1707-1778) bedacht het systeem. Optie D is onjuist: de soortaanduiding wordt met een kleine letter geschreven. Optie E is juist: wetenschappelijke namen komen uit het Latijn of het Grieks."
             },
             {
-              "id": 25,
+              "id": 315,
               "type": "invullen",
               "vraag": "Het systeem van dubbele naamgeving bij organismen, bestaande uit een geslachtsnaam en een soortaanduiding, heet ___.",
               "juiste_antwoord": "binaire nomenclatuur",
               "uitleg": "Binaire nomenclatuur is het door Linnaeus bedachte systeem waarbij elke soort een wetenschappelijke naam krijgt bestaande uit twee delen: de geslachtsnaam (met hoofdletter) en de soortaanduiding (met kleine letter)."
             },
             {
-              "id": 26,
+              "id": 316,
               "type": "invullen",
               "vraag": "In de binaire nomenclatuur geeft de eerste naam aan tot welk ___ het organisme behoort.",
               "juiste_antwoord": "geslacht",
               "uitleg": "De eerste naam in de binaire nomenclatuur is de geslachtsnaam. Het geslacht (genus) is een groep verwante soorten. Organismen met dezelfde geslachtsnaam zijn aan elkaar verwant, vergelijkbaar met familieleden met dezelfde achternaam."
             },
             {
-              "id": 27,
+              "id": 317,
               "type": "volgorde",
               "vraag": "Zet de volgende niveaus van biologische classificatie in volgorde van groot naar klein.",
               "opties": {
@@ -373,18 +392,18 @@
       ]
     },
     {
-      "leerdoel_id": 3,
+      "leerdoel_id": 23,
       "leerdoel_titel": "Genetische variatie en selectie",
       "paragraaf": "17.3",
       "uitleg_tekst": "Binnen een populatie bestaat altijd genetische variatie: individuen zijn genetisch verschillend door mutaties. Het totaal aan allelen in een populatie heet de genenpool. Adaptatie (betere aanpassing) vergroot de fitness (overlevingskans en voortplantingssucces). Bij kunstmatige selectie kiest de mens de beste varianten om mee te fokken. Bij natuurlijke selectie worden de best aangepaste varianten bevoordeeld door selectiedruk van het milieu. Seksuele selectie is een vorm van natuurlijke selectie waarbij partnerkeuze bepaalt welke kenmerken worden doorgegeven.",
       "subdoelen": [
         {
-          "subdoel_id": "3.1",
+          "subdoel_id": "23.1",
           "subdoel_titel": "Genetische variatie, genenpool en adaptatie",
           "uitleg_tekst": "Genetische variatie betekent dat individuen in een populatie genetisch van elkaar verschillen. Dit is essentieel voor het voortbestaan: bij veranderingen overleven altijd enkele individuen. Het totaal aan allelen heet de genenpool. Adaptatie is het beter aangepast zijn aan het milieu, wat leidt tot een grotere fitness.",
           "vragen": [
             {
-              "id": 28,
+              "id": 318,
               "type": "multiple_choice",
               "vraag": "In een duingebied leven konijnen die onderling genetisch verschillen. Sommige hebben een dikke vacht, andere een dunne. Na een strenge winter blijken vooral konijnen met een dikke vacht overleefd te hebben. Welk concept verklaart dit het best?",
               "opties": [
@@ -397,7 +416,7 @@
               "uitleg": "Fitness betekent een grotere overlevingskans door betere aanpassing (adaptatie) aan het milieu. De konijnen met een dikke vacht zijn beter aangepast aan de kou en overleven vaker. Er is geen sprake van menselijk ingrijpen (optie A onjuist). Competitie met andere soorten speelt hier niet de hoofdrol (optie B onjuist). Er is geen geografische scheiding die de groepen splitst (optie C onjuist)."
             },
             {
-              "id": 29,
+              "id": 319,
               "type": "multiple_choice",
               "vraag": "Waarom is genetische variatie belangrijk voor het voortbestaan van een populatie?",
               "opties": [
@@ -410,7 +429,7 @@
               "uitleg": "Genetische variatie zorgt ervoor dat een populatie niet kwetsbaar is voor veranderingen. Als alle individuen identiek zijn, kan één verandering de hele populatie uitroeien. Aantrekkelijkheid voor predatoren is geen voordeel (optie B onjuist). Genetische variatie is het tegenovergestelde van identiek zijn (optie C onjuist). Mutaties worden niet voorkomen maar houden de variatie juist in stand (optie D onjuist)."
             },
             {
-              "id": 30,
+              "id": 320,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over genetische variatie zijn juist?",
               "opties": [
@@ -420,18 +439,22 @@
                 "Alleen klonen en eeneiige tweelingen zijn genetisch identiek",
                 "Een populatie zonder genetische variatie is extra sterk en weerbaar"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: toevallige mutaties zorgen voor nieuwe allelen en houden de variatie in stand. Optie B is onjuist: er is altijd genetische variatie binnen een soort. Optie C is juist: de genenpool is het totaal aan allelen in een populatie. Optie D is juist: alleen klonen en eeneiige tweelingen zijn genetisch identiek. Optie E is onjuist: een populatie zonder variatie is juist erg kwetsbaar bij veranderende omstandigheden."
             },
             {
-              "id": 31,
+              "id": 321,
               "type": "invullen",
               "vraag": "Het totaal aan verschillende allelen binnen een populatie noem je de ___.",
               "juiste_antwoord": "genenpool",
               "uitleg": "De genenpool omvat alle verschillende allelen die in een populatie voorkomen. Een gezonde populatie heeft een grote genenpool met veel genetische variatie, waardoor ze beter bestand is tegen veranderingen."
             },
             {
-              "id": 32,
+              "id": 322,
               "type": "volgorde",
               "vraag": "Zet de volgende stappen in de juiste volgorde: hoe verspreidt een gunstige mutatie zich in een populatie?",
               "opties": {
@@ -446,12 +469,12 @@
           ]
         },
         {
-          "subdoel_id": "3.2",
+          "subdoel_id": "23.2",
           "subdoel_titel": "Kunstmatige en natuurlijke selectie",
           "uitleg_tekst": "Bij kunstmatige selectie kiest de mens bewust de beste varianten om mee verder te fokken, zoals bij hondenrassen en koolsoorten. Bij natuurlijke selectie worden de best aangepaste varianten bevoordeeld door milieufactoren (selectiedruk). Er is altijd competitie omdat er meer nakomelingen zijn dan er kunnen overleven.",
           "vragen": [
             {
-              "id": 33,
+              "id": 323,
               "type": "multiple_choice",
               "vraag": "Een boer selecteert steeds de koeien die de meeste melk produceren om mee verder te fokken. Na tientallen generaties produceren zijn koeien veel meer melk dan wilde runderen. Welk type selectie past de boer toe?",
               "opties": [
@@ -464,7 +487,7 @@
               "uitleg": "De boer kiest bewust de beste varianten om mee verder te fokken; dit is kunstmatige selectie. Natuurlijke selectie gebeurt door milieufactoren zonder menselijk ingrijpen (optie A onjuist). Seksuele selectie is partnerkeuze door het andere geslacht (optie C onjuist). Reproductieve isolatie is het geografisch scheiden van populaties (optie D onjuist)."
             },
             {
-              "id": 34,
+              "id": 324,
               "type": "multiple_choice",
               "vraag": "Na jaren van droogte in een savanne overleven vooral de antilopen die lang zonder water kunnen. Welk proces verandert hierdoor de samenstelling van de populatie?",
               "opties": [
@@ -477,7 +500,7 @@
               "uitleg": "De droogte vormt een selectiedruk die leidt tot natuurlijke selectie: de best aangepaste individuen overleven en planten zich voort. Kunstmatige selectie vereist menselijk ingrijpen (optie A onjuist). Spontane generatie bestaat niet en is door Pasteur weerlegd (optie B onjuist). Er is geen sprake van geografische scheiding (optie D onjuist)."
             },
             {
-              "id": 35,
+              "id": 325,
               "type": "choose_all_that_apply",
               "vraag": "Welke van de volgende zijn voorbeelden van kunstmatige selectie?",
               "opties": [
@@ -487,18 +510,22 @@
                 "De ontwikkeling van resistente bacteriën in ziekenhuizen",
                 "Het selecteren van de mooiste sierduiven voor de fok"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Optie A is juist: hondenrassen zijn door de mens geselecteerd en gefokt uit wilde voorouders. Optie B is onjuist: dit is natuurlijke selectie zonder menselijk ingrijpen. Optie C is juist: bloemkool, witte kool en rode kool zijn door kunstmatige selectie uit wilde kool ontstaan. Optie D is onjuist: dit is onbedoelde natuurlijke selectie door antibioticagebruik. Optie E is juist: de mens kiest de mooiste duiven voor de fok."
             },
             {
-              "id": 36,
+              "id": 326,
               "type": "invullen",
               "vraag": "De invloed van veranderende milieuomstandigheden die natuurlijke selectie bevorderen, noem je ___.",
               "juiste_antwoord": "selectiedruk",
               "uitleg": "Selectiedruk is de invloed van milieufactoren (biotisch en abiotisch) op organismen, die natuurlijke selectie tot gevolg heeft. Voorbeelden zijn klimaatverandering, de komst van een nieuwe predator of voedseltekort."
             },
             {
-              "id": 37,
+              "id": 327,
               "type": "volgorde",
               "vraag": "Een populatie planten leeft in een gebied waar het klimaat steeds kouder wordt. Zet de volgende gebeurtenissen in de juiste volgorde.",
               "opties": {
@@ -513,12 +540,12 @@
           ]
         },
         {
-          "subdoel_id": "3.3",
+          "subdoel_id": "23.3",
           "subdoel_titel": "Seksuele selectie en fitness",
           "uitleg_tekst": "Seksuele selectie is een speciale vorm van natuurlijke selectie: vrouwtjes kiezen mannetjes met opvallende kenmerken, omdat die mannetjes daarmee hun kracht en gezondheid tonen. Fitness is de mate van aangepastheid aan het milieu, met een grotere overlevingskans en voortplantingssucces. Seksuele selectie is de voornaamste oorzaak van de grote vormenrijkdom in de natuur.",
           "vragen": [
             {
-              "id": 38,
+              "id": 328,
               "type": "multiple_choice",
               "vraag": "Mannelijke pauwen hebben een opvallend grote staart die hen kwetsbaar maakt voor roofdieren. Toch is deze eigenschap in de evolutie blijven bestaan. Wat is de verklaring?",
               "opties": [
@@ -532,7 +559,7 @@
               "afbeelding": "images/H17/17.3_fig3.jpeg"
             },
             {
-              "id": 39,
+              "id": 329,
               "type": "multiple_choice",
               "vraag": "Welk kenmerk draagt NIET bij aan de fitness van een organisme?",
               "opties": [
@@ -545,7 +572,7 @@
               "uitleg": "Fitness is de mate van aangepastheid aan het milieu met een grotere overlevingskans. Een opvallende kleur die alleen predatoren aantrekt zonder voordeel bij seksuele selectie verlaagt de fitness. Een goede schutkleur (optie B), ziekteweerstand (optie C) en voortplantingssucces (optie D) dragen allemaal bij aan een hogere fitness."
             },
             {
-              "id": 40,
+              "id": 330,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over seksuele selectie zijn juist?",
               "opties": [
@@ -555,18 +582,22 @@
                 "Seksuele selectie kan leiden tot kenmerken die de eigenaar lijken te hinderen",
                 "Seksuele selectie speelt geen rol bij de vormenrijkdom in de natuur"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: seksuele selectie is een speciale vorm van natuurlijke selectie. Optie B is onjuist: vrouwtjes kiezen juist vaak de meest opvallende mannetjes. Optie C is juist: overleven ondanks een handicap als een grote staart toont kracht en goede genen. Optie D is juist: opvallende kleuren en staarten lijken hinderlijk maar vergroten het voortplantingssucces. Optie E is onjuist: seksuele selectie is juist de voornaamste oorzaak van vormenrijkdom."
             },
             {
-              "id": 41,
+              "id": 331,
               "type": "invullen",
               "vraag": "Het beter aangepast zijn aan het milieu, waardoor een organisme een grotere overlevingskans en meer nakomelingen heeft, noem je ___.",
               "juiste_antwoord": "fitness",
               "uitleg": "Fitness is de mate van aangepastheid aan het milieu. Organismen met een grotere fitness hebben een grotere overlevingskans en een groter voortplantingssucces, waardoor ze meer nakomelingen krijgen."
             },
             {
-              "id": 42,
+              "id": 332,
               "type": "invullen",
               "vraag": "Het proces waarbij vrouwtjes de best uitgeruste mannetjes kiezen om mee te paren, noem je ___.",
               "juiste_antwoord": "seksuele selectie",
@@ -577,31 +608,31 @@
       ]
     },
     {
-      "leerdoel_id": 4,
+      "leerdoel_id": 24,
       "leerdoel_titel": "Soortvorming en Darwin",
       "paragraaf": "17.4",
       "uitleg_tekst": "Charles Darwin (1809-1882) ontwikkelde de evolutietheorie na zijn reis met The Beagle. Hij verklaarde het ontstaan van soorten door geleidelijke verandering via natuurlijke selectie. Soortvorming ontstaat vaak door reproductieve isolatie: als een populatie wordt gesplitst door een barrière, gaan de gescheiden groepen steeds meer verschillen. Op eilanden verloopt soortvorming versneld (eilandevolutie). De eilandtheorie beschrijft biodiversiteit als: S = I + s - E. Snelle evolutie is zichtbaar bij berkenspanners en bij het ontstaan van resistentie bij bacteriën.",
       "subdoelen": [
         {
-          "subdoel_id": "4.1",
+          "subdoel_id": "24.1",
           "subdoel_titel": "Darwin en de evolutietheorie",
           "uitleg_tekst": "Darwin reisde in 1831-1836 met The Beagle over de wereld. Op de Galapagoseilanden ontdekte hij veertien vinkensoorten met verschillende snavels. Thuis werkte hij zijn evolutietheorie uit en publiceerde die in 1859 in 'On the origin of species'. Zijn kerngedachte: soorten ontstaan door geleidelijke verandering via natuurlijke selectie.",
           "vragen": [
             {
-              "id": 43,
+              "id": 333,
               "type": "multiple_choice",
               "vraag": "In 1859 publiceerde Darwin zijn beroemde boek. Welke kerngedachte staat centraal in zijn evolutietheorie?",
               "opties": [
+                "Organismen kunnen spontaan uit niet-levend materiaal ontstaan, maar dat klopt niet",
                 "Soorten zijn onveranderlijk en in één keer geschapen",
                 "Soorten ontstaan door geleidelijke verandering via natuurlijke selectie",
-                "Organismen kunnen spontaan uit niet-levend materiaal ontstaan",
                 "Alle soorten op aarde zijn tegelijkertijd ontstaan"
               ],
-              "juiste_antwoord": 1,
-              "uitleg": "Darwins evolutietheorie verklaart het ontstaan van soorten door geleidelijke verandering via natuurlijke selectie. Optie A is de opvatting die Darwin juist weerlegde (onveranderlijkheid van soorten). Optie C beschrijft spontane generatie, wat door Pasteur is weerlegd. Optie D is de creationistische opvatting die Darwin bestreed."
+              "juiste_antwoord": 2,
+              "uitleg": "Darwins evolutietheorie verklaart het ontstaan van soorten door geleidelijke verandering via natuurlijke selectie. Optie B is de opvatting die Darwin juist weerlegde (onveranderlijkheid van soorten). Optie A beschrijft spontane generatie, wat door Pasteur is weerlegd. Optie D is de creationistische opvatting die Darwin bestreed."
             },
             {
-              "id": 44,
+              "id": 334,
               "type": "choose_all_that_apply",
               "vraag": "Welke factoren maken volgens de moderne evolutietheorie het evolutieproces mogelijk?",
               "opties": [
@@ -611,18 +642,23 @@
                 "Door natuurlijke selectie overleven de best aangepaste varianten",
                 "Reproductieve isolatie kan leiden tot het ontstaan van nieuwe soorten"
               ],
-              "juiste_antwoorden": [0, 2, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3,
+                4
+              ],
               "uitleg": "Optie A is juist: competitie is een drijvende kracht achter evolutie. Optie B is onjuist: genetische variatie is juist essentieel voor evolutie. Optie C is juist: mutaties zorgen voor erfelijke verschillen (genetische variatie). Optie D is juist: natuurlijke selectie bevoordeelt de best aangepaste varianten. Optie E is juist: reproductieve isolatie kan leiden tot soortvorming."
             },
             {
-              "id": 45,
+              "id": 335,
               "type": "invullen",
               "vraag": "Hoe heet de verklaring van Darwin voor het ontstaan van soorten door geleidelijke verandering?",
               "juiste_antwoord": "evolutietheorie",
               "uitleg": "De evolutietheorie is Darwins verklaring voor het ontstaan van soorten door geleidelijke verandering via natuurlijke selectie. Hij publiceerde deze theorie in 1859 in zijn boek 'On the origin of species'."
             },
             {
-              "id": 46,
+              "id": 336,
               "type": "volgorde",
               "vraag": "Zet de volgende gebeurtenissen uit het leven van Darwin in chronologische volgorde.",
               "opties": {
@@ -638,12 +674,12 @@
           ]
         },
         {
-          "subdoel_id": "4.2",
+          "subdoel_id": "24.2",
           "subdoel_titel": "Soortvorming en reproductieve isolatie",
           "uitleg_tekst": "Soortvorming ontstaat wanneer organismen in een populatie zó van elkaar gaan verschillen dat ze elkaar niet meer herkennen als soortgenoten. Dit gebeurt vaak door reproductieve isolatie: een onneembare barrière (gebergte, snelweg, oceaan) splitst een populatie. De gescheiden groepen planten zich niet meer onderling voort en worden genetisch steeds meer verschillend.",
           "vragen": [
             {
-              "id": 47,
+              "id": 337,
               "type": "multiple_choice",
               "vraag": "Een populatie kevers wordt door de aanleg van een snelweg in twee groepen gesplitst. Na duizenden jaren kunnen de kevers aan beide zijden niet meer met elkaar voortplanten. Wat is hier gebeurd?",
               "opties": [
@@ -656,13 +692,13 @@
               "uitleg": "De snelweg vormde een onneembare barrière (reproductieve isolatie), waardoor de twee groepen niet meer met elkaar konden voortplanten. Na verloop van tijd werden de genetische verschillen zo groot dat twee aparte soorten ontstonden. Kunstmatige selectie vereist menselijk kiezen van kenmerken (optie A onjuist). De kevers zijn juist genetisch gaan verschillen (optie B onjuist). Het gaat om isolatie, niet om voedselvernietiging (optie D onjuist)."
             },
             {
-              "id": 48,
+              "id": 338,
               "type": "multiple_choice",
               "vraag": "Darwin ontdekte op de Galapagoseilanden veertien vinkensoorten die verschilden in snavelvorm. Hoe verklaarde hij het ontstaan van deze soorten?",
               "opties": [
                 "De vinken waren elk afzonderlijk geschapen voor hun eigen eiland",
                 "Elke vinkensoort was van een ander continent afkomstig",
-                "De vinken werden door ontdekkingsreizigers op de eilanden uitgezet",
+                "De vinken werden door ontdekkingsreizigers op de eilanden uitgezet, maar dat klopt niet",
                 "Vanuit één soort zijn door adaptatie en isolatie nieuwe soorten ontstaan"
               ],
               "juiste_antwoord": 3,
@@ -670,14 +706,14 @@
               "afbeelding": "images/H17/17.4_fig5.jpeg"
             },
             {
-              "id": 49,
+              "id": 339,
               "type": "invullen",
               "vraag": "Het langdurig gescheiden raken van populaties waardoor ze zich niet meer met elkaar voortplanten, noem je ___.",
               "juiste_antwoord": "reproductieve isolatie",
               "uitleg": "Reproductieve isolatie ontstaat wanneer een onneembare barrière (zoals een gebergte, oceaan of snelweg) een populatie splitst. De gescheiden groepen planten zich niet meer met elkaar voort en worden in de loop van de tijd steeds meer genetisch verschillend."
             },
             {
-              "id": 50,
+              "id": 340,
               "type": "volgorde",
               "vraag": "Zet de stappen van het soortsvormingsproces bij de Darwinvinken in de juiste volgorde.",
               "opties": {
@@ -692,12 +728,12 @@
           ]
         },
         {
-          "subdoel_id": "4.3",
+          "subdoel_id": "24.3",
           "subdoel_titel": "Eilandevolutie en eilandtheorie",
           "uitleg_tekst": "Op eilanden verloopt soortvorming versneld door isolatie, snelle adaptatie en het ontbreken van predatoren. De eilandtheorie beschrijft de biodiversiteit op een eiland met de formule S = I + s - E (soorten = immigratie + soortvorming - extinctie). Grotere eilanden hebben meer soorten. Eilanden verder van het vasteland hebben minder immigratie en dus minder biodiversiteit.",
           "vragen": [
             {
-              "id": 51,
+              "id": 341,
               "type": "multiple_choice",
               "vraag": "Op eilanden komen vaak unieke soorten voor die nergens anders te vinden zijn, zoals dwergvormen van grote dieren. Wat is de belangrijkste verklaring?",
               "opties": [
@@ -710,20 +746,20 @@
               "uitleg": "Op eilanden verloopt soortvorming versneld door isolatie, snelle adaptatie en het ontbreken van veel predatoren. Het klimaat verschilt niet systematisch (optie B onjuist). Voedsel is juist vaak beperkter op eilanden (optie C onjuist). Eilanddieren kunnen zowel dwergvormen als reuzenvormen zijn, zoals de 3 meter grote moa (optie D onjuist)."
             },
             {
-              "id": 52,
+              "id": 342,
               "type": "multiple_choice",
               "vraag": "Volgens de eilandtheorie is de formule S = I + s - E. Een eiland ligt ver van het vasteland. Welk effect heeft dit op de biodiversiteit?",
               "opties": [
                 "De extinctie (E) neemt toe waardoor er minder soorten zijn",
-                "De biodiversiteit is lager doordat de immigratie (I) kleiner is",
                 "De soortvorming (s) stopt volledig bij grote afstand",
-                "De biodiversiteit is hoger door meer ruimte voor immigratie"
+                "De biodiversiteit is hoger door meer ruimte voor immigratie, maar dat klopt niet",
+                "De biodiversiteit is lager doordat de immigratie (I) kleiner is"
               ],
-              "juiste_antwoord": 1,
-              "uitleg": "Hoe verder een eiland van het vasteland ligt, hoe kleiner de kans dat nieuwe soorten het eiland bereiken (lagere immigratie). Dit leidt tot een lagere biodiversiteit. Extinctie hangt niet direct af van de afstand (optie A onjuist). Soortvorming kan nog steeds plaatsvinden (optie C onjuist). De immigratie wordt juist kleiner bij grotere afstand (optie D onjuist)."
+              "juiste_antwoord": 3,
+              "uitleg": "Hoe verder een eiland van het vasteland ligt, hoe kleiner de kans dat nieuwe soorten het eiland bereiken (lagere immigratie). Dit leidt tot een lagere biodiversiteit. Extinctie hangt niet direct af van de afstand (optie A onjuist). Soortvorming kan nog steeds plaatsvinden (optie B onjuist). De immigratie wordt juist kleiner bij grotere afstand (optie C onjuist)."
             },
             {
-              "id": 53,
+              "id": 343,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over eilandevolutie zijn juist?",
               "opties": [
@@ -733,11 +769,15 @@
                 "Populaties op eilanden zijn altijd zeer groot",
                 "85% van de in historische tijden uitgestorven vogels leefde op eilanden"
               ],
-              "juiste_antwoorden": [0, 1, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                4
+              ],
               "uitleg": "Optie A is juist: door isolatie ontstaan unieke soorten (81% van de vogels op Hawaï komt nergens anders voor). Optie B is juist: grotere eilanden hebben meer ruimte en niches. Optie C is onjuist: extinctie vindt juist versneld plaats op eilanden. Optie D is onjuist: populaties op eilanden zijn juist vaak klein. Optie E is juist: eilandsoorten zijn extra kwetsbaar voor uitsterving."
             },
             {
-              "id": 54,
+              "id": 344,
               "type": "invullen",
               "vraag": "Het uitsterven van soorten op een eiland wordt in de eilandtheorie aangeduid met de term ___.",
               "juiste_antwoord": "extinctie",
@@ -746,26 +786,26 @@
           ]
         },
         {
-          "subdoel_id": "4.4",
+          "subdoel_id": "24.4",
           "subdoel_titel": "Snelle evolutie en resistentie",
           "uitleg_tekst": "Soms is evolutie zichtbaar in korte tijd. De berkenspanner veranderde van wit naar donker door roetaanslag op bomen (industriële revolutie). Resistentie bij bacteriën en insecten is een gevaarlijke vorm van snelle evolutie: door mutaties ontstaan varianten die niet gevoelig zijn voor antibiotica of bestrijdingsmiddelen, en die door het gebruik ervan worden uitgeselecteerd.",
           "vragen": [
             {
-              "id": 55,
+              "id": 345,
               "type": "multiple_choice",
               "vraag": "In de 19e eeuw werden berkenspanners in industriegebieden donkerder, terwijl ze in schone gebieden wit bleven. Nadat de luchtvervuiling verminderde, werden ze weer wit. Wat verklaart dit?",
               "opties": [
                 "De vlinders pasten hun kleur bewust aan de omgeving aan",
                 "De vlinders werden donkerder door het inademen van roetdeeltjes",
                 "Natuurlijke selectie bevoordeelde de variant met de beste schutkleur",
-                "De donkere vlinders waren een andere soort dan de witte exemplaren"
+                "De donkere vlinders waren een andere soort dan de witte exemplaren, maar dat klopt niet"
               ],
               "juiste_antwoord": 2,
               "uitleg": "Door roetaanslag werden berkenstammen donker. Witte vlinders vielen op en werden sneller opgegeten. Donkere varianten hadden een betere schutkleur en overleefden vaker. Toen de lucht schoner werd, keerde dit om. Vlinders passen hun kleur niet bewust aan (optie A onjuist). Inademen van roet verandert geen erfelijke kleur (optie B onjuist). Het waren varianten van dezelfde soort (optie D onjuist).",
               "afbeelding": "images/H17/17.4_fig7.jpeg"
             },
             {
-              "id": 56,
+              "id": 346,
               "type": "choose_all_that_apply",
               "vraag": "Welke uitspraken over het ontstaan van resistentie bij bacteriën zijn juist?",
               "opties": [
@@ -775,18 +815,22 @@
                 "Resistente bacteriën vormen vooral een gevaar in ziekenhuizen",
                 "Alle bacteriën zijn tegenwoordig resistent tegen alle antibiotica"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: toevallige mutaties kunnen resistentie veroorzaken. Optie B is onjuist: mutaties ontstaan toevallig, niet door antibiotica. Optie C is juist: antibiotica doden niet-resistente bacteriën, waardoor resistente exemplaren overblijven en zich vermeerderen. Optie D is juist: in ziekenhuizen is veel antibioticagebruik en zijn er kwetsbare patiënten. Optie E is onjuist: niet alle bacteriën zijn resistent."
             },
             {
-              "id": 57,
+              "id": 347,
               "type": "invullen",
               "vraag": "De ongevoeligheid van bacteriën voor antibiotica noem je ___.",
               "juiste_antwoord": "resistentie",
               "uitleg": "Resistentie is de ongevoeligheid van organismen voor bestrijdingsmiddelen of medicijnen. Bij bacteriën ontstaat resistentie door toevallige mutaties, waarna natuurlijke selectie door antibioticagebruik de resistente varianten bevoordeelt."
             },
             {
-              "id": 58,
+              "id": 348,
               "type": "volgorde",
               "vraag": "Zet de stappen in de juiste volgorde die beschrijven hoe bacteriën resistent worden tegen antibiotica.",
               "opties": {
@@ -803,18 +847,18 @@
       ]
     },
     {
-      "leerdoel_id": 5,
+      "leerdoel_id": 25,
       "leerdoel_titel": "Onderzoek naar soortvorming",
       "paragraaf": "17.5",
       "uitleg_tekst": "Onderzoek naar soortvorming gebruikt fossielen, ouderdomsbepaling, DNA-analyse en vergelijking van bouwplannen. Fossielen zijn versteende resten van organismen in gesteenten. De relatieve ouderdom vertelt welke laag ouder is; de absolute ouderdom wordt bepaald met radiometrische technieken zoals de koolstof-14-methode (halfwaardetijd 5736 jaar). DNA-analyse toont verwantschap: hoe meer DNA overeenkomt, hoe nauwer verwant. Vergelijking van bouwplannen (homologe organen) bewijst gemeenschappelijke afstamming.",
       "subdoelen": [
         {
-          "subdoel_id": "5.1",
+          "subdoel_id": "25.1",
           "subdoel_titel": "Fossielen en ouderdomsbepaling",
           "uitleg_tekst": "Fossielen ontstaan wanneer dode organismen worden afgesloten van opruimers, zoals op de zeebodem, in veen, bij vulkaanuitbarstingen of in barnsteen. De relatieve ouderdom geeft aan welk fossiel ouder of jonger is (positie in aardlagen). De absolute ouderdom wordt bepaald met radiometrische technieken: de koolstof-14-methode (halfwaardetijd 5736 jaar) voor jonge fossielen, uranium-238 voor zeer oude gesteenten.",
           "vragen": [
             {
-              "id": 59,
+              "id": 349,
               "type": "multiple_choice",
               "vraag": "Een paleontoloog vindt een fossiel in een niet-verstoorde aardlaag. Boven dit fossiel liggen drie andere aardlagen met elk andere fossielen. Welke conclusie is juist?",
               "opties": [
@@ -827,7 +871,7 @@
               "uitleg": "In niet-verstoorde aardlagen liggen de oudste lagen onderop en de jongste bovenop. Het fossiel in de onderste laag is dus het oudst. De bovenste laag bevat de jongste fossielen (optie A onjuist). De fossielen zijn van verschillende leeftijden (optie B onjuist). DNA-analyse wordt voor verwantschap gebruikt, niet voor ouderdomsbepaling van aardlagen (optie C onjuist)."
             },
             {
-              "id": 60,
+              "id": 350,
               "type": "multiple_choice",
               "vraag": "De koolstof-14-methode wordt gebruikt voor ouderdomsbepaling. Waarom is deze methode alleen geschikt voor relatief jonge fossielen?",
               "opties": [
@@ -840,7 +884,7 @@
               "uitleg": "Koolstof-14 vervalt met een halfwaardetijd van 5736 jaar. Na enkele tienduizenden jaren is er zo weinig C-14 over dat de meting onbetrouwbaar wordt. Voor zeer oude fossielen gebruikt men uranium-238 (halfwaardetijd 4,5 miljard jaar). Koolstof-14 zit in alle levende organismen (optie B onjuist). Oudere fossielen bevatten nog koolstof, maar het C-14 is vervallen tot stikstof (optie C onjuist). De methode is wetenschappelijk bewezen (optie D onjuist)."
             },
             {
-              "id": 61,
+              "id": 351,
               "type": "multiple_choice",
               "vraag": "Bij de ouderdomsbepaling van fossielen maakt men onderscheid tussen relatieve en absolute ouderdom. Wat is het verschil?",
               "opties": [
@@ -853,7 +897,7 @@
               "uitleg": "Relatieve ouderdom vertelt welke laag of fossiel ouder is (door positie in aardlagen). Absolute ouderdom geeft de precieze leeftijd in jaren, bepaald met radiometrische technieken. Relatieve ouderdom werkt bij alle fossielen, niet alleen heel oude (optie A onjuist). Kleur en hardheid spelen geen rol (optie C onjuist). Er is wel degelijk een verschil (optie D onjuist)."
             },
             {
-              "id": 62,
+              "id": 352,
               "type": "choose_all_that_apply",
               "vraag": "Welke omstandigheden kunnen leiden tot het ontstaan van fossielen?",
               "opties": [
@@ -863,18 +907,23 @@
                 "Een plant wordt bedolven door een aardverschuiving",
                 "Een dier sterft in een zuur veenmoeras waar geen opruimers leven"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "Optie A is juist: bedekking met sediment is een veelvoorkomende manier van fossilisatie. Optie B is juist: barnsteen kan complete insecten bewaren. Optie C is onjuist: als een organisme wordt opgegeten, verdwijnt het in de kringloop. Optie D is juist: aardverschuivingen sluiten organismen af van lucht en water. Optie E is juist: in zure veengrond leven geen opruimers, waardoor resten bewaard blijven."
             },
             {
-              "id": 63,
+              "id": 353,
               "type": "invullen",
               "vraag": "De tijd die nodig is om de helft van de radioactieve atomen van een isotoop om te zetten, noem je de ___.",
               "juiste_antwoord": "halfwaardetijd",
               "uitleg": "De halfwaardetijd is de tijd waarin de helft van de radioactieve atomen van een isotoop vervalt. Voor koolstof-14 is dit 5736 jaar, voor uranium-238 is dit 4,5 miljard jaar. Factoren als temperatuur en druk hebben geen invloed op de halfwaardetijd."
             },
             {
-              "id": 64,
+              "id": 354,
               "type": "volgorde",
               "vraag": "Zet de volgende groepen gewervelde dieren in de volgorde waarin ze volgens het fossielenonderzoek zijn ontstaan, van oudst naar jongst.",
               "opties": {
@@ -890,12 +939,12 @@
           ]
         },
         {
-          "subdoel_id": "5.2",
+          "subdoel_id": "25.2",
           "subdoel_titel": "DNA-analyse en bouwplannen vergelijken",
           "uitleg_tekst": "Alle levende wezens hebben DNA met dezelfde genetische code, wat bewijst dat ze gemeenschappelijke voorouders hebben. Hoe meer het DNA overeenkomt, hoe nauwer verwant de soorten zijn. Het vergelijken van bouwplannen (homologe organen) toont gemeenschappelijke afstamming aan. Evolutionaire stambomen worden opgesteld op basis van fossielen, DNA en bouwplanvergelijking.",
           "vragen": [
             {
-              "id": 65,
+              "id": 355,
               "type": "multiple_choice",
               "vraag": "Het DNA van mensen komt voor 98,6% overeen met dat van chimpansees en voor 96% met dat van muizen. Wat kun je hieruit concluderen?",
               "opties": [
@@ -908,7 +957,7 @@
               "uitleg": "Hoe meer het DNA overeenkomt, hoe recenter de gemeenschappelijke voorouder en hoe nauwer de verwantschap. 98,6% overeenkomst met chimpansees wijst op nauwere verwantschap dan 96% met muizen. Alle zoogdieren delen wel een gemeenschappelijke voorouder (optie A onjuist). Ondanks grote overeenkomst zijn het aparte soorten (optie B onjuist). DNA-analyse is juist zeer betrouwbaar (optie D onjuist)."
             },
             {
-              "id": 66,
+              "id": 356,
               "type": "multiple_choice",
               "vraag": "Onderzoekers zien in de evolutionaire stamboom van paarden dat de poten langer werden en de kiezen groter. Welke verandering in het milieu verklaart deze aanpassingen?",
               "opties": [
@@ -921,7 +970,7 @@
               "uitleg": "Door klimaatverandering werden oerwouden vervangen door steppen. Paarden moesten hard kunnen rennen om predatoren te ontvluchten (langere poten) en het harde steppegras vereiste grotere kiezen. Berggebieden verklaren niet de specifieke aanpassingen (optie A onjuist). Paarden zijn landdieren (optie B onjuist). Het milieu veranderde juist wel (optie C onjuist)."
             },
             {
-              "id": 67,
+              "id": 357,
               "type": "choose_all_that_apply",
               "vraag": "Welke methoden worden gebruikt om de verwantschap en afstamming van soorten te onderzoeken?",
               "opties": [
@@ -931,25 +980,29 @@
                 "Het vergelijken van bouwplannen van skeletdelen",
                 "Het tellen van het aantal individuen in een populatie"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: fossielen geven informatie over uitgestorven soorten en hun volgorde in de tijd. Optie B is onjuist: uiterlijke kleur is niet betrouwbaar voor verwantschap, want analoge aanpassingen kunnen misleiden. Optie C is juist: DNA-analyse toont genetische verwantschap aan. Optie D is juist: overeenkomstige bouwplannen (homologe organen) wijzen op gemeenschappelijke afstamming. Optie E is onjuist: populatiegrootte zegt niets over verwantschap."
             },
             {
-              "id": 68,
+              "id": 358,
               "type": "invullen",
               "vraag": "Versteende resten of afdrukken van organismen die in gesteenten worden gevonden, noem je ___.",
               "juiste_antwoord": "fossielen",
               "uitleg": "Fossielen zijn versteende resten of afdrukken van organismen die bewaard zijn gebleven in gesteenten. Ze kunnen ontstaan door bedekking met sediment, insluiting in barnsteen of conservering in zure veengrond."
             },
             {
-              "id": 69,
+              "id": 359,
               "type": "invullen",
               "vraag": "De geleidelijke ontwikkeling van het leven op aarde, waarbij steeds nieuwe soorten ontstaan en andere uitsterven, noem je ___.",
               "juiste_antwoord": "evolutie",
               "uitleg": "Evolutie is de geleidelijke ontwikkeling van het leven op aarde. Door genetische variatie, mutaties, natuurlijke selectie en reproductieve isolatie zijn steeds nieuwe soorten ontstaan, terwijl meer dan 99% van alle soorten die ooit bestonden inmiddels is uitgestorven."
             },
             {
-              "id": 70,
+              "id": 360,
               "type": "volgorde",
               "vraag": "Zet de volgende stappen in de juiste volgorde bij het onderzoeken van de afstamming van een onbekend fossiel.",
               "opties": {
@@ -966,31 +1019,31 @@
       ]
     },
     {
-      "leerdoel_id": 6,
+      "leerdoel_id": 26,
       "leerdoel_titel": "Ordening en de vier Rijken",
       "paragraaf": "17.7",
       "uitleg_tekst": "Alle organismen zijn op grond van celkenmerken ingedeeld in vier Rijken: Bacteriën, Schimmels, Planten en Dieren. Bacteriën zijn Prokaryoten (zonder celkern); de andere drie Rijken zijn Eukaryoten (met celkern). Classificatie gaat van groot naar klein: Rijk → klasse → orde → familie → geslacht → soort. Bacteriën zijn eencellig en hetero- of autotroof. Schimmels zijn heterotroof met een celwand van chitine. Planten zijn autotroof met een celwand van cellulose. Dieren zijn heterotroof, hebben alleen een celmembraan en geslachtelijke voortplanting.",
       "subdoelen": [
         {
-          "subdoel_id": "6.1",
+          "subdoel_id": "26.1",
           "subdoel_titel": "Vier Rijken en classificatie",
           "uitleg_tekst": "Op grond van celkenmerken zijn alle organismen ingedeeld in vier Rijken: Bacteriën (Prokaryoten, geen celkern), Schimmels, Planten en Dieren (Eukaryoten, met celkern). De classificatie loopt van Rijk via klasse, orde, familie en geslacht naar soort. Deze indeling weerspiegelt de evolutionaire ontwikkeling.",
           "vragen": [
             {
-              "id": 71,
+              "id": 361,
               "type": "multiple_choice",
               "vraag": "Op grond waarvan worden alle organismen in vier Rijken ingedeeld?",
               "opties": [
                 "Gemeenschappelijke en verschillende celkenmerken",
                 "De grootte van het organisme",
-                "Het continent waar het organisme leeft",
+                "Het continent waar het organisme leeft, maar dat klopt niet",
                 "De kleur van het organisme"
               ],
               "juiste_antwoord": 0,
               "uitleg": "De vier Rijken (Bacteriën, Schimmels, Planten, Dieren) zijn gebaseerd op gemeenschappelijke en verschillende celkenmerken, zoals het al dan niet hebben van een celkern, celwand en de wijze van voedselopname. Grootte (optie B), leefgebied (optie C) en kleur (optie D) zijn geen criteria voor de Rijken-indeling."
             },
             {
-              "id": 72,
+              "id": 362,
               "type": "multiple_choice",
               "vraag": "Bij de classificatie van een dier wordt het ingedeeld in steeds kleinere groepen. Welke volgorde van groot naar klein is juist?",
               "opties": [
@@ -1004,7 +1057,7 @@
               "afbeelding": "images/H17/17.7_fig1.jpeg"
             },
             {
-              "id": 73,
+              "id": 363,
               "type": "choose_all_that_apply",
               "vraag": "Welke van de vier Rijken bevatten organismen met een celkern?",
               "opties": [
@@ -1014,38 +1067,42 @@
                 "Dieren",
                 "Geen enkel Rijk heeft organismen met een celkern"
               ],
-              "juiste_antwoorden": [1, 2, 3],
+              "juiste_antwoorden": [
+                1,
+                2,
+                3
+              ],
               "uitleg": "Schimmels, planten en dieren hebben cellen met een celkern (Eukaryoten). Bacteriën (Prokaryoten) hebben juist geen celkern; hun DNA zit los in het cytoplasma (optie A onjuist). Optie E is onjuist: drie van de vier Rijken bevatten Eukaryoten."
             },
             {
-              "id": 74,
+              "id": 364,
               "type": "invullen",
               "vraag": "Een microbioloog onderzoekt een organisme onder de microscoop. Ze ziet een cel zonder celkern, waarbij het DNA los in het cytoplasma ligt. Dit organisme behoort tot de ___.",
               "juiste_antwoord": "Prokaryoten",
               "uitleg": "Prokaryoten (pro = vóór, karyon = kern) zijn organismen zonder celkern, waarbij het DNA los in het cytoplasma ligt. Bacteriën zijn Prokaryoten. Alle andere Rijken (Schimmels, Planten, Dieren) zijn Eukaryoten en hebben wel een celkern."
             },
             {
-              "id": 75,
+              "id": 365,
               "type": "volgorde",
-              "vraag": "Zet de volgende classificatieniveaus in de juiste volgorde van groot naar klein.",
+              "vraag": "Zet de stappen bij het classificeren van een onbekend organisme in de juiste volgorde.",
               "opties": {
-                "A": "Familie",
-                "B": "Orde",
-                "C": "Geslacht",
-                "D": "Soort"
+                "A": "Op basis van gedetailleerde kenmerken worden familie en geslacht bepaald",
+                "B": "Op grond van celkenmerken wordt bepaald tot welk Rijk het organisme behoort",
+                "C": "De soort wordt vastgesteld aan de hand van specifieke eigenschappen",
+                "D": "Het organisme wordt ingedeeld in de juiste klasse en orde"
               },
-              "juiste_antwoord": "1:B, 2:A, 3:C, 4:D",
-              "uitleg": "De volgorde van groot naar klein is: Rijk → klasse → orde → familie → geslacht → soort. Van de vier gegeven niveaus is orde het grootst, gevolgd door familie, geslacht en ten slotte soort."
+              "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
+              "uitleg": "Classificatie verloopt van breed naar smal. Eerst bepaal je het Rijk op basis van fundamentele celkenmerken zoals de aanwezigheid van een celkern (B). Vervolgens deel je in op klasse en orde (D), daarna op familie en geslacht (A), en uiteindelijk stel je de soort vast (C). Dit volgt de volgorde: Rijk → klasse → orde → familie → geslacht → soort."
             }
           ]
         },
         {
-          "subdoel_id": "6.2",
+          "subdoel_id": "26.2",
           "subdoel_titel": "Bacteriën en schimmels",
           "uitleg_tekst": "Bacteriën zijn eencellig en hebben geen celkern (Prokaryoten). Ze worden verdeeld in Archaebacteriën en Eubacteriën. De meeste zijn heterotroof, sommige autotroof. Schimmels zijn heterotroof en hebben een celwand van chitine. De meeste zijn meercellig met schimmeldraden (hyfen) die een mycelium vormen. Eencellige schimmels (gisten) worden gebruikt bij brood, bier en wijn.",
           "vragen": [
             {
-              "id": 76,
+              "id": 366,
               "type": "multiple_choice",
               "vraag": "In hete vulkanische bronnen worden levende organismen gevonden. Tot welke groep behoren deze organismen waarschijnlijk?",
               "opties": [
@@ -1058,7 +1115,7 @@
               "uitleg": "Archaebacteriën (Archaea) leven in extreme milieus zoals hete vulkanische bronnen, zure omgevingen en zoute meren. Ze hebben enzymen die bij hoge temperaturen werken. Schimmels, planten en dieren kunnen niet overleven bij zulke extreme temperaturen (opties A, B en D onjuist)."
             },
             {
-              "id": 77,
+              "id": 367,
               "type": "multiple_choice",
               "vraag": "Schimmels worden in een apart Rijk ingedeeld en niet bij de planten. Wat is het belangrijkste verschil?",
               "opties": [
@@ -1071,21 +1128,21 @@
               "uitleg": "Het belangrijkste verschil is de voedingswijze: schimmels zijn heterotroof (ze moeten zich voeden met organisch materiaal, want ze missen bladgroen), terwijl planten autotroof zijn (ze maken zelf voedsel met bladgroen). Schimmels zijn niet altijd eencellig; alleen gisten zijn dat (optie A onjuist). Schimmels leven niet alleen in de bodem (optie B onjuist). Grootte is geen indelingscriterium (optie C onjuist)."
             },
             {
-              "id": 78,
+              "id": 368,
               "type": "invullen",
               "vraag": "Een bioloog graaft in de bosbodem en vindt een uitgebreid netwerk van dunne, witte draden. Dit ondergrondse netwerk van schimmeldraden heet het ___.",
               "juiste_antwoord": "mycelium",
               "uitleg": "Het mycelium (ook wel zwamvlok genoemd) is het dichte netwerk van vertakte schimmeldraden (hyfen) waaruit het lichaam van de meeste schimmelsoorten bestaat. Wanneer de schimmel zich voortplant, groeit uit het mycelium een vruchtlichaam zoals een paddenstoel."
             },
             {
-              "id": 79,
+              "id": 369,
               "type": "invullen",
               "vraag": "Eencellige schimmels die al eeuwenlang worden gebruikt bij de bereiding van brood, bier en wijn, noem je ___.",
               "juiste_antwoord": "gisten",
               "uitleg": "Gisten zijn eencellige schimmels die suikers omzetten in alcohol en koolstofdioxide. Dit proces wordt al eeuwenlang gebruikt bij het bakken van brood en het brouwen van bier en wijn."
             },
             {
-              "id": 80,
+              "id": 370,
               "type": "volgorde",
               "vraag": "Zet de stappen van de voortplanting bij schimmels in de juiste volgorde.",
               "opties": {
@@ -1100,12 +1157,12 @@
           ]
         },
         {
-          "subdoel_id": "6.3",
+          "subdoel_id": "26.3",
           "subdoel_titel": "Planten en dieren",
           "uitleg_tekst": "Planten hebben cellen met een celwand van cellulose en bladgroen; ze zijn autotroof. Eenvoudige planten (algen) leven in water, meer ontwikkelde planten hebben wortels, stengels en bladeren. Dieren hebben alleen een celmembraan en zijn altijd heterotroof. Alle dieren hebben geslachtelijke voortplanting. Bij veel insecten en amfibieën vindt metamorfose plaats: het jonge dier ziet er anders uit dan het volwassen dier.",
           "vragen": [
             {
-              "id": 81,
+              "id": 371,
               "type": "multiple_choice",
               "vraag": "Een bioloog onderzoekt een onbekend organisme. Het heeft cellen met een celwand van cellulose en bevat bladgroen. Tot welk Rijk behoort het?",
               "opties": [
@@ -1118,7 +1175,7 @@
               "uitleg": "Celwanden van cellulose en de aanwezigheid van bladgroen zijn typische kenmerken van planten. Dieren hebben geen celwand (optie B onjuist). Schimmels hebben een celwand van chitine, niet cellulose, en geen bladgroen (optie C onjuist). Bacteriën hebben een ander type celwand en geen celkern (optie D onjuist)."
             },
             {
-              "id": 82,
+              "id": 372,
               "type": "multiple_choice",
               "vraag": "Een kikkervisje eet algen, maar de volwassen kikker eet insecten. Het jonge dier ziet er totaal anders uit dan het volwassen dier. Hoe heet dit verschijnsel?",
               "opties": [
@@ -1131,7 +1188,7 @@
               "uitleg": "Bij amfibieën ondergaat het jonge dier (larve/kikkervisje) een metamorfose (gedaanteverwisseling) naar de volwassen vorm, met een andere lichaamsbouw, ander leefmilieu en ander voedsel. Kunstmatige selectie is menselijk ingrijpen in de fok (optie A onjuist). Reproductieve isolatie gaat over gescheiden populaties (optie B onjuist). Rudimentaire organen zijn functioneloze restanten (optie D onjuist)."
             },
             {
-              "id": 83,
+              "id": 373,
               "type": "choose_all_that_apply",
               "vraag": "Welke kenmerken gelden voor alle dieren?",
               "opties": [
@@ -1141,18 +1198,22 @@
                 "Ze hebben geslachtelijke voortplanting",
                 "Ze bevatten bladgroen in hun cellen"
               ],
-              "juiste_antwoorden": [0, 1, 3],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ],
               "uitleg": "Optie A is juist: alle dieren zijn heterotroof, want ze missen bladgroen. Optie B is juist: dierlijke cellen hebben een celmembraan maar nooit een celwand. Optie C is onjuist: alle dieren hebben geslachtelijke voortplanting; sommige kunnen zich daarnaast ook ongeslachtelijk voortplanten. Optie D is juist: geslachtelijke voortplanting komt bij alle dieren voor. Optie E is onjuist: dieren bevatten geen bladgroen."
             },
             {
-              "id": 84,
+              "id": 374,
               "type": "invullen",
               "vraag": "Bij een volledige metamorfose komt het volwassen insect uit de pop. Dit volwassen insect, dat niet meer groeit, noem je het ___.",
               "juiste_antwoord": "imago",
               "uitleg": "Het imago is het volwassen insect dat uit de pop komt bij een volledige metamorfose. Het imago groeit niet meer omdat het een hard uitwendig skelet heeft. Voordat het imago ontstaat, doorloopt het insect de stadia ei, larve en pop."
             },
             {
-              "id": 85,
+              "id": 375,
               "type": "volgorde",
               "vraag": "Zet de stadia van volledige metamorfose bij insecten in de juiste volgorde.",
               "opties": {
@@ -1169,22 +1230,22 @@
       ]
     },
     {
-      "leerdoel_id": 7,
+      "leerdoel_id": 27,
       "leerdoel_titel": "Virussen",
       "paragraaf": "17.8",
       "uitleg_tekst": "Virussen worden niet in een van de vier Rijken ingedeeld: ze zijn geen cellen en vertonen geen zelfstandige levenskenmerken. Een virus bestaat uit erfelijk materiaal (DNA of RNA) in een eiwitmantel. Virussen zijn altijd parasieten die een gastheercel nodig hebben om zich te vermeerderen. Ze zijn niet gevoelig voor antibiotica; vaccinatie is de beste bestrijding. Met DNA-technologie worden virussen gebruikt om recombinant-DNA te maken: stukjes DNA van de ene soort worden ingebouwd in het DNA van een andere soort, waardoor transgene organismen ontstaan.",
       "subdoelen": [
         {
-          "subdoel_id": "7.1",
+          "subdoel_id": "27.1",
           "subdoel_titel": "Kenmerken van virussen",
           "uitleg_tekst": "Een virus is geen cel: het heeft geen celkern, geen celorganellen en geen eigen stofwisseling. Het bestaat uit erfelijk materiaal verpakt in een eiwitmantel. Virussen worden ingedeeld in DNA-virussen en RNA-virussen. Ze zijn altijd parasieten. Virussen in bacteriën heten bacteriofagen.",
           "vragen": [
             {
-              "id": 86,
+              "id": 376,
               "type": "multiple_choice",
               "vraag": "Virussen worden niet ingedeeld bij een van de vier Rijken. Wat is de belangrijkste reden?",
               "opties": [
-                "Virussen zijn te klein om met een microscoop te bestuderen",
+                "Virussen zijn te klein om met een microscoop te bestuderen, maar dat klopt niet",
                 "Een virus is geen cel en vertoont geen zelfstandige levenskenmerken",
                 "Virussen zijn pas in de 21e eeuw ontdekt",
                 "Virussen komen alleen in planten voor"
@@ -1193,7 +1254,7 @@
               "uitleg": "Een virus is geen cel: het heeft geen celkern, geen celorganellen en geen eigen stofwisseling. Het bestaat slechts uit erfelijk materiaal in een eiwitmantel. Virussen zijn klein maar dat is niet de reden voor de classificatie (optie A onjuist). Ze zijn al sinds de uitvinding van de elektronenmicroscoop in 1931 bekend (optie C onjuist). Ze komen in alle soorten organismen voor (optie D onjuist)."
             },
             {
-              "id": 87,
+              "id": 377,
               "type": "multiple_choice",
               "vraag": "Virussen worden in twee hoofdgroepen ingedeeld. Wat is het criterium voor deze indeling?",
               "opties": [
@@ -1206,7 +1267,7 @@
               "uitleg": "Virussen worden ingedeeld in DNA-virussen en RNA-virussen, op basis van het type erfelijk materiaal dat ze bevatten. Grootte (optie A), type gastheercel (optie B) en vorm van de mantel (optie C) zijn geen criteria voor de hoofdindeling in twee groepen."
             },
             {
-              "id": 88,
+              "id": 378,
               "type": "choose_all_that_apply",
               "vraag": "Welke kenmerken gelden voor virussen?",
               "opties": [
@@ -1216,18 +1277,22 @@
                 "Ze zijn gevoelig voor antibiotica",
                 "Ze hebben geen celkern en geen celorganellen"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Optie A is juist: een virus bestaat uit DNA of RNA in een eiwitmantel. Optie B is onjuist: virussen hebben geen eigen stofwisseling. Optie C is juist: virussen zijn altijd parasieten en kunnen zich niet zelfstandig vermeerderen. Optie D is onjuist: virussen zijn niet gevoelig voor antibiotica, wat de bestrijding bemoeilijkt. Optie E is juist: een virus is geen cel en mist celkern en celorganellen."
             },
             {
-              "id": 89,
+              "id": 379,
               "type": "invullen",
               "vraag": "In een laboratorium worden virussen gebruikt die specifiek bacteriën als gastheercel gebruiken. Deze virussen heten ___.",
               "juiste_antwoord": "bacteriofagen",
               "uitleg": "Bacteriofagen (letterlijk: bacterievreters) zijn virussen die bacteriën als gastheercel gebruiken. Ze injecteren hun erfelijk materiaal in de bacterie en dwingen deze om nieuwe virussen te maken."
             },
             {
-              "id": 90,
+              "id": 380,
               "type": "volgorde",
               "vraag": "Zet de volgende stappen in de juiste chronologische volgorde van hoe het begrip 'virus' zich ontwikkelde in de wetenschap.",
               "opties": {
@@ -1242,25 +1307,25 @@
           ]
         },
         {
-          "subdoel_id": "7.2",
+          "subdoel_id": "27.2",
           "subdoel_titel": "Levenscyclus en vermenigvuldiging van virussen",
           "uitleg_tekst": "Een virus hecht zich aan de gastheercel, brengt zijn erfelijk materiaal naar binnen en laat dit inbouwen in het DNA van de gastheer. De gastheercel maakt vervolgens virale eiwitten en nieuwe virussen. Uiteindelijk sterft de gastheercel en komen de nieuwe virussen vrij. Virusziekten zijn lastig te bestrijden omdat virussen niet gevoelig zijn voor antibiotica. Vaccinatie is de beste methode.",
           "vragen": [
             {
-              "id": 91,
+              "id": 381,
               "type": "multiple_choice",
               "vraag": "Hoe vermenigvuldigt een virus zich?",
               "opties": [
                 "Het dringt een gastheercel binnen en dwingt deze nieuwe virussen te maken",
                 "Het deelt zich zelfstandig door mitose, net als bacteriën",
                 "Het vormt sporen die uitgroeien tot nieuwe virussen",
-                "Het groeit door voedingsstoffen op te nemen uit de omgeving"
+                "Het groeit door voedingsstoffen op te nemen uit de omgeving, maar dat klopt niet"
               ],
               "juiste_antwoord": 0,
               "uitleg": "Een virus brengt zijn erfelijk materiaal in de gastheercel en gebruikt de celcomponenten om nieuwe virussen te bouwen. Het kan zich niet zelfstandig delen (optie B onjuist), want het is geen cel. Sporenvorming is typisch voor schimmels en planten (optie C onjuist). Virussen hebben geen eigen stofwisseling en nemen geen voedingsstoffen op (optie D onjuist)."
             },
             {
-              "id": 92,
+              "id": 382,
               "type": "multiple_choice",
               "vraag": "Nadat een virus zijn erfelijk materiaal in een gastheercel heeft gebracht, wordt het virale DNA ingebouwd in het DNA van de gastheer. Wat gebeurt er daarna?",
               "opties": [
@@ -1274,14 +1339,14 @@
               "afbeelding": "images/H17/17.8_fig1.jpeg"
             },
             {
-              "id": 93,
+              "id": 383,
               "type": "invullen",
               "vraag": "De beste manier om ernstige virusziekten te voorkomen is ___.",
               "juiste_antwoord": "vaccinatie",
               "uitleg": "Vaccinatie is de beste bestrijdingsmethode tegen virusziekten, omdat virussen niet gevoelig zijn voor antibiotica en moeilijk te bereiken zijn in de lichaamscellen. Door vaccinatie wordt het afweersysteem voorbereid op het virus."
             },
             {
-              "id": 94,
+              "id": 384,
               "type": "volgorde",
               "vraag": "Zet de stappen van de virale levenscyclus in de juiste volgorde.",
               "opties": {
@@ -1294,7 +1359,7 @@
               "uitleg": "Eerst hecht het virus zich aan de gastheercel (B). Dan wordt het virale erfelijk materiaal ingebouwd in het gastheer-DNA (D). De gastheercel maakt vervolgens veel nieuwe virussen (C). Als alle grondstoffen op zijn, sterft de cel en komen de virussen vrij (A)."
             },
             {
-              "id": 95,
+              "id": 385,
               "type": "volgorde",
               "vraag": "Zet de volgende structuren in volgorde van eenvoudig naar complex.",
               "opties": {
@@ -1309,12 +1374,12 @@
           ]
         },
         {
-          "subdoel_id": "7.3",
+          "subdoel_id": "27.3",
           "subdoel_titel": "DNA-technologie en recombinant-DNA",
           "uitleg_tekst": "Virussen worden gebruikt om stukjes DNA van de ene soort in te bouwen in het DNA van een andere soort. Het resultaat heet recombinant-DNA. Organismen met vreemd DNA heten transgene organismen. Toepassingen zijn: bacteriën die geneesmiddelen produceren (bijv. insuline) en gentherapie bij ziekten als taaislijmziekte, waarbij een virus het goede gen naar de cellen brengt.",
           "vragen": [
             {
-              "id": 96,
+              "id": 386,
               "type": "multiple_choice",
               "vraag": "Bij experimentele gentherapie voor taaislijmziekte wordt een gezond gen in de longcellen van de patiënt gebracht. Welk 'transportmiddel' wordt hiervoor gebruikt?",
               "opties": [
@@ -1327,7 +1392,7 @@
               "uitleg": "Onderzoekers gebruiken een transgeen virus waarin het goede menselijke gen is ingebouwd. Het virus brengt dit gen naar de cellen van de patiënt, net zoals het normaal zijn eigen DNA zou inbouwen. Bacteriën worden niet als transportmiddel voor gentherapie bij mensen gebruikt (optie A onjuist). Schimmels spelen geen rol bij gentherapie (optie B onjuist). Het DNA wordt niet chemisch herschreven maar via een virus ingebouwd (optie D onjuist)."
             },
             {
-              "id": 97,
+              "id": 387,
               "type": "multiple_choice",
               "vraag": "Een wetenschapper bouwt een menselijk gen in het DNA van een bacterie in. De bacterie produceert vervolgens een menselijk eiwit. Hoe noem je zo'n veranderd organisme?",
               "opties": [
@@ -1340,7 +1405,7 @@
               "uitleg": "Een transgen organisme heeft een veranderd genoom doordat er een stukje vreemd DNA (van een andere soort) is ingebouwd via recombinant-DNA-technieken. Een mutant heeft een spontane verandering in het eigen DNA (optie A onjuist). Een kloon is een genetisch identieke kopie (optie B onjuist). Een fossiel is een versteend overblijfsel (optie C onjuist)."
             },
             {
-              "id": 98,
+              "id": 388,
               "type": "choose_all_that_apply",
               "vraag": "Welke toepassingen van DNA-technologie worden in de lesstof beschreven?",
               "opties": [
@@ -1350,28 +1415,32 @@
                 "Het maken van recombinant-DNA door vreemd DNA in te bouwen",
                 "Het kweken van nieuwe plantensoorten door traditionele kruising"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Optie A is juist: bacteriën met extra genen produceren eiwitten zoals insuline. Optie B is onjuist: klonen van zoogdieren wordt niet in deze context beschreven. Optie C is juist: virussen worden experimenteel gebruikt voor gentherapie bij taaislijmziekte. Optie D is juist: virussen worden gebruikt om recombinant-DNA te maken. Optie E is onjuist: traditionele kruising is geen DNA-technologie."
             },
             {
-              "id": 99,
+              "id": 389,
               "type": "invullen",
               "vraag": "DNA dat is samengesteld uit stukjes DNA van verschillende soorten organismen noem je ___.",
               "juiste_antwoord": "recombinant-DNA",
               "uitleg": "Recombinant-DNA ontstaat wanneer een stukje DNA van de ene soort wordt ingebouwd in het DNA van een andere soort, bijvoorbeeld met behulp van virussen. Organismen met recombinant-DNA zijn transgene organismen."
             },
             {
-              "id": 100,
+              "id": 390,
               "type": "volgorde",
               "vraag": "Zet de stappen in de juiste volgorde bij het maken van een transgen organisme dat een menselijk eiwit produceert.",
               "opties": {
                 "A": "De bacterie produceert het gewenste menselijke eiwit",
                 "B": "Het gewenste gen wordt geïsoleerd uit menselijk DNA",
-                "C": "Het gen wordt met behulp van een virus ingebouwd in het bacterie-DNA",
+                "C": "Het gen wordt met behulp van een plasmide ingebouwd in het bacterie-DNA",
                 "D": "De bacterie leest het recombinant-DNA af"
               },
               "juiste_antwoord": "1:B, 2:C, 3:D, 4:A",
-              "uitleg": "Eerst wordt het gewenste gen geïsoleerd uit het menselijke DNA (B). Dan wordt het met een virus als transportmiddel ingebouwd in het bacterie-DNA, waardoor recombinant-DNA ontstaat (C). De bacterie leest het nieuwe DNA af (D) en produceert het gewenste menselijke eiwit (A)."
+              "uitleg": "Eerst wordt het gewenste gen geïsoleerd uit het menselijke DNA (B). Dan wordt het ingebouwd in een plasmide — een klein, ringvormig DNA-molecuul — waardoor recombinant-DNA ontstaat (C). De bacterie leest het nieuwe DNA af (D) en produceert het gewenste menselijke eiwit (A). Bij bacteriën wordt een plasmide als vector gebruikt, niet een virus."
             }
           ]
         }

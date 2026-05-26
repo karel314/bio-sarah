@@ -34,7 +34,7 @@
               "vraag": "Bij meiose ontstaan uit één diploïde cel uiteindelijk vier haploïde cellen. Bij mitose ontstaan uit één cel twee cellen. Wat is het belangrijkste verschil in resultaat?",
               "opties": [
                 "Bij mitose zijn de dochtercellen genetisch identiek, bij meiose niet",
-                "Bij mitose ontstaan haploïde cellen, bij meiose diploïde cellen",
+                "Bij mitose ontstaan haploïde cellen, bij meiose diploïde cellen, maar dat klopt niet",
                 "Mitose vindt alleen plaats in geslachtscellen",
                 "Bij meiose ontstaan grotere cellen dan bij mitose"
               ],
@@ -52,7 +52,11 @@
                 "De resulterende cellen zijn haploïd",
                 "Meiose vindt plaats in alle lichaamscellen"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Meiose halveert het chromosoomaantal (2n → n), wordt reductiedeling genoemd en levert haploïde cellen op. Er ontstaan vier (niet twee) cellen die genetisch verschillend zijn (niet identiek). Meiose vindt alleen plaats in de geslachtsorganen, niet in alle lichaamscellen — dat is mitose."
             },
             {
@@ -119,7 +123,11 @@
                 "Een levercel",
                 "Een eicel"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Huidcellen, levercellen en de zygote zijn allemaal diploïd (2n = 46). De zygote ontstaat door versmelting van twee haploïde cellen en is dus weer diploïd. Zaadcellen en eicellen zijn haploïd (n = 23) — ze zijn via meiose gevormd."
             },
             {
@@ -136,11 +144,11 @@
               "opties": {
                 "A": "Een menselijke eicel",
                 "B": "Een menselijke levercel",
-                "C": "Een zygote van een mens",
-                "D": "Een haploïde cel van een organisme met 2n = 8"
+                "C": "Een lichaamscel van een cavia (2n = 64)",
+                "D": "Een geslachtscel van een organisme met 2n = 8"
               },
               "juiste_antwoord": "1:D, 2:A, 3:B, 4:C",
-              "uitleg": "Een haploïde cel met 2n=8 bevat 4 chromosomen. Een menselijke eicel (haploïd) bevat 23. Een levercel en een zygote zijn beide diploïd met 46 chromosomen, maar de levercel en zygote zijn gelijk (beide 46). In deze volgorde: 4 < 23 < 46 = 46."
+              "uitleg": "Een geslachtscel van een organisme met 2n = 8 is haploïd en bevat 4 chromosomen. Een menselijke eicel is haploïd met 23 chromosomen. Een menselijke levercel is diploïd met 46 chromosomen. Een lichaamscel van een cavia is diploïd met 64 chromosomen. Dus de volgorde is: 4 < 23 < 46 < 64."
             }
           ]
         },
@@ -154,7 +162,7 @@
               "type": "multiple_choice",
               "vraag": "Waarin verschilt de meiose bij vrouwen fundamenteel van die bij mannen?",
               "opties": [
-                "Bij vrouwen levert meiose diploïde cellen op, bij mannen haploïde",
+                "Bij vrouwen levert meiose diploïde cellen op, bij mannen haploïde, maar dat klopt niet",
                 "Bij vrouwen begint meiose al voor de geboorte en pauzeert tot de puberteit",
                 "Bij mannen vindt meiose alleen in de puberteit plaats",
                 "Bij vrouwen worden per meiose meer geslachtscellen geproduceerd"
@@ -186,7 +194,11 @@
                 "Er worden continu nieuwe zaadcellen gevormd",
                 "Na de puberteit stopt de zaadcelproductie"
               ],
-              "juiste_antwoorden": [1, 2, 3],
+              "juiste_antwoorden": [
+                1,
+                2,
+                3
+              ],
               "uitleg": "Bij mannen vindt meiose plaats in de zaadbuisjes van de teelballen, start in de puberteit en gaat continu door tot op hoge leeftijd. Het is bij vrouwen dat de meiose al voor de geboorte begint. De zaadcelproductie stopt niet na de puberteit — dat is juist het kenmerkende verschil met vrouwen."
             },
             {
@@ -261,7 +273,11 @@
                 "De vier stikstofbasen in DNA zijn T, A, C en G",
                 "Ieder mens heeft dezelfde allelen"
               ],
-              "juiste_antwoorden": [1, 2, 3],
+              "juiste_antwoorden": [
+                1,
+                2,
+                3
+              ],
               "uitleg": "DNA is gewikkeld om histonen, er zit niet-coderend DNA tussen de genen, en de vier basen zijn thymine, adenine, cytosine en guanine. Niet alle DNA bestaat uit genen — er is ook niet-coderend DNA. En hoewel iedereen dezelfde genen op dezelfde locaties heeft, verschillen de allelen (varianten) per persoon."
             },
             {
@@ -279,10 +295,10 @@
                 "A": "Gen",
                 "B": "Stikstofbase",
                 "C": "Chromosoom",
-                "D": "Allel"
+                "D": "Nucleotide"
               },
               "juiste_antwoord": "1:B, 2:D, 3:A, 4:C",
-              "uitleg": "Een stikstofbase is de kleinste eenheid (één molecuul). Een allel is een variant van een gen en even groot als een gen. Een gen is een stuk DNA op een chromosoom. Een chromosoom bevat duizenden genen en is de grootste structuur van deze vier."
+              "uitleg": "Een stikstofbase is het kleinste onderdeel — één molecuul dat genetische informatie draagt (A, T, C of G). Een nucleotide bestaat uit een stikstofbase, een suikergroep en een fosfaatgroep: de bouwsteen van DNA. Een gen is een stuk DNA van honderden tot duizenden nucleotiden lang dat codeert voor een eiwit. Een chromosoom bevat duizenden genen en is veruit de grootste structuur."
             }
           ]
         },
@@ -328,7 +344,9 @@
                 "aA",
                 "Ab"
               ],
-              "juiste_antwoorden": [2],
+              "juiste_antwoorden": [
+                2
+              ],
               "uitleg": "Het recessieve fenotype komt alleen tot uiting als het organisme homozygoot recessief is (aa). Bij Aa en aA (hetzelfde genotype, andere schrijfwijze) is het organisme heterozygoot en overheerst het dominante allel A. Bij AA is het organisme homozygoot dominant. Ab betreft twee verschillende genen."
             },
             {
@@ -343,13 +361,13 @@
               "type": "volgorde",
               "vraag": "Een eigenschap erft dominant over. Zet de genotypen in volgorde van de kans dat het dominante fenotype zichtbaar is, van laagste naar hoogste kans.",
               "opties": {
-                "A": "AA",
-                "B": "Aa",
-                "C": "aa",
+                "A": "Genotype AA",
+                "B": "Een kruising Aa × aa (kans bij nakomeling)",
+                "C": "Genotype aa",
                 "D": "Een kruising Aa × Aa (kans bij nakomeling)"
               },
-              "juiste_antwoord": "1:C, 2:D, 3:B, 4:A",
-              "uitleg": "Bij aa (0% kans) is het dominante fenotype nooit zichtbaar. Bij Aa × Aa heeft een nakomeling 75% kans op het dominante fenotype. Bij Aa (100%) is het dominante fenotype altijd zichtbaar door dominantie. Bij AA (100%) ook, maar met zekerheid homozygoot dominant."
+              "juiste_antwoord": "1:C, 2:B, 3:D, 4:A",
+              "uitleg": "Bij genotype aa is het dominante fenotype nooit zichtbaar (0%). Bij de kruising Aa × aa heeft een nakomeling 50% kans op het dominante fenotype (helft Aa, helft aa). Bij de kruising Aa × Aa is de kans 75% (¼ AA + ½ Aa = ¾ dominant). Bij genotype AA is het dominante fenotype altijd zichtbaar (100%)."
             }
           ]
         },
@@ -395,7 +413,12 @@
                 "Ziekten in de kindertijd",
                 "De leefomgeving"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "Het fenotype wordt bepaald door het genotype samen met milieufactoren zoals voeding, ziekten en leefomgeving. Het aantal chromosomen in geslachtscellen (altijd n = 23) beïnvloedt het fenotype niet — het is het resultaat van meiose, niet een milieufactor."
             },
             {
@@ -470,7 +493,11 @@
                 "Het recessieve allel is verdwenen",
                 "Alle nakomelingen tonen het dominante fenotype"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Bij AA × aa zijn alle F1-nakomelingen Aa (heterozygoot). Ze tonen allemaal het dominante fenotype, want A overheerst a. Het recessieve allel is niet verdwenen — het zit er nog, maar komt niet tot uiting. In de F2 kan het weer verschijnen."
             },
             {
@@ -521,7 +548,7 @@
                 "3 roze : 1 wit",
                 "1 rood : 2 roze : 1 wit",
                 "Alle roze",
-                "1 rood : 1 roze"
+                "1 rood : 1 roze, maar dat klopt niet"
               ],
               "juiste_antwoord": 1,
               "uitleg": "Bij Rr × Rr ontstaat de genotypeverhouding 1 RR : 2 Rr : 1 rr. Omdat het onvolledige dominantie is, heeft elk genotype een eigen fenotype: RR = rood, Rr = roze (intermediair), rr = wit. De fenotypeverhouding is dus 1:2:1, niet 3:1 zoals bij volledige dominantie."
@@ -537,7 +564,11 @@
                 "De fenotypeverhouding in F2 is 1:2:1 in plaats van 3:1",
                 "Het recessieve allel komt niet tot uiting bij de heterozygoot"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Bij onvolledige dominantie komen beide allelen tot uiting, waardoor de heterozygoot een mengvorm (intermediair fenotype) heeft. Daardoor zijn er drie fenotypen in de F2 (1:2:1) in plaats van twee (3:1). Bij volledige dominantie overheerst juist één allel en komt het recessieve allel niet tot uiting bij de heterozygoot."
             },
             {
@@ -573,11 +604,11 @@
               "vraag": "Iemand heeft bloedgroep AB. Wat is het genotype van deze persoon?",
               "opties": [
                 "I^A I^A",
-                "I^A I^B",
+                "I^B i",
                 "I^A i",
-                "I^B i"
+                "I^A I^B"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "Bloedgroep AB ontstaat alleen bij genotype I^A I^B, omdat I^A en I^B codominant zijn: beide komen volledig tot uiting. I^A I^A geeft bloedgroep A, I^A i ook bloedgroep A, en I^B i geeft bloedgroep B."
             },
             {
@@ -604,7 +635,10 @@
                 "I^B I^B",
                 "ii"
               ],
-              "juiste_antwoorden": [0, 2],
+              "juiste_antwoorden": [
+                0,
+                2
+              ],
               "uitleg": "Bloedgroep A kan ontstaan uit I^A I^A (homozygoot) of I^A i (heterozygoot), want I^A is dominant over i. I^A I^B geeft bloedgroep AB (codominantie). I^B I^B geeft bloedgroep B. ii geeft bloedgroep 0."
             },
             {
@@ -617,15 +651,15 @@
             {
               "id": 45,
               "type": "volgorde",
-              "vraag": "Zet de bloedgroepen in volgorde van het aantal mogelijke genotypen, van minst naar meest.",
+              "vraag": "Zet de volgende kruisingen in volgorde van de kans dat een nakomeling bloedgroep 0 heeft, van laagste naar hoogste kans.",
               "opties": {
-                "A": "Bloedgroep AB",
-                "B": "Bloedgroep 0",
-                "C": "Bloedgroep A",
-                "D": "Bloedgroep B"
+                "A": "I^A I^A × I^B I^B",
+                "B": "I^A i × I^B i",
+                "C": "I^A i × ii",
+                "D": "ii × ii"
               },
               "juiste_antwoord": "1:A, 2:B, 3:C, 4:D",
-              "uitleg": "Bloedgroep AB heeft maar 1 mogelijk genotype (I^A I^B). Bloedgroep 0 heeft ook maar 1 mogelijk genotype (ii). Bloedgroep A heeft 2 mogelijkheden (I^A I^A of I^A i). Bloedgroep B ook 2 (I^B I^B of I^B i). A en B zijn gelijk, maar AB en 0 hebben beide slechts één genotype."
+              "uitleg": "Bij I^A I^A × I^B I^B krijgen alle nakomelingen genotype I^A I^B (bloedgroep AB), dus 0% kans op bloedgroep 0. Bij I^A i × I^B i is er ¼ kans op genotype ii (bloedgroep 0) = 25%. Bij I^A i × ii is er ½ kans op genotype ii = 50%. Bij ii × ii krijgen alle nakomelingen genotype ii = 100% bloedgroep 0."
             }
           ]
         }
@@ -648,11 +682,11 @@
               "vraag": "Wie bepaalt het geslacht van het kind: de vader of de moeder?",
               "opties": [
                 "De moeder, want zij draagt het kind",
-                "De vader, want zijn zaadcel bevat een X- of Y-chromosoom",
                 "Beide ouders evenveel",
+                "De vader, want zijn zaadcel bevat een X- of Y-chromosoom",
                 "Geen van beiden, het is volledig toeval"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 2,
               "uitleg": "Alle eicellen bevatten een X-chromosoom. Zaadcellen bevatten óf een X óf een Y. Als een X-zaadcel de eicel bevrucht wordt het XX (meisje), bij een Y-zaadcel wordt het XY (jongen). Het geslacht wordt dus bepaald door de zaadcel van de vader."
             },
             {
@@ -660,12 +694,12 @@
               "type": "multiple_choice",
               "vraag": "Hoeveel autosomen bevat een menselijke lichaamscel?",
               "opties": [
-                "46",
-                "44",
+                "22",
                 "23",
-                "22"
+                "46",
+                "44"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "Een menselijke lichaamscel bevat 46 chromosomen totaal: 44 autosomen (22 paar) plus 2 geslachtschromosomen (XX of XY). De 22 paar autosomen zijn genummerd 1 tot en met 22."
             },
             {
@@ -679,7 +713,11 @@
                 "Het geslacht wordt bepaald door de eicel",
                 "50% van de zaadcellen bevat een Y-chromosoom"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Het Y-chromosoom is klein met slechts ~100 genen (niet 1000). Vrouwen zijn XX. De helft van de zaadcellen bevat een Y, de andere helft een X — het geslacht wordt dus door de zaadcel bepaald, niet door de eicel."
             },
             {
@@ -715,7 +753,7 @@
               "vraag": "Kleurenblindheid wordt veroorzaakt door een recessief X-chromosomaal allel. Waarom komt kleurenblindheid veel vaker voor bij mannen dan bij vrouwen?",
               "opties": [
                 "Mannen hebben twee kopieën van het allel",
-                "Het Y-chromosoom versterkt het effect van het allel",
+                "Het Y-chromosoom versterkt het effect van het allel onder normale omstandigheden",
                 "Mannen hebben maar één X-chromosoom, dus elk recessief allel komt tot uiting",
                 "Vrouwen zijn immuun voor kleurenblindheid"
               ],
@@ -746,7 +784,11 @@
                 "Al haar dochters worden ook draagster",
                 "Zij heeft het recessieve allel van haar moeder of vader gekregen"
               ],
-              "juiste_antwoorden": [1, 2, 4],
+              "juiste_antwoorden": [
+                1,
+                2,
+                4
+              ],
               "uitleg": "Een draagster is heterozygoot (X^H X^h) en heeft zelf geen last van de ziekte, want het dominante allel H overheerst. De helft van haar zonen krijgt het X^h en wordt bloeder. Of haar dochters draagster worden hangt af van de vader — niet automatisch alle dochters. Het recessieve allel kan van haar moeder of vader afkomstig zijn."
             },
             {
@@ -841,7 +883,11 @@
                 "Er kunnen recombinanten ontstaan",
                 "Beide genen moeten op hetzelfde chromosoom liggen"
               ],
-              "juiste_antwoorden": [0, 1, 3],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3
+              ],
               "uitleg": "Bij een dihybride kruising bestudeer je twee genen, het schema heeft 4×4=16 hokjes, en er kunnen recombinanten ontstaan. De 9:3:3:1-verhouding geldt alleen bij onafhankelijke overerving (genen op verschillende chromosomen). Bij gekoppelde genen wijken de verhoudingen af."
             },
             {
@@ -876,12 +922,12 @@
               "type": "multiple_choice",
               "vraag": "Bij fruitvliegjes zijn de genen voor lichaamskleur en vleugellengte gekoppeld. Waarom is de kans op gekoppelde genen bij fruitvliegjes groter dan bij mensen?",
               "opties": [
-                "Fruitvliegjes hebben meer chromosomen dan mensen",
-                "Fruitvliegjes hebben maar 4 chromosomen, waardoor meer genen per chromosoom zitten",
                 "Fruitvliegjes planten zich sneller voort",
-                "Fruitvliegjes hebben geen meiose"
+                "Fruitvliegjes hebben geen meiose",
+                "Fruitvliegjes hebben meer chromosomen dan mensen",
+                "Fruitvliegjes hebben maar 4 chromosomen, waardoor meer genen per chromosoom zitten"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "Fruitvliegjes hebben slechts 4 chromosomen, terwijl mensen er 23 hebben. Hoe minder chromosomen, hoe meer genen per chromosoom en hoe groter de kans dat twee willekeurige genen op hetzelfde chromosoom liggen (gekoppeld zijn)."
             },
             {
@@ -908,7 +954,11 @@
                 "Ze geven dezelfde fenotypeverhouding als onafhankelijke genen",
                 "Bij kruisingen ontstaan verhoudingen vergelijkbaar met monohybride kruisingen"
               ],
-              "juiste_antwoorden": [0, 2, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                4
+              ],
               "uitleg": "Gekoppelde genen liggen op hetzelfde chromosoom en erven meestal samen over, waardoor de verhoudingen lijken op monohybride kruisingen (niet 9:3:3:1). Door crossing-over kan de koppeling soms doorbroken worden. Ze erven dus niet altijd samen over en geven andere verhoudingen dan onafhankelijke genen."
             },
             {
@@ -943,12 +993,12 @@
               "type": "multiple_choice",
               "vraag": "Alle lichaamscellen bevatten hetzelfde DNA, toch zien spiercellen er anders uit dan zenuwcellen. Wat verklaart dit?",
               "opties": [
-                "Spiercellen hebben andere chromosomen dan zenuwcellen",
-                "Regulatorgenen bepalen welke genen in elke cel actief zijn",
+                "Spiercellen bevatten minder DNA dan zenuwcellen",
                 "Mutaties tijdens de embryonale ontwikkeling veranderen het DNA per celtype",
-                "Spiercellen bevatten minder DNA dan zenuwcellen"
+                "Spiercellen hebben andere chromosomen dan zenuwcellen",
+                "Regulatorgenen bepalen welke genen in elke cel actief zijn"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "Alle lichaamscellen (behalve geslachtscellen) bevatten hetzelfde DNA en dezelfde chromosomen. Het verschil zit in welke genen aan of uit staan: regulatorgenen zorgen ervoor dat in spiercellen spiereiwitten worden gemaakt en in zenuwcellen andere eiwitten. Dit proces heet celdifferentiatie."
             },
             {
@@ -975,7 +1025,12 @@
                 "Stamcellen kunnen zich nog differentiëren",
                 "Gedifferentieerde cellen kunnen zich meestal niet meer delen"
               ],
-              "juiste_antwoorden": [0, 2, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3,
+                4
+              ],
               "uitleg": "Bij celdifferentiatie specialiseren cellen zich door regulatorgenen die bepaalde genen aan- of uitzetten. Het DNA zelf verandert niet — alle cellen behouden hetzelfde DNA. Stamcellen zijn ongedifferentieerd en kunnen zich nog delen en specialiseren. Gedifferentieerde cellen delen zich meestal niet meer."
             },
             {
@@ -1050,7 +1105,12 @@
                 "Welke familieleden drager zijn",
                 "Of een kenmerk autosomaal overeft"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "Uit een stamboom kun je het overervingspatroon afleiden (dominant/recessief, autosomaal/X-chromosomaal) en voorspellen welke familieleden drager zijn. Het exacte gen identificeren kan niet met alleen een stamboom — daarvoor is DNA-onderzoek nodig."
             },
             {
@@ -1098,12 +1158,12 @@
               "type": "multiple_choice",
               "vraag": "Waarom is de kans op een kind met het syndroom van Down groter bij oudere moeders?",
               "opties": [
-                "Het DNA van oudere moeders bevat meer mutaties",
-                "De eicellen hebben lang gewacht op rijping, waardoor de kans op beschadiging groter is",
                 "Oudere moeders produceren minder eicellen",
-                "Het Y-chromosoom van de vader functioneert slechter"
+                "Het Y-chromosoom van de vader functioneert slechter",
+                "Het DNA van oudere moeders bevat meer mutaties",
+                "De eicellen hebben lang gewacht op rijping, waardoor de kans op beschadiging groter is"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "Bij vrouwen begint de meiose al voor de geboorte en pauzeert dan. De eicellen liggen dus jarenlang te wachten op rijping. Hoe ouder de moeder, hoe langer de eicellen hebben gewacht en hoe groter de kans op fouten zoals non-disjunctie. Het heeft niets te maken met het Y-chromosoom van de vader."
             },
             {
@@ -1117,7 +1177,11 @@
                 "Een ontbrekend chromosoom is bijna altijd dodelijk voor het embryo",
                 "Non-disjunctie is een vorm van chromosoommutatie"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Non-disjunctie is een fout bij de verdeling van chromosomen tijdens de meiose. Het kan elke chromosoom treffen, niet alleen 21 — het syndroom van Down is slechts één gevolg. Te weinig chromosomen is bijna altijd dodelijk. Non-disjunctie is een genoommutatie (fout aantal chromosomen), geen chromosoommutatie (verandering in chromosoomstructuur)."
             },
             {
@@ -1184,7 +1248,11 @@
                 "Klinefelter-syndroom (XXY)",
                 "Kleurenblindheid"
               ],
-              "juiste_antwoorden": [0, 2, 3],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3
+              ],
               "uitleg": "Een karyogram toont de chromosomen op aantal en vorm. Je kunt daarmee afwijkingen in het aantal chromosomen zien: trisomie 21 (Down), XO (Turner), XXY (Klinefelter). Een puntmutatie of een recessief allel voor kleurenblindheid is niet zichtbaar op een karyogram — daarvoor is DNA-analyse nodig."
             },
             {
@@ -1259,7 +1327,10 @@
                 "Thymine - Guanine",
                 "Adenine - Uracil"
               ],
-              "juiste_antwoorden": [0, 2],
+              "juiste_antwoorden": [
+                0,
+                2
+              ],
               "uitleg": "In DNA zijn de basenparen A-T en G-C. Adenine bindt alleen aan thymine, guanine alleen aan cytosine. Uracil (U) komt niet voor in DNA maar in RNA, waar het de plaats van thymine inneemt."
             },
             {
@@ -1307,12 +1378,12 @@
               "type": "multiple_choice",
               "vraag": "Bij transcriptie wordt een DNA-streng met de basen TAC overgeschreven naar mRNA. Welke basen heeft het mRNA?",
               "opties": [
-                "ATG",
                 "AUG",
                 "TAC",
+                "ATG",
                 "UAC"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 0,
               "uitleg": "Bij transcriptie wordt T in DNA overgeschreven naar A in mRNA, A naar U (niet T, want RNA heeft uracil), en C naar G. Dus TAC → AUG. Let op: RNA bevat uracil (U) in plaats van thymine (T)."
             },
             {
@@ -1323,7 +1394,7 @@
                 "DNA is te groot om door het celmembraan te passen",
                 "DNA blijft in de celkern, maar eiwitsynthese vindt plaats in het celplasma",
                 "mRNA is nauwkeuriger dan DNA",
-                "Ribosomen kunnen alleen dubbelstrengs moleculen aflezen"
+                "Ribosomen kunnen alleen dubbelstrengs moleculen aflezen, maar dat klopt niet"
               ],
               "juiste_antwoord": 1,
               "uitleg": "DNA bevindt zich in de celkern en verlaat deze niet. De eiwitsynthese vindt echter plaats in het celplasma, bij de ribosomen. Daarom is een 'boodschapper' nodig: mRNA kopieert de informatie en transporteert die naar het celplasma. Ribosomen lezen juist enkelstrengs mRNA af, niet dubbelstrengs."
@@ -1339,7 +1410,12 @@
                 "Codons op het mRNA worden vertaald naar aminozuren",
                 "rRNA in ribosomen koppelt aminozuren aan elkaar"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "Bij translatie (vertaling) wordt het mRNA afgelezen door ribosomen. tRNA brengt de juiste aminozuren, die door rRNA aan elkaar worden gekoppeld. Het resultaat is een eiwit (aminozuurketen), niet een mRNA — mRNA is juist het resultaat van transcriptie."
             },
             {
@@ -1370,7 +1446,7 @@
                 "Het kopieert de DNA-code naar mRNA",
                 "Het transporteert aminozuren naar het ribosoom",
                 "Het koppelt aminozuren aan elkaar",
-                "Het beschermt het DNA in de celkern"
+                "Het beschermt het DNA in de celkern, maar dat klopt niet"
               ],
               "juiste_antwoord": 1,
               "uitleg": "tRNA (transfer-RNA) transporteert losse aminozuren uit het celplasma naar het ribosoom. Elk tRNA heeft een anticodon dat past bij een codon op het mRNA, waardoor het juiste aminozuur op de juiste plek wordt geplaatst. Het kopiëren van DNA is de taak van mRNA, het koppelen van aminozuren doet rRNA."
@@ -1400,12 +1476,12 @@
               "type": "multiple_choice",
               "vraag": "Mensen die heterozygoot zijn voor sikkelcelanemie zijn niet vatbaar voor malaria. Hoe verklaart dit dat het sikkelcelallel in malariagebieden relatief veel voorkomt?",
               "opties": [
+                "Homozygoten voor het sikkelcelallel zijn volledig gezond, maar dat klopt niet",
                 "Het sikkelcelallel voorkomt alle tropische ziekten",
-                "Heterozygoten hebben een overlevingsvoordeel en krijgen meer kinderen",
-                "Homozygoten voor het sikkelcelallel zijn volledig gezond",
-                "Malaria veroorzaakt de mutatie voor sikkelcelanemie"
+                "Malaria veroorzaakt de mutatie voor sikkelcelanemie",
+                "Heterozygoten hebben een overlevingsvoordeel en krijgen meer kinderen"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 3,
               "uitleg": "In malariagebieden hebben heterozygoten een voordeel: ze hebben nauwelijks last van sikkelcellen én zijn beschermd tegen malaria. Ze overleven vaker en krijgen meer kinderen, waardoor het sikkelcelallel in de populatie blijft. Homozygoten (twee sikkelcelallelen) zijn juist ernstig ziek."
             },
             {
@@ -1419,7 +1495,12 @@
                 "Virussen",
                 "Spontane fouten bij het kopiëren van DNA"
               ],
-              "juiste_antwoorden": [0, 2, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                2,
+                3,
+                4
+              ],
               "uitleg": "Mutaties kunnen spontaan ontstaan bij fouten tijdens DNA-replicatie, of worden veroorzaakt door mutagene straling, mutagene chemische stoffen en virussen. Gezonde voeding is geen mutagene factor — het beschermt juist tegen bepaalde vormen van celschade."
             },
             {
@@ -1448,11 +1529,11 @@
               "vraag": "Tumorsupressorgenen remmen de celdeling. Wat kan er gebeuren als zo'n gen muteert?",
               "opties": [
                 "De celdeling stopt volledig",
-                "De cel kan ongecontroleerd gaan delen",
                 "De cel wordt beter beschermd tegen kanker",
+                "De cel kan ongecontroleerd gaan delen",
                 "Het gen wordt een regulatorgen"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 2,
               "uitleg": "Tumorsupressorgenen zijn de 'remmen' van de celdeling. Als dit gen muteert en niet meer functioneert, valt de rem weg en kan de cel ongecontroleerd gaan delen. Dit kan leiden tot tumorvorming. Een werkend tumorsupressorgen beschermt juist tegen kanker."
             }
           ]
@@ -1478,7 +1559,7 @@
                 "Ze plakken stukken DNA aan elkaar",
                 "Ze knippen DNA op specifieke plaatsen open",
                 "Ze kopiëren het DNA van de bacterie",
-                "Ze transporteren het gen naar de bacterie"
+                "Ze transporteren het gen naar de bacterie, maar dat klopt niet"
               ],
               "juiste_antwoord": 1,
               "uitleg": "Restrictie-enzymen ('knip-enzymen') knippen het DNA op specifieke plaatsen open. Met dit enzym wordt zowel het gewenste gen uit het donor-DNA geknipt als het plasmide van de bacterie opengeknipt. Plak-enzymen (ligasen) plakken de stukken vervolgens aan elkaar. Het kopiëren van DNA is replicatie, niet de functie van restrictie-enzymen."
@@ -1507,7 +1588,12 @@
                 "Plak-enzymen (ligasen)",
                 "Het gewenste gen uit het donor-organisme"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "Voor recombinant-DNA heb je nodig: restrictie-enzymen om te knippen, plak-enzymen om te plakken, een plasmide als drager, en het gewenste gen. Crossing-over is een natuurlijk proces tijdens meiose en speelt geen rol bij deze techniek."
             },
             {
@@ -1544,7 +1630,7 @@
               "opties": [
                 "Deze bacterie kan van nature eigen DNA inbouwen in planten-DNA",
                 "Deze bacterie bevat extra grote plasmiden",
-                "Deze bacterie is resistent tegen alle antibiotica",
+                "Deze bacterie is resistent tegen alle antibiotica, maar dat klopt niet",
                 "Deze bacterie kan fotosynthese uitvoeren"
               ],
               "juiste_antwoord": 0,
@@ -1574,7 +1660,12 @@
                 "Door celfusie van twee plantencellen",
                 "Via micro-injectie"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "Vreemd DNA kan in planten worden ingebracht via Agrobacterium (natuurlijke DNA-overdracht), beschieten met DNA-bolletjes, celfusie (versmelting van cellen van twee soorten), of micro-injectie. Meiose is een natuurlijk proces voor geslachtscelvorming en wordt niet gebruikt om vreemd DNA in te brengen."
             },
             {
@@ -1611,7 +1702,7 @@
               "opties": [
                 "Virussen kunnen van nature hun DNA in het DNA van een gastheercel inbouwen",
                 "Virussen bevatten altijd plasmiden",
-                "Virussen zijn de enige organismen die DNA kunnen knippen",
+                "Virussen zijn de enige organismen die DNA kunnen knippen, maar dat klopt niet",
                 "Virussen zijn goedkoper dan andere methoden"
               ],
               "juiste_antwoord": 0,
@@ -1622,12 +1713,12 @@
               "type": "multiple_choice",
               "vraag": "De CRISPR/Cas9-techniek is nauwkeuriger dan oudere technieken voor genetische modificatie. Wat is het belangrijkste voordeel?",
               "opties": [
-                "Het is de enige techniek die werkt bij planten",
                 "Het gen wordt precies op de gewenste plek in het DNA ingebouwd",
                 "Het werkt zonder enzymen",
+                "Het is de enige techniek die werkt bij planten",
                 "Het maakt geen gebruik van bacterieel DNA"
               ],
-              "juiste_antwoord": 1,
+              "juiste_antwoord": 0,
               "uitleg": "Bij oudere technieken kwam het ingebrachte gen vaak op een willekeurige plek in het DNA terecht, waardoor het soms niet tot expressie kwam. CRISPR/Cas9 kan heel gericht een specifiek gen wegknippen en/of een gewenst gen op precies de juiste plek toevoegen. De techniek maakt wél gebruik van enzymen (Cas9 is een enzym)."
             },
             {
@@ -1641,7 +1732,12 @@
                 "Het inbrengen van resistentiegenen in muggen tegen malaria",
                 "Het produceren van geneesmiddelen door bacteriën"
               ],
-              "juiste_antwoorden": [0, 1, 3, 4],
+              "juiste_antwoorden": [
+                0,
+                1,
+                3,
+                4
+              ],
               "uitleg": "CRISPR/Cas9 wordt onderzocht voor ziektebehandeling, voedselverbetering (zoutresistente gewassen), ecologische ingrepen (resistentiegenen in muggen) en geneesmiddelenproductie. Het kloneren van zoogdieren (zoals Dolly) maakt gebruik van kerntransplantatie, niet van CRISPR."
             },
             {
