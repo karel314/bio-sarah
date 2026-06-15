@@ -2,13 +2,12 @@
   "appId": "bio-sarah",
   "title": "Bio Sarah",
   "shortName": "Bio Sarah",
-  "subtitle": "Kies een hoofdstuk",
+  "subtitle": "Kies je hoofdstukken en start",
   "description": "Biologie quiz app voor Sarah — H3, H4, H5, H17",
   "studentName": "Sarah",
-  "greeting": "Hoi Sarah! Welk hoofdstuk wil je oefenen?",
+  "greeting": "Hoi Sarah! Vink je hoofdstukken aan en begin met oefenen.",
   "lang": "nl",
-  "storageKey": "(per-chapter, see chapters below)",
-  "multiChapter": true,
+  "storageKey": "bio-sarah-progress",
   "theme": {
     "primary": "#8b5cf6",
     "light": "#a78bfa",
@@ -26,262 +25,322 @@
   "themeColorMeta": "#8b5cf6",
   "appleMobileWebAppTitle": "Bio Sarah",
   "gridColumns": "1fr 1fr",
-  "chapters": {
-    "H3": {
-      "file": "data/vragen_H3.json",
-      "title": "Erfelijkheid en DNA",
-      "subtitle": "H3",
-      "icon": "🧬",
-      "storageKey": "bio-sarah-h3-progress",
-      "badges": {
-        "1": { "name": "Meiosemeester", "emoji": "🔬" },
-        "2": { "name": "Chromosoomkenner", "emoji": "🧬" },
-        "3": { "name": "Kruisingsexpert", "emoji": "🌱" },
-        "4": { "name": "XY-specialist", "emoji": "🧩" },
-        "5": { "name": "Dihybride pro", "emoji": "🎯" },
-        "6": { "name": "Erfelijkheidsonderzoeker", "emoji": "🔎" },
-        "7": { "name": "DNA-decodeerder", "emoji": "💻" },
-        "8": { "name": "Genetisch ingenieur", "emoji": "🧪" }
-      },
-      "correctMsgs": [
-        "Je kruist sneller dan Mendel, Sarah!",
-        "DNA? Geen geheimen meer voor jou!",
-        "Die allelen zitten perfect in je geheugen!",
-        "Je bent een echte genetica-genie!",
-        "Sterk! Je kent de meiose als je broekzak!",
-        "Sarah, je dominante allel voor biologie is duidelijk aanwezig!",
-        "Beter dan Watson en Crick samen!",
-        "Je chromosomen stralen van de kennis!",
-        "Die kruisingsschema's beheerst je als een pro!",
-        "Je genenpool zit vol biologiekennis!",
-        "Die codons heb je feilloos vertaald!",
-        "Mendel zou je assistent willen zijn!",
-        "Je DNA-kennis is dubbelstrengs sterk!",
-        "Recessief of dominant? Jij weet het direct!",
-        "Je genotype voor biologiekennis is AA!",
-        "Die koppelingsgroepen houd je moeiteloos uit elkaar!",
-        "Sarah, je splitst kruisingen sneller dan een cel!",
-        "Je mutatiekennis is foutloos!",
-        "De eiwitsynthese heeft geen geheimen meer voor jou!",
-        "Je fenotype? Briljante bioleerlinge!"
-      ],
-      "wrongMsgs": [
-        "Die mutatie in je kennis herstellen we zo, Sarah!",
-        "Oeps! Dat allel zat even verkeerd... maar je leert snel!",
-        "Foutje! Maar zelfs DNA maakt soms een kopieerfout.",
-        "Even een crossing-over in je geheugen nodig!",
-        "Dat antwoord was recessief, maar het goede komt bovendrijven!",
-        "Net als meiose: soms gaat het fout, maar het resultaat wordt beter!",
-        "Die base was even verkeerd gepaard, Sarah.",
-        "Nog niet helemaal goed, maar je geeft niet op!",
-        "Die kruising liep even anders dan verwacht!",
-        "Oeps! Maar oefening baart een geneticus.",
-        "Een klein foutje in de transcriptie, Sarah.",
-        "Dat codon moet je even opnieuw aflezen!",
-        "Mis! Maar je DNA voor doorzettingsvermogen is top.",
-        "Die fenotype-voorspelling was net niet goed.",
-        "Zelfs Mendel had zijn erwten soms door elkaar!"
-      ],
-      "resultsMsgs": {
-        "perfect": ["Perfecte score! Je DNA zit vol biologiekennis, Sarah!", "100%! Mendel zou trots op je zijn!"],
-        "great": ["Uitstekend, Sarah! Je beheerst genetica als een expert!", "Geweldig! Nog een klein foutje, maar je zit er bijna!"],
-        "good": ["Goed bezig, Sarah! Focus op de rode vragen en je haalt een 10!", "Prima score! De lastige kruisingen worden nog beter met oefening."],
-        "okay": ["Een goede start! Gebruik de flashcards voor de moeilijke leerdoelen.", "Je bent op weg, Sarah! Herhaal de zwakke topics."],
-        "low": ["Niet getreurd! Genetica is ook lastig. Probeer de flashcards!", "Dit is je startpunt, Sarah. Lees de uitleg en probeer opnieuw!"]
-      }
-    },
-    "H4": {
-      "file": "data/vragen_H4.json",
-      "title": "Zenuwstelsel en spieren",
-      "subtitle": "H4",
-      "icon": "🧠",
-      "storageKey": "bio-sarah-h4-progress",
-      "badges": {
-        "1": { "name": "Prikkelkenner", "emoji": "⚡" },
-        "2": { "name": "Zenuwcelexpert", "emoji": "🔬" },
-        "3": { "name": "Impulsgeleider", "emoji": "💫" },
-        "4": { "name": "Zenuwstelselmeester", "emoji": "🧠" },
-        "5": { "name": "Hersenspecialist", "emoji": "🏥" },
-        "6": { "name": "Reflexkampioen", "emoji": "🦵" },
-        "7": { "name": "Spierkampioen", "emoji": "💪" }
-      },
-      "correctMsgs": [
-        "Die impuls kwam razendsnel, Sarah!",
-        "Je reflexen zijn scherper dan een kniepeesreflex!",
-        "Briljant! Je zenuwcellen vuren op volle kracht!",
-        "Die synaps is perfect overgestoken!",
-        "Sarah, je hersenkennis is indrukwekkend!",
-        "De neurotransmitters stromen door je antwoorden!",
-        "Je kent het zenuwstelsel als een neuroloog!",
-        "Sterker dan een motorisch neuron!",
-        "Je thalamus selecteert de juiste antwoorden!",
-        "Die reflexboog beheers je perfect!",
-        "Sarah, je impulsgeleiding is foutloos!",
-        "De hersenstam buigt voor jouw kennis!",
-        "Je weet meer over synapsen dan de meeste artsen!",
-        "Die spiercontractie van kennis is maximaal!",
-        "Autonome of willekeurige spieren? Jij weet het verschil!",
-        "Je kleine hersenen coördineren perfect!",
-        "Sarah, je scoort hoger dan een actiepotentiaal!",
-        "Die antagonisten houd je moeiteloos uit elkaar!",
-        "Je myeline-isolatie voor biologiekennis is dik!",
-        "Sneller dan een impuls door een gemyeliniseerde zenuw!"
-      ],
-      "wrongMsgs": [
-        "Die synaps heeft even een verkeerde neurotransmitter afgegeven, Sarah!",
-        "Oeps! Je impuls ging even de verkeerde kant op.",
-        "Dat antwoord had een sterkere prikkel nodig!",
-        "Even een kort circuit in je zenuwbanen, maar we herstellen!",
-        "Die reflexboog maakte even een omweg, Sarah.",
-        "Net onder de prikkeldrempel! Probeer het nog eens.",
-        "De thalamus filterde het goede antwoord even weg!",
-        "Foutje! Maar je doorzettingsvermogen is sterker dan elke spier.",
-        "Die impuls bereikte even niet de juiste plek.",
-        "Oeps! Maar oefening versterkt je synapsverbindingen.",
-        "Even een verkeerde reflex, Sarah!",
-        "Dat sensorische neuron ving even een verkeerd signaal op.",
-        "Mis! Maar je ruggengraatkennis wordt elke keer sterker.",
-        "Die spieraanhechting zat net niet goed.",
-        "Niet erg! Zelfs de hersenschors heeft even rust nodig."
-      ],
-      "resultsMsgs": {
-        "perfect": ["Perfecte score! Je zenuwstelsel werkt feilloos, Sarah!", "100%! Je bent de Nobelprijswinnaar van de biologie!"],
-        "great": ["Uitstekend, Sarah! Je hersenkennis is bijna compleet!", "Geweldig! Je impulsgeleiding is bijna perfect."],
-        "good": ["Goed bezig! Nog een paar synapsverbindingen versterken.", "Prima score, Sarah! De moeilijke reflexbogen worden nog beter."],
-        "okay": ["Een goede start! Herhaal de zwakke leerdoelen met de flashcards.", "Je bent op weg! Het zenuwstelsel is ook erg complex, Sarah."],
-        "low": ["Niet getreurd! Het zenuwstelsel heeft veel details. Probeer de flashcards!", "Dit is je startpunt. Gebruik de uitleg en probeer opnieuw!"]
-      }
-    },
-    "H5": {
-      "file": "data/vragen_H5.json",
-      "title": "Zintuigen",
-      "subtitle": "H5",
-      "icon": "👁️",
-      "storageKey": "bio-sarah-h5-progress",
-      "badges": {
-        "1": { "name": "Reukdetective", "emoji": "👃" },
-        "2": { "name": "Smaakexpert", "emoji": "👅" },
-        "3": { "name": "Gehoorspecialist", "emoji": "👂" },
-        "4": { "name": "Tastmeester", "emoji": "🖐️" },
-        "5": { "name": "Oogexpert", "emoji": "👁️" }
-      },
-      "correctMsgs": [
-        "Dat zag je scherp, Sarah!",
-        "Je reukzin voor biologie is top!",
-        "Je hoort de juiste antwoorden al van ver!",
-        "Scherper dan een netvlies!",
-        "Sarah, je smaak voor biologie is uitstekend!",
-        "Die receptoren werken perfect bij jou!",
-        "Je evenwichtsorgaan voor kennis is in balans!",
-        "Beter dan 20/20 gezichtsvermogen!",
-        "Je trommelvlies trilt van enthousiasme!",
-        "Die adequate prikkel heb je perfect herkend!",
-        "Je staafjes en kegeltjes werken op volle kracht!",
-        "Sarah, je zintuigkennis is fenomenaal!",
-        "Het slakkenhuis heeft geen geheimen meer voor jou!",
-        "Je lens stelt zich perfect scherp op biologie!",
-        "Die papillen proeven de juiste antwoorden!",
-        "Je halfcirkelvormige kanalen draaien op volle toeren!",
-        "Sarah, je zintuigen voor biologie staan op scherp!",
-        "Netvlies, ooglens, glasvocht — jij kent ze allemaal!",
-        "Die huidreceptoren voelen het goede antwoord feilloos!",
-        "Je gehoorbeentjes trillen van trots!"
-      ],
-      "wrongMsgs": [
-        "Even een blinde vlek in je kennis, Sarah!",
-        "Die geluidsgolf bereikte net niet het juiste antwoord.",
-        "Oeps! Je netvlies moet even opnieuw scherpstellen.",
-        "Dat antwoord smaakte net niet goed, Sarah.",
-        "Even een verkeerd signaal van je reukzenuwen!",
-        "Die prikkel bereikte net niet de juiste receptor.",
-        "Je evenwicht was even verstoord, maar je komt terug!",
-        "Foutje! Maar je treedt niet uit balans, Sarah.",
-        "Die trilling bereikte even het verkeerde gehoorbeentje.",
-        "Oeps! Maar je zintuigen voor doorzettingsvermogen werken prima.",
-        "Even een verkeerde breking van het licht op je kennis.",
-        "Die temperatuurreceptor gaf even een verkeerd signaal af.",
-        "Mis! Maar je tastzin voor biologie wordt steeds beter.",
-        "Net niet goed, maar je hoort het juiste antwoord al aankomen!",
-        "Zelfs de beste oogartsen moesten ooit studeren, Sarah!"
-      ],
-      "resultsMsgs": {
-        "perfect": ["Perfecte score! Je zintuigen zijn scherper dan ooit, Sarah!", "100%! Je ziet, hoort en voelt biologie als geen ander!"],
-        "great": ["Uitstekend, Sarah! Je zintuigkennis is bijna perfect!", "Geweldig! Nog even scherp stellen en je haalt een 10."],
-        "good": ["Goed bezig! Je zintuigen worden steeds scherper.", "Prima score, Sarah! Focus op de rode vragen."],
-        "okay": ["Een goede start! De zintuigen hebben veel details. Probeer de flashcards!", "Je bent op weg! Herhaal de zwakke leerdoelen, Sarah."],
-        "low": ["Niet getreurd! De vijf zintuigen zijn ook veel om te leren!", "Dit is je startpunt, Sarah. Begin met de flashcards!"]
-      }
-    },
-    "H17": {
-      "file": "data/vragen_H17.json",
-      "title": "Biodiversiteit & evolutie",
-      "subtitle": "H17",
-      "icon": "🌍",
-      "storageKey": "bio-sarah-h17-progress",
-      "badges": {
-        "1": { "name": "Biodiversiteitskenner", "emoji": "🌍" },
-        "2": { "name": "Soortexpert", "emoji": "🐦" },
-        "3": { "name": "Selectiespecialist", "emoji": "🏆" },
-        "4": { "name": "Evolutiemeester", "emoji": "🦕" },
-        "5": { "name": "Fossielenonderzoeker", "emoji": "🦴" },
-        "6": { "name": "Ordeningskenner", "emoji": "📊" },
-        "7": { "name": "Viroloog", "emoji": "🦠" }
-      },
-      "correctMsgs": [
-        "Darwin zou trots op je zijn, Sarah!",
-        "Je evolueert naar een 10!",
-        "Die natuurlijke selectie van kennis werkt perfect!",
-        "Sarah, je bent de fittest van alle biologieleerlingen!",
-        "Linnaeus zou je classificeren als Studentus brilliantus!",
-        "Je fossielenkennis is rotsvast!",
-        "Die binaire nomenclatuur beheers je als een taxonom!",
-        "Je adaptatie aan biologievragen is indrukwekkend!",
-        "Sterker dan een berkenspanner in een schone omgeving!",
-        "Sarah, je genenpool van kennis groeit elke vraag!",
-        "Die eilandtheorie heb je perfect begrepen!",
-        "Je selecteert het juiste antwoord als een professional!",
-        "Beter dan een DNA-analyse!",
-        "Je classificeert sneller dan Linnaeus zelf!",
-        "Die homologe organen herken je feilloos!",
-        "Sarah, je viruskennis is sterker dan een vaccin!",
-        "Je reproduceert biologiekennis als een bacteriofaag!",
-        "Die evolutionaire stamboom ken je van buiten!",
-        "Je biodiversiteitskennis is rijker dan het Amazonegebied!",
-        "Recombinant-DNA? Kinderspel voor jou, Sarah!"
-      ],
-      "wrongMsgs": [
-        "Die mutatie in je kennis herstellen we met extra studie, Sarah!",
-        "Oeps! Dat fossiel lag even in de verkeerde aardlaag.",
-        "Zelfs Darwin moest lang nadenken over evolutie!",
-        "Die selectiedruk op het goede antwoord was net niet genoeg.",
-        "Even een verkeerde afslag op de evolutionaire stamboom, Sarah!",
-        "Dat organisme heb je net verkeerd geclassificeerd.",
-        "Foutje! Maar je leert sneller dan een bacterie zich deelt.",
-        "Die halfwaardetijd van je fout is heel kort, Sarah!",
-        "Even een extinctie van het goede antwoord, maar het komt terug!",
-        "Oeps! Maar je doorzettingsvermogen is sterker dan reproductieve isolatie.",
-        "Die analoge organen verwarde je even met de homologe.",
-        "Net niet goed, maar je fitness voor biologie groeit!",
-        "Mis! Maar je DNA voor doorzettingsvermogen is top.",
-        "Die virus-levenscyclus was even lastig, Sarah.",
-        "Niet getreurd! Zelfs Linnaeus moest ooit beginnen."
-      ],
-      "resultsMsgs": {
-        "perfect": ["Perfecte score! Darwin zou je als assistent willen, Sarah!", "100%! Je bent geëvolueerd naar de ultieme biologiekenner!"],
-        "great": ["Uitstekend, Sarah! Je evolutiekennis is bijna compleet!", "Geweldig! Nog een klein foutje, maar je bent er bijna."],
-        "good": ["Goed bezig! Je biodiversiteitskennis wordt steeds rijker.", "Prima score, Sarah! Focus op de rode vragen."],
-        "okay": ["Een goede start! Evolutie is ook complex. Probeer de flashcards!", "Je bent op weg! Herhaal de zwakke leerdoelen, Sarah."],
-        "low": ["Niet getreurd! Biodiversiteit en evolutie zijn ook veel stof!", "Dit is je startpunt, Sarah. Begin met de flashcards!"]
-      }
-    }
-  },
   "dataFiles": [
     "data/vragen_H3.json",
     "data/vragen_H4.json",
     "data/vragen_H5.json",
     "data/vragen_H17.json"
   ],
-  "confettiColors": ["#8b5cf6", "#a78bfa", "#f59e0b", "#ec4899", "#3b82f6", "#22c55e"],
+  "badges": {
+    "1": {
+      "name": "Meiosemeester",
+      "emoji": "🔬"
+    },
+    "2": {
+      "name": "Chromosoomkenner",
+      "emoji": "🧬"
+    },
+    "3": {
+      "name": "Kruisingsexpert",
+      "emoji": "🌱"
+    },
+    "4": {
+      "name": "XY-specialist",
+      "emoji": "🧩"
+    },
+    "5": {
+      "name": "Dihybride pro",
+      "emoji": "🎯"
+    },
+    "6": {
+      "name": "Erfelijkheidsonderzoeker",
+      "emoji": "🔎"
+    },
+    "7": {
+      "name": "DNA-decodeerder",
+      "emoji": "💻"
+    },
+    "8": {
+      "name": "Genetisch ingenieur",
+      "emoji": "🧪"
+    },
+    "9": {
+      "name": "Prikkelkenner",
+      "emoji": "⚡"
+    },
+    "10": {
+      "name": "Zenuwcelexpert",
+      "emoji": "🔬"
+    },
+    "11": {
+      "name": "Impulsgeleider",
+      "emoji": "💫"
+    },
+    "12": {
+      "name": "Zenuwstelselmeester",
+      "emoji": "🧠"
+    },
+    "13": {
+      "name": "Hersenspecialist",
+      "emoji": "🏥"
+    },
+    "14": {
+      "name": "Reflexkampioen",
+      "emoji": "🦵"
+    },
+    "15": {
+      "name": "Spierkampioen",
+      "emoji": "💪"
+    },
+    "16": {
+      "name": "Reukdetective",
+      "emoji": "👃"
+    },
+    "17": {
+      "name": "Smaakexpert",
+      "emoji": "👅"
+    },
+    "18": {
+      "name": "Gehoorspecialist",
+      "emoji": "👂"
+    },
+    "19": {
+      "name": "Tastmeester",
+      "emoji": "🖐️"
+    },
+    "20": {
+      "name": "Oogexpert",
+      "emoji": "👁️"
+    },
+    "21": {
+      "name": "Biodiversiteitskenner",
+      "emoji": "🌍"
+    },
+    "22": {
+      "name": "Soortexpert",
+      "emoji": "🐦"
+    },
+    "23": {
+      "name": "Selectiespecialist",
+      "emoji": "🏆"
+    },
+    "24": {
+      "name": "Evolutiemeester",
+      "emoji": "🦕"
+    },
+    "25": {
+      "name": "Fossielenonderzoeker",
+      "emoji": "🦴"
+    },
+    "26": {
+      "name": "Ordeningskenner",
+      "emoji": "📊"
+    },
+    "27": {
+      "name": "Viroloog",
+      "emoji": "🦠"
+    }
+  },
+  "correctMsgs": [
+    "Je kruist sneller dan Mendel, Sarah!",
+    "DNA? Geen geheimen meer voor jou!",
+    "Die allelen zitten perfect in je geheugen!",
+    "Je bent een echte genetica-genie!",
+    "Sterk! Je kent de meiose als je broekzak!",
+    "Sarah, je dominante allel voor biologie is duidelijk aanwezig!",
+    "Beter dan Watson en Crick samen!",
+    "Je chromosomen stralen van de kennis!",
+    "Die kruisingsschema's beheerst je als een pro!",
+    "Je genenpool zit vol biologiekennis!",
+    "Die codons heb je feilloos vertaald!",
+    "Mendel zou je assistent willen zijn!",
+    "Je DNA-kennis is dubbelstrengs sterk!",
+    "Recessief of dominant? Jij weet het direct!",
+    "Je genotype voor biologiekennis is AA!",
+    "Die koppelingsgroepen houd je moeiteloos uit elkaar!",
+    "Sarah, je splitst kruisingen sneller dan een cel!",
+    "Je mutatiekennis is foutloos!",
+    "De eiwitsynthese heeft geen geheimen meer voor jou!",
+    "Je fenotype? Briljante bioleerlinge!",
+    "Die impuls kwam razendsnel, Sarah!",
+    "Je reflexen zijn scherper dan een kniepeesreflex!",
+    "Briljant! Je zenuwcellen vuren op volle kracht!",
+    "Die synaps is perfect overgestoken!",
+    "Sarah, je hersenkennis is indrukwekkend!",
+    "De neurotransmitters stromen door je antwoorden!",
+    "Je kent het zenuwstelsel als een neuroloog!",
+    "Sterker dan een motorisch neuron!",
+    "Je thalamus selecteert de juiste antwoorden!",
+    "Die reflexboog beheers je perfect!",
+    "Sarah, je impulsgeleiding is foutloos!",
+    "De hersenstam buigt voor jouw kennis!",
+    "Je weet meer over synapsen dan de meeste artsen!",
+    "Die spiercontractie van kennis is maximaal!",
+    "Autonome of willekeurige spieren? Jij weet het verschil!",
+    "Je kleine hersenen coördineren perfect!",
+    "Sarah, je scoort hoger dan een actiepotentiaal!",
+    "Die antagonisten houd je moeiteloos uit elkaar!",
+    "Je myeline-isolatie voor biologiekennis is dik!",
+    "Sneller dan een impuls door een gemyeliniseerde zenuw!",
+    "Dat zag je scherp, Sarah!",
+    "Je reukzin voor biologie is top!",
+    "Je hoort de juiste antwoorden al van ver!",
+    "Scherper dan een netvlies!",
+    "Sarah, je smaak voor biologie is uitstekend!",
+    "Die receptoren werken perfect bij jou!",
+    "Je evenwichtsorgaan voor kennis is in balans!",
+    "Beter dan 20/20 gezichtsvermogen!",
+    "Je trommelvlies trilt van enthousiasme!",
+    "Die adequate prikkel heb je perfect herkend!",
+    "Je staafjes en kegeltjes werken op volle kracht!",
+    "Sarah, je zintuigkennis is fenomenaal!",
+    "Het slakkenhuis heeft geen geheimen meer voor jou!",
+    "Je lens stelt zich perfect scherp op biologie!",
+    "Die papillen proeven de juiste antwoorden!",
+    "Je halfcirkelvormige kanalen draaien op volle toeren!",
+    "Sarah, je zintuigen voor biologie staan op scherp!",
+    "Netvlies, ooglens, glasvocht — jij kent ze allemaal!",
+    "Die huidreceptoren voelen het goede antwoord feilloos!",
+    "Je gehoorbeentjes trillen van trots!",
+    "Darwin zou trots op je zijn, Sarah!",
+    "Je evolueert naar een 10!",
+    "Die natuurlijke selectie van kennis werkt perfect!",
+    "Sarah, je bent de fittest van alle biologieleerlingen!",
+    "Linnaeus zou je classificeren als Studentus brilliantus!",
+    "Je fossielenkennis is rotsvast!",
+    "Die binaire nomenclatuur beheers je als een taxonom!",
+    "Je adaptatie aan biologievragen is indrukwekkend!",
+    "Sterker dan een berkenspanner in een schone omgeving!",
+    "Sarah, je genenpool van kennis groeit elke vraag!",
+    "Die eilandtheorie heb je perfect begrepen!",
+    "Je selecteert het juiste antwoord als een professional!",
+    "Beter dan een DNA-analyse!",
+    "Je classificeert sneller dan Linnaeus zelf!",
+    "Die homologe organen herken je feilloos!",
+    "Sarah, je viruskennis is sterker dan een vaccin!",
+    "Je reproduceert biologiekennis als een bacteriofaag!",
+    "Die evolutionaire stamboom ken je van buiten!",
+    "Je biodiversiteitskennis is rijker dan het Amazonegebied!",
+    "Recombinant-DNA? Kinderspel voor jou, Sarah!"
+  ],
+  "wrongMsgs": [
+    "Die mutatie in je kennis herstellen we zo, Sarah!",
+    "Oeps! Dat allel zat even verkeerd... maar je leert snel!",
+    "Foutje! Maar zelfs DNA maakt soms een kopieerfout.",
+    "Even een crossing-over in je geheugen nodig!",
+    "Dat antwoord was recessief, maar het goede komt bovendrijven!",
+    "Net als meiose: soms gaat het fout, maar het resultaat wordt beter!",
+    "Die base was even verkeerd gepaard, Sarah.",
+    "Nog niet helemaal goed, maar je geeft niet op!",
+    "Die kruising liep even anders dan verwacht!",
+    "Oeps! Maar oefening baart een geneticus.",
+    "Een klein foutje in de transcriptie, Sarah.",
+    "Dat codon moet je even opnieuw aflezen!",
+    "Mis! Maar je DNA voor doorzettingsvermogen is top.",
+    "Die fenotype-voorspelling was net niet goed.",
+    "Zelfs Mendel had zijn erwten soms door elkaar!",
+    "Die synaps heeft even een verkeerde neurotransmitter afgegeven, Sarah!",
+    "Oeps! Je impuls ging even de verkeerde kant op.",
+    "Dat antwoord had een sterkere prikkel nodig!",
+    "Even een kort circuit in je zenuwbanen, maar we herstellen!",
+    "Die reflexboog maakte even een omweg, Sarah.",
+    "Net onder de prikkeldrempel! Probeer het nog eens.",
+    "De thalamus filterde het goede antwoord even weg!",
+    "Foutje! Maar je doorzettingsvermogen is sterker dan elke spier.",
+    "Die impuls bereikte even niet de juiste plek.",
+    "Oeps! Maar oefening versterkt je synapsverbindingen.",
+    "Even een verkeerde reflex, Sarah!",
+    "Dat sensorische neuron ving even een verkeerd signaal op.",
+    "Mis! Maar je ruggengraatkennis wordt elke keer sterker.",
+    "Die spieraanhechting zat net niet goed.",
+    "Niet erg! Zelfs de hersenschors heeft even rust nodig.",
+    "Even een blinde vlek in je kennis, Sarah!",
+    "Die geluidsgolf bereikte net niet het juiste antwoord.",
+    "Oeps! Je netvlies moet even opnieuw scherpstellen.",
+    "Dat antwoord smaakte net niet goed, Sarah.",
+    "Even een verkeerd signaal van je reukzenuwen!",
+    "Die prikkel bereikte net niet de juiste receptor.",
+    "Je evenwicht was even verstoord, maar je komt terug!",
+    "Foutje! Maar je treedt niet uit balans, Sarah.",
+    "Die trilling bereikte even het verkeerde gehoorbeentje.",
+    "Oeps! Maar je zintuigen voor doorzettingsvermogen werken prima.",
+    "Even een verkeerde breking van het licht op je kennis.",
+    "Die temperatuurreceptor gaf even een verkeerd signaal af.",
+    "Mis! Maar je tastzin voor biologie wordt steeds beter.",
+    "Net niet goed, maar je hoort het juiste antwoord al aankomen!",
+    "Zelfs de beste oogartsen moesten ooit studeren, Sarah!",
+    "Die mutatie in je kennis herstellen we met extra studie, Sarah!",
+    "Oeps! Dat fossiel lag even in de verkeerde aardlaag.",
+    "Zelfs Darwin moest lang nadenken over evolutie!",
+    "Die selectiedruk op het goede antwoord was net niet genoeg.",
+    "Even een verkeerde afslag op de evolutionaire stamboom, Sarah!",
+    "Dat organisme heb je net verkeerd geclassificeerd.",
+    "Foutje! Maar je leert sneller dan een bacterie zich deelt.",
+    "Die halfwaardetijd van je fout is heel kort, Sarah!",
+    "Even een extinctie van het goede antwoord, maar het komt terug!",
+    "Oeps! Maar je doorzettingsvermogen is sterker dan reproductieve isolatie.",
+    "Die analoge organen verwarde je even met de homologe.",
+    "Net niet goed, maar je fitness voor biologie groeit!",
+    "Die virus-levenscyclus was even lastig, Sarah.",
+    "Niet getreurd! Zelfs Linnaeus moest ooit beginnen."
+  ],
+  "resultsMsgs": {
+    "perfect": [
+      "Perfecte score! Je DNA zit vol biologiekennis, Sarah!",
+      "100%! Mendel zou trots op je zijn!",
+      "Perfecte score! Je zenuwstelsel werkt feilloos, Sarah!",
+      "100%! Je bent de Nobelprijswinnaar van de biologie!",
+      "Perfecte score! Je zintuigen zijn scherper dan ooit, Sarah!",
+      "100%! Je ziet, hoort en voelt biologie als geen ander!",
+      "Perfecte score! Darwin zou je als assistent willen, Sarah!",
+      "100%! Je bent geëvolueerd naar de ultieme biologiekenner!"
+    ],
+    "great": [
+      "Uitstekend, Sarah! Je beheerst genetica als een expert!",
+      "Geweldig! Nog een klein foutje, maar je zit er bijna!",
+      "Uitstekend, Sarah! Je hersenkennis is bijna compleet!",
+      "Geweldig! Je impulsgeleiding is bijna perfect.",
+      "Uitstekend, Sarah! Je zintuigkennis is bijna perfect!",
+      "Geweldig! Nog even scherp stellen en je haalt een 10.",
+      "Uitstekend, Sarah! Je evolutiekennis is bijna compleet!",
+      "Geweldig! Nog een klein foutje, maar je bent er bijna."
+    ],
+    "good": [
+      "Goed bezig, Sarah! Focus op de rode vragen en je haalt een 10!",
+      "Prima score! De lastige kruisingen worden nog beter met oefening.",
+      "Goed bezig! Nog een paar synapsverbindingen versterken.",
+      "Prima score, Sarah! De moeilijke reflexbogen worden nog beter.",
+      "Goed bezig! Je zintuigen worden steeds scherper.",
+      "Prima score, Sarah! Focus op de rode vragen.",
+      "Goed bezig! Je biodiversiteitskennis wordt steeds rijker."
+    ],
+    "okay": [
+      "Een goede start! Gebruik de flashcards voor de moeilijke leerdoelen.",
+      "Je bent op weg, Sarah! Herhaal de zwakke topics.",
+      "Een goede start! Herhaal de zwakke leerdoelen met de flashcards.",
+      "Je bent op weg! Het zenuwstelsel is ook erg complex, Sarah.",
+      "Een goede start! De zintuigen hebben veel details. Probeer de flashcards!",
+      "Je bent op weg! Herhaal de zwakke leerdoelen, Sarah.",
+      "Een goede start! Evolutie is ook complex. Probeer de flashcards!"
+    ],
+    "low": [
+      "Niet getreurd! Genetica is ook lastig. Probeer de flashcards!",
+      "Dit is je startpunt, Sarah. Lees de uitleg en probeer opnieuw!",
+      "Niet getreurd! Het zenuwstelsel heeft veel details. Probeer de flashcards!",
+      "Dit is je startpunt. Gebruik de uitleg en probeer opnieuw!",
+      "Niet getreurd! De vijf zintuigen zijn ook veel om te leren!",
+      "Dit is je startpunt, Sarah. Begin met de flashcards!",
+      "Niet getreurd! Biodiversiteit en evolutie zijn ook veel stof!"
+    ]
+  },
+  "confettiColors": [
+    "#8b5cf6",
+    "#a78bfa",
+    "#f59e0b",
+    "#ec4899",
+    "#3b82f6",
+    "#22c55e"
+  ],
   "uiStrings": {
     "correct": "Goed!",
     "wrong": "Helaas, fout!",
